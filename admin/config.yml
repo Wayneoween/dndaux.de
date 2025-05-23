@@ -1,0 +1,97 @@
+backend:
+  name: github
+  repo: wayneoween/dndaux.de
+  branch: main
+  site_domain: dndaux.de
+  base_url: https://sveltia-cms-auth.cloudflare-e96.workers.dev/
+
+# Sveltia CMS-specific settings
+site_url: https://dndaux.de
+display_url: https://dndaux.de
+logo_url: /assets/images/logo.png # Optional: Add your logo path if you have one
+
+# Local development settings - uncomment for local development
+# local_backend: true
+
+# Media settings
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# Collection definitions
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} - {{date | date('YYYY-MM-DD')}}"
+    sortable_fields: ["title", "date"]
+    view_filters:
+      - label: "Drafts"
+        field: "draft"
+        pattern: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "string",
+          required: false,
+          hint: "Comma-separated list of categories",
+        }
+      - {
+          label: "Background Image",
+          name: "background",
+          widget: "image",
+          required: false,
+          allow_multiple: false,
+          choose_url: true,
+          hint: "Featured image for the post",
+        }
+      - {
+          label: "Draft",
+          name: "draft",
+          widget: "boolean",
+          required: false,
+          default: false,
+          hint: "Set to true to save as draft",
+        }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          buttons:
+            [
+              "bold",
+              "italic",
+              "code",
+              "link",
+              "heading-one",
+              "heading-two",
+              "heading-three",
+              "quote",
+              "bulleted-list",
+              "numbered-list",
+            ],
+          editor_components: ["image", "code-block"],
+        }
+
+  - name: "pages"
+    label: "Pages"
+    folder: "/"
+    create: true
+    filter: { field: "layout", value: "page" }
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Permalink",
+          name: "permalink",
+          widget: "string",
+          hint: "Path for the page, e.g., /about/",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
