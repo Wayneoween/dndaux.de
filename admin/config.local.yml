@@ -76,3 +76,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string", hint: "Path for the page, e.g., /about/" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "glossary"
+    label: "Glossary"
+    files:
+      - label: "Glossary Terms"
+        name: "glossary" 
+        file: "_data/glossary.yml"
+        fields:
+          - label: "Glossary Entries"
+            name: "glossary_entries"
+            widget: "list"
+            summary: "{{term}} - {{definition}}"
+            fields:
+              - {label: "Term", name: "term", widget: "string"}
+              - {label: "Definition", name: "definition", widget: "text"}
+              - {label: "Reference URL", name: "url", widget: "string", required: false}

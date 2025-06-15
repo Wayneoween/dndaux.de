@@ -1,0 +1,166 @@
+/* Custom D&D blog styling */
+
+/* Makes the header image be centered */
+#main {
+    background-position: center, 0 center, center -150px !important;
+}
+
+/* Glossary tooltip styles */
+.glossary_tooltip {
+  position: relative;
+  display: inline;
+  border-bottom: 1px dotted #007bff;
+  cursor: help;
+}
+
+.glossary_tooltip .glossary_tooltip_content {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.glossary_tooltip:hover .glossary_tooltip_content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.glossary_tooltip .glossary_tooltip_content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* Glossary Page Styles */
+.glossary-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.glossary-search {
+  margin-bottom: 2rem;
+}
+
+.glossary-search input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.glossary-index {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.alphabet-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+.alphabet-links a {
+  padding: 0.5rem 0.75rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.alphabet-links a:hover {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.letter-header {
+  margin: 2rem 0 1rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid #6c757d;
+  color: #495057;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.glossary-entry {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.glossary-entry:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+}
+
+.term-title {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.definition {
+  line-height: 1.6;
+  color: #555;
+}
+
+.definition p {
+  margin: 0;
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.source-link:hover {
+  background: #3498db;
+  color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .glossary-entry {
+    padding: 1rem;
+  }
+}
+
