@@ -1,0 +1,406 @@
+/* Glossary container */
+.glossary-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Search box styling */
+.glossary-search {
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  
+  &::before {
+    content: '🔍';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+    margin-left: -170px; /* Adjust based on input width to position on left side */
+    font-size: 1.1rem;
+    opacity: 0.6;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.1rem;
+    border: 3px solid #4a90e2;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #333333;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.15);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    
+    &:focus {
+      outline: none;
+      border-color: #357abd;
+      box-shadow: 0 6px 20px rgba(74, 144, 226, 0.25);
+      transform: translateY(-2px);
+      text-align: center;
+      padding-left: 3rem;
+    }
+    
+    &::placeholder {
+      color: #888888;
+      font-style: italic;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    &:focus::placeholder {
+      opacity: 0;
+    }
+    
+    /* Fix for WebKit browsers to ensure placeholder is truly centered */
+    &::-webkit-input-placeholder {
+      text-align: center;
+      color: #888888;
+      font-style: italic;
+    }
+    
+    &:focus::-webkit-input-placeholder {
+      opacity: 0;
+    }
+  }
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    input[type="text"] {
+      background: #2d3748;
+      color: #e2e8f0;
+      border-color: #4299e1;
+      
+      &::placeholder {
+        color: #a0aec0;
+        text-align: center;
+      }
+      
+      &:focus::placeholder {
+        opacity: 0;
+      }
+      
+      &::-webkit-input-placeholder {
+        text-align: center;
+        color: #a0aec0;
+      }
+      
+      &:focus::-webkit-input-placeholder {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+/* Alphabetical index styling */
+.glossary-index {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  
+  h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #495057;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    background: #2d3748;
+    border-color: #4a5568;
+    
+    h3 {
+      color: #e2e8f0;
+    }
+  }
+}
+
+.alphabet-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #ffffff;
+    color: #4a90e2;
+    text-decoration: none;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: #4a90e2;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+    }
+    
+    /* Dark mode adjustments */
+    @media (prefers-color-scheme: dark) {
+      background: #2d3748;
+      color: #4299e1;
+      border-color: #4299e1;
+      
+      &:hover {
+        background: #4299e1;
+        color: #2d3748;
+      }
+    }
+  }
+}
+
+/* Letter headers */
+.letter-header {
+  margin: 3rem 0 1.5rem 0;
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3748;
+  border-bottom: 3px solid #4a90e2;
+  position: relative;
+  
+  &:first-of-type {
+    margin-top: 2rem;
+  }
+  
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #357abd;
+  }
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    color: #e2e8f0;
+    border-bottom-color: #4299e1;
+    
+    &::before {
+      background: #63b3ed;
+    }
+  }
+}
+
+/* Term titles */
+.term-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2d3748;
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    color: #e2e8f0;
+  }
+}
+
+/* Definition styling */
+.definition {
+  line-height: 1.6;
+  color: var(--text-color);
+  
+  p {
+    margin-bottom: 0.75rem;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Source links */
+.source-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--link-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  
+  &:hover {
+    background: var(--link-color-hover, var(--link-color));
+    text-decoration: none;
+  }
+}
+
+/* Glossary entry layout with floating images */
+.glossary-entry {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: relative;
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+}
+
+.entry-content {
+  position: relative;
+}
+
+.image-content {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 120px;
+}
+
+.glossary-image {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  /* Fix for click events not working - this was the key fix! */
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Clear float after entry content */
+.entry-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Image Modal */
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+
+.modal-image {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000;
+  
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.modal-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .glossary-container {
+    padding: 0 0.5rem;
+  }
+  
+  .glossary-search {
+    margin-bottom: 1.5rem;
+    
+    input[type="text"] {
+      width: 100%;
+      font-size: 16px; /* Prevents zoom on iOS */
+    }
+  }
+  
+  .glossary-index {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .alphabet-links {
+    gap: 0.25rem;
+    
+    a {
+      width: 2rem;
+      height: 2rem;
+      font-size: 0.8rem;
+    }
+  }
+  
+  .letter-header {
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .image-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .glossary-image {
+    width: 150px;
+    height: 110px;
+  }
+  
+  .glossary-entry {
+    padding: 1rem;
+  }
+}

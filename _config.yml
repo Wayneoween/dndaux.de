@@ -38,6 +38,8 @@ plugins:
 sass:
   style: compressed
   quiet_deps: true
+  silence_deprecations:
+    - import
 
 # Exclude from processing
 exclude:

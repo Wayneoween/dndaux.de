@@ -1,15 +1,17 @@
 ---
 layout: page
 title: Glossary
-feature-img: "assets/img/glossary-header.jpg"
+feature-img: "assets/images/glossary-header.jpg"
 ---
+
+<script src="{{ '/assets/js/glossary.js' | relative_url }}"></script>
 
 <div class="glossary-container">
   {% assign sorted_terms = site.data.glossary.terms | sort: 'term' %}
   
   <!-- Search box -->
   <div class="glossary-search">
-    <input type="text" id="search" placeholder="Search terms..." />
+    <input type="text" id="search" placeholder="Filter" />
   </div>
   
   <!-- Alphabetical index -->
@@ -36,44 +38,35 @@ feature-img: "assets/img/glossary-header.jpg"
       {% endif %}
       
       <article class="glossary-entry" id="{{ item.term | downcase | url_encode }}">
-        <h3 class="term-title">{{ item.term }}</h3>
-        <div class="definition">
-          {{ item.definition | markdownify }}
-          {% if item.url and item.url != '' and item.url != '#' %}
-            <a href="{{ item.url }}" class="source-link">Learn more →</a>
+        <div class="entry-content">
+          {% if item.image and item.image != '' %}
+            <div class="image-content">
+              <img src="{{ item.image }}" 
+                   alt="{{ item.image_alt | default: item.term }}" 
+                   class="glossary-image"
+                   onclick="openImageModal(this)">
+            </div>
           {% endif %}
+          <div class="text-content">
+            <h3 class="term-title">{{ item.term }}</h3>
+            <div class="definition">
+              {{ item.definition | markdownify }}
+              {% if item.url and item.url != '' and item.url != '#' %}
+                <a href="{{ item.url }}" class="source-link">Learn more →</a>
+              {% endif %}
+            </div>
+          </div>
         </div>
       </article>
     {% endfor %}
   </div>
 </div>
 
-<script>
-// Simple search functionality
-document.getElementById('search').addEventListener('input', function(e) {
-  const searchTerm = e.target.value.toLowerCase();
-  const entries = document.querySelectorAll('.glossary-entry');
-  
-  entries.forEach(entry => {
-    const title = entry.querySelector('.term-title').textContent.toLowerCase();
-    const definition = entry.querySelector('.definition').textContent.toLowerCase();
-    
-    if (title.includes(searchTerm) || definition.includes(searchTerm)) {
-      entry.style.display = 'block';
-    } else {
-      entry.style.display = 'none';
-    }
-  });
-});
+<!-- Image Modal -->
+<div id="imageModal" class="image-modal" onclick="closeImageModal()">
+  <span class="modal-close" onclick="closeImageModal()">&times;</span>
+  <img class="modal-image" id="modalImage" onclick="event.stopPropagation()">
+  <div class="modal-caption" id="modalCaption"></div>
+</div>
 
-// Smooth scroll for index links
-document.querySelectorAll('.alphabet-links a, .index-links a').forEach(link => {
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-});
-</script>
+<script src="{{ '/assets/js/glossary.js' | relative_url }}"></script>
