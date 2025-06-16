@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -22,8 +22,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
@@ -31,24 +29,11 @@ jobs:
         ruby-version: '3.4'
         bundler-cache: true
         
-    - name: Process glossary tooltips
+    - name: Process glossary tooltips (build-time only)
       run: |
-        echo "Processing glossary tooltips..."
+        echo "Processing glossary tooltips for build..."
         bundle exec rake glossary:autolink
-        
-    - name: Check for changes and commit
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        if git diff --quiet; then
-          echo "No files were changed by glossary processing"
-        else
-          echo "Files were changed by glossary processing"
-          git add -A
-          git commit -m "Auto-process glossary tooltips [skip ci]" || exit 0
-          git push
-        fi
+        echo "Tooltips processed - files modified for build only, not committed"
         
     - name: Setup Pages
       uses: actions/configure-pages@v4

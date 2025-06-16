@@ -42,33 +42,31 @@ bundle exec rake glossary:remove_links
 
 The repository includes multiple automation levels:
 
-#### 1. GitHub Actions (For CMS Users)
-If you're using Sveltia CMS or other web-based editors, GitHub Actions will automatically process your content:
+#### 1. GitHub Actions (For CMS Users) - **CLEANEST APPROACH**
+If you're using Sveltia CMS or other web-based editors, GitHub Actions will automatically process your content **during build time only**:
 
-1. **Write naturally** - Create posts using glossary terms normally in Sveltia CMS
-2. **Publish/Save** - When you save in the CMS, it commits to the repository
-3. **Automatic processing** - GitHub Actions detects the commit and runs glossary processing
-4. **Auto-commit** - Processed files are automatically committed back to the repository
-5. **Build and deploy** - The site builds and deploys with tooltips applied
+1. **Write naturally** - Create posts using glossary terms normally in Sveltia CMS (no Liquid tags needed!)
+2. **Publish/Save** - When you save in the CMS, it commits clean markdown to the repository
+3. **Automatic processing** - GitHub Actions processes tooltips during the build (source files stay clean)
+4. **Build and deploy** - The site builds and deploys with tooltips applied
 
-#### 2. Pre-commit Hook (For Git Users)
+**Key advantage**: Your source markdown files remain clean and editable - no Liquid template syntax cluttering your content!
+
+#### 2. Pre-commit Hook (For Git Users) - Modifies Source Files
 If you're editing files directly and committing via Git:
 
 1. **Write naturally** - Just write your posts using glossary terms normally
 2. **Commit as usual** - `git commit` will automatically run the tooltip processing
-3. **Build and deploy** - The tooltips will work on GitHub Pages
+3. **Source files modified** - The pre-commit hook modifies your source files and includes them in the commit
+4. **Build and deploy** - The tooltips will work on GitHub Pages
 
-The pre-commit hook:
-- Detects when markdown files are being committed
-- Automatically runs `rake glossary:autolink`
-- Stages any modified files for inclusion in the commit
-- Provides clear feedback about what was processed
+**Note**: This approach modifies your source files, making them less clean for editing.
 
 #### 3. Manual (Alternative)
 If you prefer manual control or need to troubleshoot:
 
 1. **Write naturally** - Just write your posts using glossary terms normally
-2. **Run autolink** - `bundle exec rake glossary:autolink` before publishing
+2. **Run autolink** - `bundle exec rake glossary:autolink` before publishing (modifies source files)
 3. **Build and deploy** - The tooltips will work on GitHub Pages
 
 ## Examples
@@ -98,21 +96,17 @@ If you prefer manual control or need to troubleshoot:
 
 The repository includes a GitHub Actions workflow (`.github/workflows/pages.yml`) that automatically:
 
-1. **Detects changes** when content is pushed to the main branch
-2. **Processes glossary terms** using the Rake task
-3. **Commits processed files** back to the repository (if changes were made)
-4. **Builds and deploys** the site to GitHub Pages
+1. **Processes glossary terms** during the build process (without modifying source files)
+2. **Builds and deploys** the site to GitHub Pages with tooltips applied
 
 ### Key Features:
-- Runs automatically when Sveltia CMS saves content
-- Uses `[skip ci]` in commit messages to avoid infinite loops
-- Only commits if files were actually changed by glossary processing
-- Seamlessly integrates with GitHub Pages deployment
+- **Clean source files**: Your markdown stays clean and editable - no Liquid template clutter
+- **Build-time processing**: Tooltips are only applied during the Jekyll build process
+- **CMS friendly**: Perfect for Sveltia CMS users who want clean, natural markdown
+- **No commits**: Source files are never modified or committed back to the repository
 
 ### Configuration:
-The workflow requires:
-- `contents: write` permission to commit processed files back to the repository
-- GitHub Pages to be configured to use "GitHub Actions" as the source (not "Deploy from a branch")
+The workflow requires GitHub Pages to be configured to use "GitHub Actions" as the source (not "Deploy from a branch").
 
 **To enable this workflow:**
 1. Go to your repository Settings > Pages
@@ -122,7 +116,7 @@ The workflow requires:
 ### Troubleshooting:
 - If the default Jekyll action runs instead of your custom workflow, make sure GitHub Pages source is set to "GitHub Actions"
 - Check the Actions tab to see which workflow is running
-- The workflow will show "Auto-process glossary tooltips [skip ci]" commits when processing occurs
+- The workflow will show "Processing glossary tooltips for build..." in the logs
 
 ## Pre-commit Hook Setup
 
