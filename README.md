@@ -6,6 +6,17 @@ A Jekyll-powered D&D auxiliary website with automated glossary tooltips.
 
 This site features an automated glossary tooltip system that works seamlessly with Sveltia CMS and GitHub Pages.
 
+### Glossary Entry Structure
+
+Each glossary entry supports the following fields:
+- **term**: The term name
+- **definition**: Short definition shown in tooltips
+- **more**: Extended information shown only on the glossary page (optional)
+- **type**: Category of the term (Person, Vanir, Jötunn, etc.)
+- **image**: Optional image for the term
+- **image_alt**: Alt text for accessibility
+- **url**: Optional reference URL
+
 ### How It Works
 
 1. Write in Sveltia CMS:

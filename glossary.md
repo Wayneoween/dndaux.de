@@ -8,7 +8,7 @@ feature-img: "assets/images/glossary-header.jpg"
 
 <div class="glossary-container">
   {% comment %} Custom German sorting {% endcomment %}
-  {% assign unsorted_terms = site.data.glossary %}
+  {% assign unsorted_terms = site.data.glossary.glossary %}
   {% assign sorted_terms = '' | split: '' %}
   
   {% comment %} Define German alphabet order {% endcomment %}
@@ -87,6 +87,9 @@ feature-img: "assets/images/glossary-header.jpg"
             </h3>
             <div class="definition">
               {{ item.definition | markdownify }}
+              {% if item.more and item.more != '' %}
+                {{ item.more | markdownify }}
+              {% endif %}
               {% if item.url and item.url != '' and item.url != '#' %}
                 <a href="{{ item.url }}" class="source-link">Learn more →</a>
               {% endif %}

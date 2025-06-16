@@ -5,7 +5,7 @@ or: {% include glossary_tooltip.html term="Term Name" text="Custom Display Text"
 {%- assign term_to_find = include.term | downcase -%}
 {%- assign display_text = include.text | default: include.term -%}
 {%- assign found_entry = false -%}
-{%- for entry in site.data.glossary -%}
+{%- for entry in site.data.glossary.glossary -%}
   {%- assign entry_term_lower = entry.term | downcase -%}
   {%- if entry_term_lower == term_to_find -%}
     {%- assign found_entry = entry -%}

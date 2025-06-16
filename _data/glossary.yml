@@ -1,160 +1,169 @@
-# Die Vanir - Die Steinhof-Götter
-- term: Aldyhn
-  definition: Göttin der Weisheit, verehrt von den Hallharn. Die Letzte der Vanir, die dem Steinfluch entkommen ist.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Aldyhn, Göttin der Weisheit
-
-- term: Vani
-  definition: Gott der Schlacht, verehrt von den Risa. In Wahrheit ein Halbling, obwohl er als Riese verehrt wird.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Vani, Gott der Schlacht
-
-- term: Gnark und Idin
-  definition: Die Zwillinge - Gott der Felder und Göttin der Schmieden, verehrt von den Tvar.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Die Zwillingsgötter Gnark und Idin
-
-- term: Knat
-  definition: Göttin der Wettkämpfe, verehrt von den Knattle. Erste, die in die Schlacht stürmte.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Knat, Göttin der Wettkämpfe
-
-- term: Luta
-  definition: Göttin des Willens, verehrt von den Lutan. Jüngste der Vanir, ihre Statue ist verschollen.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Luta, Göttin des Willens
-
-- term: Palter
-  definition: Gott der Hoffnung, verehrt von den Örn. Einst der Schönste, nun durch Narben entstellt.
-  type: Vanir
-  url: ''
-  image: ''
-  image_alt: Palter, Gott der Hoffnung
-
-# Ururkräfte
-- term: Hel
-  definition: Herrin der Toten, verehrt von den Whar. Schwester und Frau von Boða.
-  type: Jötunn
-  url: ''
-  image: ''
-  image_alt: Hel, Herrin der Toten
-
-- term: Boða
-  definition: Verfluchte Yoten-Königin, die die Vanir in Stein verwandelte. Hauptantagonistin von Ragnarök.
-  type: Jötunn
-  url: ''
-  image: ''
-  image_alt: Boða, die Verfluchte
-
-- term: Mirgal
-  definition: Trickstergott, Schöpfer des Regenbogenspeers. Chaotisch neutral.
-  type: Jötunn
-  url: ''
-  image: ''
-  image_alt: Mirgal, der Trickstergott
-
-# Wichtige NPCs
-- term: Hrolf
-  definition: Held von hundert Raubzügen, Hallharn-Krieger und Führer der Helden zu Beginn der Kampagne.
-  type: Person
-  url: ''
-  image: ''
-  image_alt: Hrolf, Held von hundert Raubzügen
-
-# Die Großen Klans
-- term: Hallharn
-  definition: Führender Klan mit Hauptsiedlung Hallwik in der Seufzerbucht. Jarl Mutter Guhnbarg.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Hallharn
-
-- term: Tvar
-  definition: Praktisches Bauern- und Schmiedevolk. Hauptsiedlung Giladdon. Jarl Berghild die Tapfere.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Tvar
-
-- term: Lutan
-  definition: Nomadischer Klan, oft im Konflikt mit anderen. Hauptsiedlung Tunn-Arg. Jarl Kare Branaskr.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Lutan
-
-- term: Knattle
-  definition: Klan des Hohen Nordens, Walfänger und Wettkämpfer. Hauptsiedlung Tukk. Jarl Hroarr Langspeer.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Knattle
-
-- term: Risa
-  definition: Klan der Großvölker (Tallfolk). Einzige Siedlung Fernlandung. Jarl Hjordis Gornemb.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Risa
-
-- term: Örn
-  definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur (Insel des Glanzes). Jarl Lahahel Korloke.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Örn
-
-- term: Whar
-  definition: Aufstrebender Klan, der Hel verehrt. Geheimnisvolle Hauptsiedlung Cledon. Jarls Athils Vestemb und Gulli Vestaskr.
-  type: Klan
-  url: ''
-  image: ''
-  image_alt: Wappen der Whar
-
-# Wichtige Orte
-- term: Drifthall
-  definition: Schwimmende Stadt, in der sich alle acht Jahre die Klans versammeln, um den Alljarl zu wählen.
-  type: Ort
-  url: ''
-  image: ''
-  image_alt: Die schwimmende Stadt Drifthall
-
-# Wichtige Konzepte
-- term: Ragnarök
-  definition: Das prophezeite Ende der Welt, das sich durch die Kampagne zieht. Die Völv haben es vorhergesehen.
-  type: Ereignis
-  url: ''
-  image: ''
-  image_alt: Ragnarök - Das Ende der Welt
-
-- term: Völv
-  definition: Weise Seherinnen der Räuber, Hüterinnen der Geschichte und Prophezeiungen.
-  type: Person
-  url: ''
-  image: ''
-  image_alt: Die weisen Völv
-
-- term: Alljarl
-  definition: Oberster Anführer aller Klans, gewählt alle acht Jahre in Drifthall. Aktuell Mutter Guhnbarg.
-  type: Person
-  url: ''
-  image: ''
-  image_alt: Zeichen des Alljarls
-
-# Wichtige Gegenstände
-- term: Regenbogenspeer
-  definition: Mächtiges Artefakt von Mirgal geschaffen, bringt Menschen nach Grimnir und kann Welten erschaffen.
-  type: Gegenstand
-  url: ''
-  image: ''
-  image_alt: Der mystische Regenbogenspeer
+glossary:
+  - term: Aldyhn
+    definition: Göttin der Weisheit, verehrt von den Hallharn. Die Letzte der Vanir, die dem Steinfluch entkommen ist.
+    more: Einst Anführerin der Vanir, trägt sie tiefe Schuld für Mirgals Verrat, den sie nicht rechtzeitig erkannte. Sie opferte ihr Auge am Brunnen der Weisheit als Sühne und erhielt dafür die Gabe der Prophezeiung. Als erste Völv sah sie Ragnarök voraus. Ihre weißen Raben überbringen Botschaften an Sterbliche, und sie sammelt verzweifelt Wissen, um ihre versteinerten Geschwister zu befreien.
+    type: Vanir
+    image: ''
+    image_alt: Aldyhn, Göttin der Weisheit
+    url: ''
+  - term: Vani
+    definition: Gott der Schlacht, verehrt von den Risa.
+    more: Der prahlerische Gott kämpfte im Schatten mit flinker Klinge, sang aber seine Taten großartig. Er trägt bunte Würfel bei sich. Sein wahres Wesen wird von den Tallfolk-Risa missverstanden, die ihm nacheifern.
+    type: Vanir
+    image: ''
+    image_alt: Vani, Gott der Schlacht
+    url: ''
+  - term: Gnark und Idin
+    definition: Die Zwillinge - Gott der Felder und Göttin der Schmieden, verehrt von den Tvar.
+    more: Unzertrennliche Geschwister, die nach dem Verlust der Waffe ihrer Mutter einen Kampfstil entwickelten, bei dem zwei Krieger als Einheit agieren. Gnark herrscht über Ackerbau und Ernte, Idin über Schmiedekunst und Handwerk. Die Tvar ehren sie durch Zwillingsgeburten und bevorzugen Zwillingsjarls.
+    type: Vanir
+    image: ''
+    image_alt: Die Zwillingsgötter Gnark und Idin
+    url: ''
+  - term: Knat
+    definition: Göttin der Wettkämpfe, verehrt von den Knattle. Erste, die in die Schlacht stürmte.
+    more: Große, breitschultrige Kriegerin mit geflochtenen Zöpfen, die den Wettkampf verkörpert. Als Kind bereits eine vollendete Kriegerin und Athletin, sammelte sie Trophäen in Bogenschießen, Skifahren, Schwimmen und Laufen. Die Knattle ehren sie durch ständige Wettkämpfe und Ehrenschwimmen durch die eisigen Gewässer. Ihre Konkurrenzlust inspiriert fairen Wettstreit unter den Räubern.
+    type: Vanir
+    image: ''
+    image_alt: Knat, Göttin der Wettkämpfe
+    url: ''
+  - term: Luta
+    definition: Göttin des Willens, verehrt von den Lutan. Jüngste der Vanir, ihre Statue ist verschollen.
+    more: Die jüngste Vanir, oft allein gelassen, da ihre Geschwister unzertrennlich waren. Entwickelte Kampflust und meisterte den Kampf mit zwei Äxten. Die nomadischen Lutan folgen ihrem Beispiel der stillen Stärke.
+    type: Vanir
+    image: ''
+    image_alt: Luta, Göttin des Willens
+    url: ''
+  - term: Palter
+    definition: Gott der Hoffnung, verehrt von den Örn. Einst der Schönste, nun durch Narben entstellt.
+    more: Einst schönster aller Vanir, trug er prachtvolle Rüstung und einen Streitkolben. Sein Helm mit Adlerflügeln war sein Erkennungszeichen. Von einem Jötunn-Wolf schwer verwundet, wurde er von Vani und Luta gerettet. Trotz entstellender Narben an Gesicht und Brust verlor er nie seinen Charme und seine Güte. Er würde jeden Fremden bei sich aufnehmen, egal woher sie kommen oder wohin sie gehen. Die Örn verehren ihn als Symbol der Hoffnung inmitten des Verfalls.
+    type: Vanir
+    image: ''
+    image_alt: Palter, Gott der Hoffnung
+    url: ''
+  - term: Hel
+    definition: Herrin der Toten, verehrt von den Whar. Tochter von Mirgal.
+    more: Herrscherin der Unterwelt und einzige, die zwischen Leben und Tod wandeln kann. Mirgals geliebte Tochter. Sie sammelt Seelen der Gefallenen für eine Armee gegen Ragnarök. Ihre wahren Loyalitäten bleiben rätselhaft.
+    type: Jötunn
+    image: ''
+    image_alt: Hel, Herrin der Toten
+    url: ''
+  - term: Boða
+    definition: Verfluchte Yoten-Königin, die die Vanir in Stein verwandelte.
+    more: Mächtige Jötunn-Königin, durch uralten Fluch korrumpiert. Ihre dunkle Magie verwandelt selbst die Tapfersten in leblose Statuen.
+    type: Jötunn
+    image: ''
+    image_alt: Boða, die Verfluchte
+    url: ''
+  - term: Mirgal
+    definition: Trickstergott, Schöpfer des Regenbogenspeers. Chaotisch neutral, Vater von Hel.
+    more: Vanir-Verräter, der in seinem Machtstreben sein Volk betrog. Seine Magie erschuf versehentlich Grimnir durch Aldyhns Hand. Trotz seiner Selbstsucht liebt er seine Tochter Hel tief und hoffet auf Wiederkehr zum Leben.
+    type: Jötunn
+    image: ''
+    image_alt: Mirgal, der Trickstergott
+    url: ''
+  - term: Hrolf
+    definition: Held von hundert Raubzügen, Hallharn-Krieger und Führer der Helden zu Beginn der Kampagne.
+    more: Bodenständiger Hallharn-Krieger, geschätzt für seine Scherze und seinen Schutz der Mannschaft. Verkörpert den Hallharn-Wunsch nach Einigkeit der Klans gegen kommende Bedrohungen.
+    type: Person
+    image: ''
+    image_alt: Hrolf, Held von hundert Raubzügen
+    url: ''
+  - term: Hallharn
+    definition: Führender Klan mit Hauptsiedlung Hallwik in der Seufzerbucht. Jarl Mutter Guhnbarg.
+    more: Einer der ursprünglichen Klans, jahrhundertealt, traditionell führend bei Völv-Versammlungen. Verehren Aldyhn und respektieren die Weisheit aller Frauen - nur Frauen können hier Jarl werden. Besitzen zahlreiche Siedlungen und Kriegsschiffe. Überzeugt von der Nähe Ragnaröks und entschlossen, vereint zu siegen.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Hallharn
+    url: ''
+  - term: Tvar
+    definition: Praktisches Bauern- und Schmiedevolk. Hauptsiedlung Giladdon. Jarl Berghild die Tapfere.
+    more: Einer der drei ursprünglichen Klans, bekannt für reiche Ernten und Handwerkskunst. Verehren die Zwillinge Gnark und Idin, bevorzugen Zwillingsjarls. Nach Jark Torkels Tod führt Berghild allein. Haben zahlreiche spezialisierte Außenposten für verschiedene Ressourcen. Praktisch veranlagt, glauben sie nicht ans Weltende und sorgen sich, dass Guhnbargs Ragnarök-Obsession die Klans spaltet. Reden mit unsichtbaren Tomten, die ihre Arbeit segnen.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Tvar
+    url: ''
+  - term: Lutan
+    definition: Nomadischer Klan, oft im Konflikt mit anderen. Hauptsiedlung Tunn-Arg. Jarl Kare Branaskr.
+    more: Ursprünglicher Klan, aber nie so einflussreich wie Tvar oder Hallharn, was ihre Jarls frustriert. Streben nach Prestige und Ruhm, finden sich aber oft auf der falschen Seite von Konflikten. Verehren Luta und leben nomadisch mit 2-3 wechselnden Siedlungen. Glauben an Ragnarök, aber zurückhaltend, da sie meist gegen Hallharn opponieren. Ihre Reisen machen sie zu Wissensträgern der weiten Welt.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Lutan
+    url: ''
+  - term: Knattle
+    definition: Klan des Hohen Nordens, Walfänger und Wettkämpfer. Hauptsiedlung Tukk. Jarl Hroarr Langspeer.
+    more: Leben in den extremsten, kältesten Regionen Grimnirs. Nutzen Walknochenmaterial statt Holz für Schiffe und Häuser. Der Lange Winter belastet sie weniger durch ihre Gewöhnung an Kälte. Ständige Wettkämpfe in Kraft, Geschick und Brettspielen aus Stoßzähnen. Hroarr ist ungewöhnlich großer Zwerg (5 Fuß). Ehren den Steinhof durch Schwimmen - Verlust von Gliedmaßen gilt als Segen. Glauben an Ragnarök, aber setzen auf Überleben statt Eingreifen.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Knattle
+    url: ''
+  - term: Risa
+    definition: Klan der Großvölker (Tallfolk). Einzige Siedlung Fernlandung. Jarl Hjordis Gornemb.
+    more: Neuerer Klan der riesenhaften Tallfolk, meist braun-, manche eisblauhäutig. Fühlen sich als Außenseiter und müssen ständig Respekt verdienen. Verehren Vani und suchen Anerkennung jenseits körperlicher Stärke. Freuen sich auf Ragnarök, sind aber leicht beleidigt. Ihre einzige Siedlung Fernlandung an Turnfjalls Südküste zeigt ihre isolierte Position unter den Klans.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Risa
+    url: ''
+  - term: Örn
+    definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur (Insel des Glanzes). Jarl Lahahel Korloke.
+    more: Verehren Palter und sehen Schönheit in allem, besonders im Unvollkommenen. Gelten als talentierteste Schmiede und Handwerker, bauen die schönsten Schiffe, Waffen und Werkzeuge. Wenige verstreute Handelslager, da sie meist reisen.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Örn
+    url: ''
+  - term: Whar
+    definition: Aufstrebender Klan, der Hel verehrt. Geheimnisvolle Hauptsiedlung. Jarls Athils Vestemb und Gulli Vestaskr.
+    more: Vor einer Generation noch kleiner Klan, berüchtigt für Hel-Verehrung statt der Steinhof-Götter. Stiegen durch kühne Raubzüge gegen Rivalen und Baendur auf. Gerüchte über riesige Reittiere, unbekannt in Grimnir. Kleinere Siedlungen bei Nirgendwo. Symbol wechselte von Schlachtross zu Wolf.
+    type: Klan
+    image: ''
+    image_alt: Wappen der Whar
+    url: ''
+  - term: Drifthall
+    definition: Schwimmende Stadt, in der sich alle acht Jahre die Klans versammeln, um den Alljarl zu wählen.
+    more: Wundersame schwimmende Versammlung aus verbundenen Hjemskips (Haupt-Langschiffen) um eine zentrale Insel. Fünf innere Hjemskips bilden das Zentrum. Äußere Ringe nach Klans organisiert.  Zentrum der Demokratie und politischen Intrigen bei der Alljarl-Wahl.
+    type: Ort
+    image: ''
+    image_alt: Die schwimmende Stadt Drifthall
+    url: ''
+  - term: Nirgendwo
+    definition: Grenzstadt für Verbannte und Neuankömmlinge.
+    more: Kreuzung verschiedener Kulturen am Rande der Zivilisation. Kernstadt bewohnt von langzeit-Bewohnern (Elfen, Zwerge, Menschen), Neuankömmlinge bleiben in den Zelten. Vom Regenbogenspeer hierher Gebrachte vermischen sich mit Verbannten und geflohenen Räubern. Krieger-Kultur dominiert trotz Vielfalt.
+    type: Ort
+    image: ''
+    image_alt: Die Stadt Nirgendwo
+    url: ''
+  - term: Steinhof
+    definition: Ort, an dem die in Stein verwandelten Vanir-Götter stehen, Zentrum des göttlichen Glaubens.
+    more: Heiliger Hain auf Turnfjall-Gipfel, umgeben von einem See. Versteinerte Götterstatuen stehen um einen Altar, in dem der Regenbogenspeer verankert ist. Nur wenige Expeditionen suchten ihn in vergangenen Generationen - keine kehrte zurück. Zentrum des Vanir-Glaubens und Quelle göttlicher Macht.
+    type: Ort
+    image: ''
+    image_alt: Der Steinhof der Götter
+    url: ''
+  - term: Ragnarök
+    definition: Das prophezeite Ende der Welt. Die Völv haben es vorhergesehen.
+    more: Von den Völv prophezeites Weltende, das sich durch zunehmende Zeichen ankündigt. Der Lange Winter, der nicht weichen will, Jötunn-Angriffe und andere erwachende Mächte. Nicht nur Ende, sondern Chance für Neugeburt der Welt.
+    type: Ereignis
+    image: ''
+    image_alt: Ragnarök - Das Ende der Welt
+    url: ''
+  - term: Völv
+    definition: Weise Seherinnen, Hüterinnen der Geschichte und Prophezeiungen.
+    more: Prophetische Seherinnen, die Kriegergeschichte mündlich überliefern und dadurch höchsten Respekt genießen. Aldyhn war die erste Völv nach ihrem Opfer am Weisheitsbrunnen. Sie sehen Ragnarök kommen und leiten die Alljarl-Wahlen. Yrsa führt als Weiseste die Versammlungen. Ihre Prophezeiungen treiben die politischen Entscheidungen der Klans und bereiten alle auf das kommende Ende vor.
+    type: Person
+    image: ''
+    image_alt: Die weisen Völv
+    url: ''
+  - term: Alljarl
+    definition: Oberster Anführer aller Klans, gewählt alle acht Jahre in Drifthall. Aktuell Mutter Guhnbarg.
+    more: Höchste Führungsposition der vereinten Klans, gewählt durch komplexes Wahlsystem bei der Drifthall-Versammlung. Mutter Guhnbarg von den Hallharn ist aktuelle Amtsinhaberin und treibt Vorbereitungen für Ragnarök voran. Führt nur in Krisenzeiten, normalerweise bleiben Klans unabhängig. Wahlkampf geprägt von politischen Allianzen.
+    type: Person
+    image: ''
+    image_alt: Zeichen des Alljarls
+    url: ''
+  - term: Regenbogenspeer
+    definition: Mächtiges Artefakt von Mirgal geschaffen, bringt Personen nach Grimnir und kann Welten erschaffen.
+    more: Mirgals mächtigstes Artefakt, in der Steinhof-Insel verankert und unbeweglich gemacht. Ohne die fehlende Teile verhält er sich unberechenbar und ist unkontrollierbar. Bringt Personen aus anderen Welten nach Grimnir und kann neue Realitäten erschaffen.
+    type: Gegenstand
+    image: ''
+    image_alt: Der mystische Regenbogenspeer
+    url: ''

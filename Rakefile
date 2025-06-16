@@ -43,7 +43,8 @@ namespace :glossary do
       exit 1
     end
     
-    glossary = YAML.load_file(glossary_file) || []
+    glossary_data = YAML.load_file(glossary_file) || {}
+    glossary = glossary_data['glossary'] || glossary_data || []
     if glossary.empty?
       puts "Warning: Glossary is empty"
       exit 0

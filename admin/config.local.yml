@@ -35,20 +35,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { 
-          label: "Categories", 
-          name: "categories", 
-          widget: "string", 
-          required: false,
-          hint: "Comma-separated list of categories"
-        }
-      - { 
-          label: "Background Image", 
-          name: "background", 
+          label: "Feature Image", 
+          name: "feature-img", 
           widget: "image", 
           required: false,
           allow_multiple: false,
-          choose_url: true,
-          hint: "Featured image for the post"
+          hint: "Main featured image that spans full-width of the page"
+        }
+      - { 
+          label: "Last Modified", 
+          name: "last_modified", 
+          widget: "datetime", 
+          required: false,
+          hint: "When the post was last updated (optional)"
         }
       - { 
           label: "Draft", 
@@ -62,8 +61,23 @@ collections:
           label: "Body", 
           name: "body", 
           widget: "markdown",
+          rows: 50,
           buttons: ["bold", "italic", "code", "link", "heading-one", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"],
           editor_components: ["image", "code-block"]
+        }
+      - { 
+          label: "Categories", 
+          name: "categories", 
+          widget: "string", 
+          required: false,
+          hint: "Comma-separated list of categories"
+        }
+      - { 
+          label: "Tags", 
+          name: "tags", 
+          widget: "list", 
+          required: false,
+          hint: "Tags for the post (separate items)"
         }
 
   - name: "pages"
@@ -83,6 +97,9 @@ collections:
       - label: "Glossary Terms"
         name: "glossary"
         file: "_data/glossary.yml"
+        format: "yaml"
+        format_options:
+          quote: "double"
         fields:
           - label: "Glossary Entries"
             name: "glossary"
@@ -90,8 +107,9 @@ collections:
             summary: "{{term}} - {{definition}}"
             fields:
               - {label: "Term", name: "term", widget: "string"}
-              - {label: "Definition", name: "definition", widget: "text"}
+              - {label: "Definition", name: "definition", widget: "text", rows: 3, hint: "Short definition shown in tooltips"}
+              - {label: "More Info", name: "more", widget: "text", rows: 6, required: false, hint: "Extended information shown only in glossary page (optional)"}
               - {label: "Type", name: "type", widget: "select", options: ["Ereignis", "Gegenstand", "Klan", "Ort", "Person", "Vanir", "Jötunn"], default: "Person"}
-              - {label: "Image", name: "image", widget: "image", required: false, hint: "Character/creature/item image"}
+              - {label: "Image", name: "image", widget: "image", required: false, allow_multiple: false, hint: "Upload an image for this glossary term"}
               - {label: "Image Alt Text", name: "image_alt", widget: "string", required: false, hint: "Description for accessibility"}
               - {label: "Reference URL", name: "url", widget: "string", required: false}
