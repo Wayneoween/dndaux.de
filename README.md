@@ -9,6 +9,7 @@ This site features an automated glossary tooltip system that works seamlessly wi
 ### Glossary Entry Structure
 
 Each glossary entry supports the following fields:
+
 - **term**: The term name
 - **definition**: Short definition shown in tooltips
 - **more**: Extended information shown only on the glossary page (optional)
@@ -20,18 +21,20 @@ Each glossary entry supports the following fields:
 ### How It Works
 
 1. Write in Sveltia CMS:
+
    ```markdown
    The adventure begins when Aldyhn guides the party through Vani's domain...
    ```
 
 2. GitHub Actions automatically processes during build but does not commit:
+
    ```markdown
    The adventure begins when {% include glossary_tooltip.html term="Aldyhn" %} guides the party through {% include glossary_tooltip.html term="Vani" %}'s domain...
    ```
 
 3. Readers see beautiful tooltips while your source files stay clean! 🎉
 
-###  Safety Features
+### Safety Features
 
 The Rake tasks include built-in protection against accidental local usage:
 
@@ -47,6 +50,7 @@ rake glossary:autolink -- --trust-me-bro
 ### Setup & Configuration
 
 **For GitHub Pages:**
+
 1. Go to repository Settings > Pages
 2. Under "Source", select **"GitHub Actions"** (not "Deploy from a branch")
 3. That's it! The workflow will handle everything automatically.

@@ -1,10 +1,10 @@
 # Site Configuration
 title: Raiders of the Serpent Sea
 email: rotss-dnd@cle.ar.it
-baseurl: ""
-url: "https://dndaux.de"
+baseurl: ''
+url: 'https://dndaux.de'
 description: >-
-  A D&D campaign blog following the adventures of our party as they 
+  A D&D campaign blog following the adventures of our party as they
   navigate treacherous waters and uncover ancient mysteries.
 
 # Social & Contact
@@ -24,7 +24,7 @@ post_navigation: true
 
 # Pagination
 paginate: 10
-paginate_path: "/page:num"
+paginate_path: '/page:num'
 
 # Features
 cookie_consent: false
@@ -45,6 +45,12 @@ sass:
 # Exclude from processing
 exclude:
   - .jekyll-cache/
+  - .pre-commit-config.yaml
+  - .prettierrc
+  - .prettierignore
+  - .stylelintrc.json
+  - .rubocop.yml
+  - setup-precommit.sh
   - .sass-cache/
   - Gemfile
   - Gemfile.lock

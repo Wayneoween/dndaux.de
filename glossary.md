@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Glossary
-feature-img: "assets/images/glossary-header.jpg"
+feature-img: 'assets/images/glossary-header.jpg'
 ---
 
 <!-- Make glossary data available to JavaScript -->
@@ -21,20 +21,20 @@ feature-img: "assets/images/glossary-header.jpg"
   {% comment %} Custom German sorting {% endcomment %}
   {% assign unsorted_terms = site.data.glossary.glossary %}
   {% assign sorted_terms = '' | split: '' %}
-  
-  {% comment %} Define German alphabet order {% endcomment %}
-  {% assign german_alphabet = 'A,Ä,B,C,D,E,F,G,H,I,J,K,L,M,N,O,Ö,P,Q,R,S,T,U,Ü,V,W,X,Y,Z' | split: ',' %}
-  
-  {% comment %} Sort terms according to German alphabet {% endcomment %}
-  {% for letter in german_alphabet %}
-    {% for term in unsorted_terms %}
-      {% assign first_letter = term.term | slice: 0, 1 | upcase %}
-      {% if first_letter == letter %}
-        {% assign sorted_terms = sorted_terms | push: term %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-  
+
+{% comment %} Define German alphabet order {% endcomment %}
+{% assign german_alphabet = 'A,Ä,B,C,D,E,F,G,H,I,J,K,L,M,N,O,Ö,P,Q,R,S,T,U,Ü,V,W,X,Y,Z' | split: ',' %}
+
+{% comment %} Sort terms according to German alphabet {% endcomment %}
+{% for letter in german_alphabet %}
+{% for term in unsorted_terms %}
+{% assign first_letter = term.term | slice: 0, 1 | upcase %}
+{% if first_letter == letter %}
+{% assign sorted_terms = sorted_terms | push: term %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
   <!-- Search box -->
   <div class="glossary-search">
     <div class="search-input-container">
@@ -44,9 +44,11 @@ feature-img: "assets/images/glossary-header.jpg"
       </button>
     </div>
   </div>
-  
+
   <!-- Alphabetical index -->
-  {% if sorted_terms.size > 5 %}
+
+{% if sorted_terms.size > 5 %}
+
   <nav class="glossary-index">
     <h3>Springe zu Buchstabe</h3>
     <div class="alphabet-links">
@@ -68,7 +70,7 @@ feature-img: "assets/images/glossary-header.jpg"
     </div>
   </nav>
   {% endif %}
-  
+
   <!-- Glossary entries grouped by letter -->
   <div class="glossary-entries">
     {% assign current_letter = '' %}
@@ -78,15 +80,15 @@ feature-img: "assets/images/glossary-header.jpg"
         {% assign current_letter = item_letter %}
         <h2 class="letter-header" id="letter-{{ current_letter | downcase }}">{{ current_letter }}</h2>
       {% endif %}
-      
+
       <article class="glossary-entry" id="{{ item.term | downcase | url_encode }}">
         <div class="entry-content">
           {% if item.image and item.image != '' %}
             <div class="image-content">
-              <img src="{{ item.image }}" 
-                   alt="{{ item.image_alt | default: item.term }}" 
+              <img src="{{ item.image }}"
+                   alt="{{ item.image_alt | default: item.term }}"
                    class="glossary-image"
-                   onclick="openImageModal(this)">
+                   data-modal-target="imageModal">
             </div>
           {% endif %}
           <div class="text-content">
@@ -109,6 +111,7 @@ feature-img: "assets/images/glossary-header.jpg"
         </div>
       </article>
     {% endfor %}
+
   </div>
 </div>
 

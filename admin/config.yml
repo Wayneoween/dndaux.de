@@ -14,122 +14,72 @@ logo_url: /assets/images/logo.png # Optional: Add your logo path if you have one
 # local_backend: true
 
 # Media settings
-media_folder: "assets/images/uploads"
-public_folder: "/assets/images/uploads"
+media_folder: 'assets/images/uploads'
+public_folder: '/assets/images/uploads'
 
 # Collection definitions
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "_posts"
+  - name: 'blog'
+    label: 'Blog Posts'
+    folder: '_posts'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: "{{title}} - {{date | date('YYYY-MM-DD')}}"
-    sortable_fields: ["title", "date"]
+    sortable_fields: ['title', 'date']
     view_filters:
-      - label: "Drafts"
-        field: "draft"
+      - label: 'Drafts'
+        field: 'draft'
         pattern: true
     editor:
       preview: false
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Feature Image', name: 'feature-img', widget: 'image', required: false, allow_multiple: false, hint: 'Main featured image that spans full-width of the page' }
+      - { label: 'Last Modified', name: 'last_modified', widget: 'datetime', required: false, hint: 'When the post was last updated (optional)' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', required: false, default: false, hint: 'Set to true to save as draft' }
       - {
-          label: "Feature Image",
-          name: "feature-img",
-          widget: "image",
-          required: false,
-          allow_multiple: false,
-          hint: "Main featured image that spans full-width of the page",
-        }
-      - {
-          label: "Last Modified",
-          name: "last_modified",
-          widget: "datetime",
-          required: false,
-          hint: "When the post was last updated (optional)",
-        }
-      - {
-          label: "Draft",
-          name: "draft",
-          widget: "boolean",
-          required: false,
-          default: false,
-          hint: "Set to true to save as draft",
-        }
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
           rows: 50,
-          buttons:
-            [
-              "bold",
-              "italic",
-              "code",
-              "link",
-              "heading-one",
-              "heading-two",
-              "heading-three",
-              "quote",
-              "bulleted-list",
-              "numbered-list",
-            ],
-          editor_components: ["image", "code-block"],
+          buttons: ['bold', 'italic', 'code', 'link', 'heading-one', 'heading-two', 'heading-three', 'quote', 'bulleted-list', 'numbered-list'],
+          editor_components: ['image', 'code-block'],
         }
-      - {
-          label: "Categories",
-          name: "categories",
-          widget: "string",
-          required: false,
-          hint: "Comma-separated list of categories",
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "list",
-          rows: 2,
-          required: false,
-          hint: "Tags for the post (separate items)",
-        }
+      - { label: 'Categories', name: 'categories', widget: 'string', required: false, hint: 'Comma-separated list of categories' }
+      - { label: 'Tags', name: 'tags', widget: 'list', rows: 2, required: false, hint: 'Tags for the post (separate items)' }
 
-  - name: "pages"
-    label: "Pages"
-    folder: "/"
+  - name: 'pages'
+    label: 'Pages'
+    folder: '/'
     create: true
-    filter: { field: "layout", value: "page" }
+    filter: { field: 'layout', value: 'page' }
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Permalink",
-          name: "permalink",
-          widget: "string",
-          hint: "Path for the page, e.g., /about/",
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', hint: 'Path for the page, e.g., /about/' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: "glossary"
-    label: "Glossary"
+  - name: 'glossary'
+    label: 'Glossary'
     files:
-      - label: "Glossary Terms"
-        name: "glossary"
-        file: "_data/glossary.yml"
-        format: "yaml"
+      - label: 'Glossary Terms'
+        name: 'glossary'
+        file: '_data/glossary.yml'
+        format: 'yaml'
         format_options:
-          quote: "double"
+          quote: 'double'
         fields:
-          - label: "Glossary Entries"
-            name: "glossary"
-            widget: "list"
-            summary: "{{term}} - {{definition}}"
+          - label: 'Glossary Entries'
+            name: 'glossary'
+            widget: 'list'
+            summary: '{{term}} - {{definition}}'
             fields:
-              - {label: "Term", name: "term", widget: "string"}
-              - {label: "Definition", name: "definition", widget: "text", rows: 3, hint: "Short definition shown in tooltips"}
-              - {label: "More Info", name: "more", widget: "text", rows: 6, required: false, hint: "Extended information shown only in glossary page (optional)"}
-              - {label: "Type", name: "type", widget: "select", options: ["Ereignis", "Gegenstand", "Klan", "Ort", "Person", "Vanir", "Jötunn"], default: "Person"}
-              - {label: "Image", name: "image", widget: "image", required: false, allow_multiple: false, hint: "Upload an image for this glossary term"}
-              - {label: "Image Alt Text", name: "image_alt", widget: "string", required: false, hint: "Description for accessibility"}
-              - {label: "Reference URL", name: "url", widget: "string", required: false}
+              - { label: 'Term', name: 'term', widget: 'string' }
+              - { label: 'Definition', name: 'definition', widget: 'text', rows: 3, hint: 'Short definition shown in tooltips' }
+              - { label: 'More Info', name: 'more', widget: 'text', rows: 6, required: false, hint: 'Extended information shown only in glossary page (optional)' }
+              - { label: 'Type', name: 'type', widget: 'select', options: ['Ereignis', 'Gegenstand', 'Klan', 'Ort', 'Person', 'Vanir', 'Jötunn'], default: 'Person' }
+              - { label: 'Image', name: 'image', widget: 'image', required: false, allow_multiple: false, hint: 'Upload an image for this glossary term' }
+              - { label: 'Image Alt Text', name: 'image_alt', widget: 'string', required: false, hint: 'Description for accessibility' }
+              - { label: 'Reference URL', name: 'url', widget: 'string', required: false }

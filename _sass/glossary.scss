@@ -10,9 +10,9 @@
   margin-bottom: 2rem;
   text-align: center;
   position: relative;
-  
+
   &::before {
-    content: '🔍';
+    content: "🔍";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -23,7 +23,7 @@
     font-size: 1.1rem;
     opacity: 0.6;
   }
-  
+
   /* Search input container for positioning the clear button */
   .search-input-container {
     position: relative;
@@ -31,7 +31,7 @@
     width: 100%;
     max-width: 400px;
   }
-  
+
   /* Update input to work with container */
   input[type="text"] {
     width: 100%;
@@ -41,46 +41,46 @@
     font-size: 1.1rem;
     border: 3px solid var(--link, #4a90e2);
     border-radius: 30px;
-    background: var(--background, #ffffff);
-    color: var(--text, #333333);
-    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.15);
+    background: var(--background, #fff);
+    color: var(--text, #333);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 15%);
     transition: all 0.3s ease;
     position: relative;
     z-index: 2;
     text-align: center;
-    
+
     &:focus {
       outline: none;
       border-color: var(--link, #357abd);
-      box-shadow: 0 6px 20px rgba(74, 144, 226, 0.25);
+      box-shadow: 0 6px 20px rgba(74, 144, 226, 25%);
       transform: translateY(-2px);
       text-align: center;
       padding-left: 3rem;
     }
-    
+
     &::placeholder {
-      color: var(--meta, #888888);
+      color: var(--meta, #888);
       font-style: italic;
       text-align: center;
       opacity: 1;
     }
-    
+
     &:focus::placeholder {
       opacity: 0;
     }
-    
+
     /* Fix for WebKit browsers to ensure placeholder is truly centered */
-    &::-webkit-input-placeholder {
+    &::input-placeholder {
       text-align: center;
-      color: var(--meta, #888888);
+      color: var(--meta, #888);
       font-style: italic;
     }
-    
-    &:focus::-webkit-input-placeholder {
+
+    &:focus::input-placeholder {
       opacity: 0;
     }
   }
-  
+
   /* Clear search button */
   .clear-search-btn {
     position: absolute;
@@ -90,7 +90,7 @@
     background: none;
     border: none;
     font-size: 1.4rem;
-    color: var(--meta, #888888);
+    color: var(--meta, #888);
     cursor: pointer;
     z-index: 3;
     padding: 0;
@@ -103,25 +103,25 @@
     transition: all 0.2s ease;
     opacity: 0;
     visibility: hidden;
-    
+
     &:hover {
       background-color: var(--selection, #f0f0f0);
-      color: var(--text, #333333);
+      color: var(--text, #333);
     }
-    
+
     &:focus {
       outline: none;
       background-color: var(--selection, #e0e0e0);
     }
-    
+
     &.visible {
       opacity: 1;
       visibility: visible;
     }
-    
+
     span {
       line-height: 1;
-      font-weight: bold;
+      font-weight: 700;
     }
   }
 }
@@ -133,10 +133,10 @@
   background: var(--blockquote, #f8f9fa);
   border-radius: 12px;
   border: 1px solid var(--border, #e9ecef);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 5%);
+
   h3 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
     font-size: 1.1rem;
     color: var(--text, #495057);
     text-align: center;
@@ -149,14 +149,14 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
-  
+
   a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    background: var(--background, #ffffff);
+    background: var(--background, #fff);
     color: var(--link, #4a90e2);
     text-decoration: none;
     border: 2px solid var(--link, #4a90e2);
@@ -164,32 +164,32 @@
     font-weight: 600;
     font-size: 0.9rem;
     transition: all 0.2s ease;
-    
+
     &:hover {
       background: var(--link, #4a90e2);
-      color: var(--background, #ffffff);
+      color: var(--background, #fff);
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+      box-shadow: 0 4px 12px rgba(74, 144, 226, 30%);
     }
   }
 }
 
 /* Letter headers */
 .letter-header {
-  margin: 3rem 0 1.5rem 0;
+  margin: 3rem 0 1.5rem;
   padding: 0.5rem 0;
   font-size: 2rem;
   font-weight: 700;
   color: var(--text, #2d3748);
   border-bottom: 3px solid var(--link, #4a90e2);
   position: relative;
-  
+
   &:first-of-type {
     margin-top: 2rem;
   }
-  
+
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -201,13 +201,16 @@
 
 /* Term titles */
 .term-title {
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.75rem;
   font-size: 1.4rem;
   font-weight: 600;
   color: var(--text, #2d3748);
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  /* Ensure text selection works in titles */
+  user-select: text !important;
 }
 
 .term-type {
@@ -219,16 +222,25 @@
   border-radius: 4px;
   margin-left: 1rem;
   flex-shrink: 0;
+
+  /* Allow text selection in term type */
+  user-select: text !important;
 }
 
 /* Definition styling */
 .definition {
   line-height: 1.6;
   color: var(--text-color);
-  
+
+  /* Ensure text selection works in definitions */
+  user-select: text !important;
+
   p {
     margin-bottom: 0.75rem;
-    
+
+    /* Ensure text selection works in paragraphs */
+    user-select: text !important;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -241,12 +253,12 @@
   margin-top: 0.5rem;
   padding: 0.25rem 0.5rem;
   background: var(--link-color);
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 4px;
   font-size: 0.9rem;
   transition: background-color 0.2s ease;
-  
+
   &:hover {
     background: var(--link-color-hover, var(--link-color));
     text-decoration: none;
@@ -255,14 +267,14 @@
 
 /* Subtle highlighting for glossary terms */
 .glossary-highlight {
-  background-color: var(--selection, rgba(74, 144, 226, 0.04));
+  background-color: var(--selection, rgba(74, 144, 226, 4%));
   border-radius: 1px;
-  border-bottom: 1px dotted var(--link, rgba(74, 144, 226, 0.2));
+  border-bottom: 1px dotted var(--link, rgba(74, 144, 226, 20%));
   transition: all 0.2s ease;
-  
+
   &:hover {
-    background-color: var(--selection, rgba(74, 144, 226, 0.08));
-    border-bottom: 1px solid var(--link, rgba(74, 144, 226, 0.4));
+    background-color: var(--selection, rgba(74, 144, 226, 8%));
+    border-bottom: 1px solid var(--link, rgba(74, 144, 226, 40%));
   }
 }
 
@@ -272,37 +284,42 @@
   padding: 1.5rem;
   border: 1px solid var(--border, #e9ecef);
   border-radius: 12px;
-  background: var(--background, #ffffff);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: var(--background, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 8%);
   position: relative;
+
   /* Ensure text selection works properly */
-  user-select: text;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
+  user-select: text !important;
+
+  /* Fix pointer events to allow text selection */
+  pointer-events: auto;
 }
 
 .entry-content {
   position: relative;
+
   /* Ensure text selection works in content */
-  user-select: text;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
+  user-select: text !important;
+
+  /* Use flexbox instead of float for better text selection */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .text-content {
   /* Ensure text selection works in text content */
-  user-select: text;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
+  user-select: text !important;
+  flex: 1;
+  min-width: 0; /* Allow text to wrap properly */
 }
 
 .image-content {
-  float: right;
-  margin: 0 0 1rem 1rem;
+  flex-shrink: 0;
   width: 120px;
+
+  /* Remove float as we're using flexbox now */
 }
 
 .glossary-image {
@@ -312,18 +329,23 @@
   border-radius: 6px;
   border: 1px solid var(--border-color);
   cursor: pointer;
+
   /* Fix for click events not working - this was the key fix! */
   pointer-events: auto !important;
   position: relative !important;
   z-index: 10 !important;
+
+  /* Prevent image from interfering with text selection */
+  user-select: none;
 }
 
-/* Clear float after entry content */
-.entry-content::after {
+/* Remove clear float since we're using flexbox now */
+
+/* .entry-content::after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Image Modal */
 .image-modal {
@@ -334,7 +356,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 90%);
   cursor: pointer;
 }
 
@@ -348,19 +370,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 30%);
 }
 
 .modal-close {
   position: absolute;
   top: 20px;
   right: 35px;
-  color: white;
+  color: #fff;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
   z-index: 10000;
-  
+
   &:hover {
     opacity: 0.7;
   }
@@ -371,9 +393,9 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: #fff;
   text-align: center;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 70%);
   padding: 10px 20px;
   border-radius: 4px;
   font-size: 1rem;
@@ -381,53 +403,81 @@
 }
 
 /* Mobile responsive */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .glossary-container {
     padding: 0 0.5rem;
   }
-  
+
   .glossary-search {
     margin-bottom: 1.5rem;
-    
+
     input[type="text"] {
       width: 100%;
       font-size: 16px; /* Prevents zoom on iOS */
     }
   }
-  
+
   .glossary-index {
     margin-bottom: 1.5rem;
     padding: 1rem;
   }
-  
+
   .alphabet-links {
     gap: 0.25rem;
-    
+
     a {
       width: 2rem;
       height: 2rem;
       font-size: 0.8rem;
     }
   }
-  
+
   .letter-header {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 1rem;
     font-size: 1.5rem;
   }
-  
+
   .image-content {
-    float: none;
+    /* For mobile, use flexbox column layout */
+    order: -1; /* Put image first */
     width: 100%;
     text-align: center;
-    margin: 1rem 0;
+    margin: 0 0 1rem;
   }
-  
+
+  .entry-content {
+    /* Switch to column layout on mobile */
+    flex-direction: column;
+  }
+
   .glossary-image {
     width: 150px;
     height: 110px;
   }
-  
+
   .glossary-entry {
     padding: 1rem;
   }
+}
+
+/* Additional fixes for text selection issues */
+.glossary-container * {
+  /* Ensure all elements allow text selection by default */
+  user-select: text !important;
+}
+
+/* Exceptions for elements that should not be selectable */
+.glossary-image,
+.clear-search-btn,
+.alphabet-links a,
+.modal-close {
+  user-select: none !important;
+}
+
+/* Ensure no pseudo-elements are blocking text selection */
+.glossary-entry::before,
+.glossary-entry::after,
+.entry-content::before,
+.entry-content::after {
+  pointer-events: none !important;
 }

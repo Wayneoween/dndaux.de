@@ -1,0 +1,38 @@
+# RuboCop configuration for Jekyll project
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - '_site/**/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    - '.git/**/*'
+
+# Style/Documentation:
+#   Enabled: false
+
+Layout/LineLength:
+  Max: 180
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - '_plugins/**/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - '_plugins/**/*'
+
+# Jekyll and Liquid specific
+Lint/MissingSuper:
+  Exclude:
+    - '_plugins/**/*'
