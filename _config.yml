@@ -32,7 +32,6 @@ cookie_consent: false
 # Build Settings
 plugins:
   - jekyll-feed
-  - jekyll-glossary_tooltip
   - jekyll-liquify
   - jekyll-paginate
   - jekyll-seo-tag
@@ -45,9 +44,10 @@ sass:
 
 # Exclude from processing
 exclude:
-  - .sass-cache/
   - .jekyll-cache/
+  - .sass-cache/
   - Gemfile
   - Gemfile.lock
+  - docs/
   - node_modules/
   - vendor/

@@ -1,0 +1,15 @@
+{% comment %}
+Usage: {% include glossary_tooltip.html term="Term Name" %}
+or: {% include glossary_tooltip.html term="Term Name" text="Custom Display Text" %}
+{% endcomment %}
+{%- assign term_to_find = include.term | downcase -%}
+{%- assign display_text = include.text | default: include.term -%}
+{%- assign found_entry = false -%}
+{%- for entry in site.data.glossary -%}
+  {%- assign entry_term_lower = entry.term | downcase -%}
+  {%- if entry_term_lower == term_to_find -%}
+    {%- assign found_entry = entry -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if found_entry -%}<span class="jekyll-glossary"><span class="glossary-term">{{ display_text }}</span><span class="jekyll-glossary-tooltip"><strong>{{ found_entry.term }}</strong>{% if found_entry.type %} <em class="glossary-type">({{ found_entry.type }})</em>{% endif %}<br>{{ found_entry.definition }}<br><a class="jekyll-glossary-source-link" href="{{ site.baseurl }}/glossary/?search={{ found_entry.term | url_encode }}" target="_blank"></a></span></span>{%- else -%}<span class="glossary-term-not-found" title="Term '{{ include.term }}' not found in glossary">{{ display_text }}</span>{%- endif -%}

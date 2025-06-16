@@ -151,8 +151,6 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
-    jekyll-glossary_tooltip (2.0.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-liquify (0.1.0)
@@ -331,7 +329,6 @@ DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-feed
-  jekyll-glossary_tooltip
   jekyll-liquify
   jekyll-paginate
   logger
