@@ -103,13 +103,14 @@ collections:
         name: "glossary"
         file: "_data/glossary.yml"
         fields:
-          - label: "Terms"
-            name: "terms"
+          - label: "Glossary Entries"
+            name: "glossary"
             widget: "list"
             summary: "{{term}} - {{definition}}"
             fields:
               - {label: "Term", name: "term", widget: "string"}
               - {label: "Definition", name: "definition", widget: "text"}
-              - {label: "Reference URL", name: "url", widget: "string", required: false}
+              - {label: "Type", name: "type", widget: "select", options: ["Ereignis", "Gegenstand", "Klan", "Ort", "Person", "Vanir", "Jötunn"], default: "Person"}
               - {label: "Image", name: "image", widget: "image", required: false, hint: "Character/creature/item image"}
               - {label: "Image Alt Text", name: "image_alt", widget: "string", required: false, hint: "Description for accessibility"}
+              - {label: "Reference URL", name: "url", widget: "string", required: false}

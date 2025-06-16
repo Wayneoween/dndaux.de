@@ -7,21 +7,52 @@ feature-img: "assets/images/glossary-header.jpg"
 <script src="{{ '/assets/js/glossary.js' | relative_url }}"></script>
 
 <div class="glossary-container">
-  {% assign sorted_terms = site.data.glossary.terms | sort: 'term' %}
+  {% comment %} Custom German sorting {% endcomment %}
+  {% assign unsorted_terms = site.data.glossary %}
+  {% assign sorted_terms = '' | split: '' %}
+  
+  {% comment %} Define German alphabet order {% endcomment %}
+  {% assign german_alphabet = 'A,Ä,B,C,D,E,F,G,H,I,J,K,L,M,N,O,Ö,P,Q,R,S,T,U,Ü,V,W,X,Y,Z' | split: ',' %}
+  
+  {% comment %} Sort terms according to German alphabet {% endcomment %}
+  {% for letter in german_alphabet %}
+    {% for term in unsorted_terms %}
+      {% assign first_letter = term.term | slice: 0, 1 | upcase %}
+      {% if first_letter == letter %}
+        {% assign sorted_terms = sorted_terms | push: term %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
   
   <!-- Search box -->
   <div class="glossary-search">
-    <input type="text" id="search" placeholder="Filter" />
+    <div class="search-input-container">
+      <input type="text" id="search" placeholder="Filter" />
+      <button type="button" id="clear-search" class="clear-search-btn" title="Filter leeren">
+        <span>&times;</span>
+      </button>
+    </div>
   </div>
   
   <!-- Alphabetical index -->
   {% if sorted_terms.size > 5 %}
   <nav class="glossary-index">
-    <h3>Jump to Letter</h3>
+    <h3>Springe zu Buchstabe</h3>
     <div class="alphabet-links">
-      {% assign first_letters = sorted_terms | map: 'term' | map: 'first' | map: 'upcase' | uniq | sort %}
-      {% for letter in first_letters %}
-        <a href="#letter-{{ letter | downcase }}">{{ letter }}</a>
+      {% assign first_letters = '' %}
+      {% for item in sorted_terms %}
+        {% assign first_letter = item.term | slice: 0, 1 | upcase %}
+        {% unless first_letters contains first_letter %}
+          {% assign first_letters = first_letters | append: first_letter | append: ',' %}
+        {% endunless %}
+      {% endfor %}
+      {% assign letters_array = first_letters | split: ',' %}
+      {% comment %} Custom sort for German letters {% endcomment %}
+      {% assign sorted_letters = 'A,Ä,B,C,D,E,F,G,H,I,J,K,L,M,N,O,Ö,P,Q,R,S,T,U,Ü,V,W,X,Y,Z' | split: ',' %}
+      {% for german_letter in sorted_letters %}
+        {% if letters_array contains german_letter %}
+          <a href="#letter-{{ german_letter | downcase }}">{{ german_letter }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   </nav>
@@ -48,7 +79,12 @@ feature-img: "assets/images/glossary-header.jpg"
             </div>
           {% endif %}
           <div class="text-content">
-            <h3 class="term-title">{{ item.term }}</h3>
+            <h3 class="term-title">
+              {{ item.term }}
+              {% if item.type and item.type != '' %}
+                <span class="term-type">{{ item.type }}</span>
+              {% endif %}
+            </h3>
             <div class="definition">
               {{ item.definition | markdownify }}
               {% if item.url and item.url != '' and item.url != '#' %}

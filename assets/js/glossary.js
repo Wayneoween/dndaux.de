@@ -28,6 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // Simple search functionality
   const searchInput = document.getElementById('search');
   if (searchInput) {
+    // Check for URL parameter to auto-fill search
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+    if (searchParam) {
+      searchInput.value = searchParam;
+      // Trigger search immediately
+      const event = new Event('input');
+      searchInput.dispatchEvent(event);
+    }
+    
     searchInput.addEventListener('input', function(e) {
       const searchTerm = e.target.value.toLowerCase();
       const entries = document.querySelectorAll('.glossary-entry');
@@ -42,6 +52,41 @@ document.addEventListener('DOMContentLoaded', function() {
           entry.style.display = 'none';
         }
       });
+    });
+  }
+
+  // Clear search functionality
+  const clearButton = document.getElementById('clear-search');
+  if (clearButton && searchInput) {
+    // Show/hide clear button based on input content
+    const toggleClearButton = () => {
+      if (searchInput.value.length > 0) {
+        clearButton.classList.add('visible');
+      } else {
+        clearButton.classList.remove('visible');
+      }
+    };
+    
+    // Check initially (in case there's a URL parameter)
+    toggleClearButton();
+    
+    // Show/hide on input
+    searchInput.addEventListener('input', toggleClearButton);
+    
+    // Clear search when button is clicked
+    clearButton.addEventListener('click', function() {
+      searchInput.value = '';
+      searchInput.focus();
+      toggleClearButton();
+      
+      // Trigger search to show all entries again
+      const event = new Event('input');
+      searchInput.dispatchEvent(event);
+      
+      // Update URL to remove search parameter
+      const url = new URL(window.location);
+      url.searchParams.delete('search');
+      window.history.replaceState({}, '', url);
     });
   }
 

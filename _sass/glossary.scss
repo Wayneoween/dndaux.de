@@ -24,17 +24,25 @@
     opacity: 0.6;
   }
   
-  input[type="text"] {
+  /* Search input container for positioning the clear button */
+  .search-input-container {
+    position: relative;
+    display: inline-block;
     width: 100%;
     max-width: 400px;
+  }
+  
+  /* Update input to work with container */
+  input[type="text"] {
+    width: 100%;
     margin: 0 auto;
     display: block;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1rem 3.5rem 1rem 3rem; /* Right padding for clear button */
     font-size: 1.1rem;
-    border: 3px solid #4a90e2;
+    border: 3px solid var(--link, #4a90e2);
     border-radius: 30px;
-    background: #ffffff;
-    color: #333333;
+    background: var(--background, #ffffff);
+    color: var(--text, #333333);
     box-shadow: 0 4px 12px rgba(74, 144, 226, 0.15);
     transition: all 0.3s ease;
     position: relative;
@@ -43,7 +51,7 @@
     
     &:focus {
       outline: none;
-      border-color: #357abd;
+      border-color: var(--link, #357abd);
       box-shadow: 0 6px 20px rgba(74, 144, 226, 0.25);
       transform: translateY(-2px);
       text-align: center;
@@ -51,7 +59,7 @@
     }
     
     &::placeholder {
-      color: #888888;
+      color: var(--meta, #888888);
       font-style: italic;
       text-align: center;
       opacity: 1;
@@ -64,7 +72,7 @@
     /* Fix for WebKit browsers to ensure placeholder is truly centered */
     &::-webkit-input-placeholder {
       text-align: center;
-      color: #888888;
+      color: var(--meta, #888888);
       font-style: italic;
     }
     
@@ -73,30 +81,47 @@
     }
   }
   
-  /* Dark mode adjustments */
-  @media (prefers-color-scheme: dark) {
-    input[type="text"] {
-      background: #2d3748;
-      color: #e2e8f0;
-      border-color: #4299e1;
-      
-      &::placeholder {
-        color: #a0aec0;
-        text-align: center;
-      }
-      
-      &:focus::placeholder {
-        opacity: 0;
-      }
-      
-      &::-webkit-input-placeholder {
-        text-align: center;
-        color: #a0aec0;
-      }
-      
-      &:focus::-webkit-input-placeholder {
-        opacity: 0;
-      }
+  /* Clear search button */
+  .clear-search-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: var(--meta, #888888);
+    cursor: pointer;
+    z-index: 3;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+    
+    &:hover {
+      background-color: var(--selection, #f0f0f0);
+      color: var(--text, #333333);
+    }
+    
+    &:focus {
+      outline: none;
+      background-color: var(--selection, #e0e0e0);
+    }
+    
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    span {
+      line-height: 1;
+      font-weight: bold;
     }
   }
 }
@@ -105,27 +130,17 @@
 .glossary-index {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: var(--blockquote, #f8f9fa);
   border-radius: 12px;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--border, #e9ecef);
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   
   h3 {
     margin: 0 0 1rem 0;
     font-size: 1.1rem;
-    color: #495057;
+    color: var(--text, #495057);
     text-align: center;
     font-weight: 600;
-  }
-  
-  /* Dark mode adjustments */
-  @media (prefers-color-scheme: dark) {
-    background: #2d3748;
-    border-color: #4a5568;
-    
-    h3 {
-      color: #e2e8f0;
-    }
   }
 }
 
@@ -141,32 +156,20 @@
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    background: #ffffff;
-    color: #4a90e2;
+    background: var(--background, #ffffff);
+    color: var(--link, #4a90e2);
     text-decoration: none;
-    border: 2px solid #4a90e2;
+    border: 2px solid var(--link, #4a90e2);
     border-radius: 50%;
     font-weight: 600;
     font-size: 0.9rem;
     transition: all 0.2s ease;
     
     &:hover {
-      background: #4a90e2;
-      color: #ffffff;
+      background: var(--link, #4a90e2);
+      color: var(--background, #ffffff);
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
-    }
-    
-    /* Dark mode adjustments */
-    @media (prefers-color-scheme: dark) {
-      background: #2d3748;
-      color: #4299e1;
-      border-color: #4299e1;
-      
-      &:hover {
-        background: #4299e1;
-        color: #2d3748;
-      }
     }
   }
 }
@@ -177,8 +180,8 @@
   padding: 0.5rem 0;
   font-size: 2rem;
   font-weight: 700;
-  color: #2d3748;
-  border-bottom: 3px solid #4a90e2;
+  color: var(--text, #2d3748);
+  border-bottom: 3px solid var(--link, #4a90e2);
   position: relative;
   
   &:first-of-type {
@@ -192,17 +195,7 @@
     left: 0;
     width: 60px;
     height: 3px;
-    background: #357abd;
-  }
-  
-  /* Dark mode adjustments */
-  @media (prefers-color-scheme: dark) {
-    color: #e2e8f0;
-    border-bottom-color: #4299e1;
-    
-    &::before {
-      background: #63b3ed;
-    }
+    background: var(--link, #357abd);
   }
 }
 
@@ -211,12 +204,21 @@
   margin: 0 0 0.75rem 0;
   font-size: 1.4rem;
   font-weight: 600;
-  color: #2d3748;
-  
-  /* Dark mode adjustments */
-  @media (prefers-color-scheme: dark) {
-    color: #e2e8f0;
-  }
+  color: var(--text, #2d3748);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.term-type {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--meta, #6b7280);
+  background: var(--blockquote, #f3f4f6);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-left: 1rem;
+  flex-shrink: 0;
 }
 
 /* Definition styling */
@@ -255,17 +257,11 @@
 .glossary-entry {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--border, #e9ecef);
   border-radius: 12px;
-  background: #ffffff;
+  background: var(--background, #ffffff);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: relative;
-  
-  /* Dark mode adjustments */
-  @media (prefers-color-scheme: dark) {
-    background: #2d3748;
-    border-color: #4a5568;
-  }
 }
 
 .entry-content {
