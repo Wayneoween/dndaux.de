@@ -32,8 +32,9 @@ cookie_consent: false
 # Build Settings
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-glossary_tooltip
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 sass:
   style: compressed
