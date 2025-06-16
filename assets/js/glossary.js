@@ -108,4 +108,45 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // Simple glossary term highlighting - only run on glossary page
+  if (document.querySelector('.glossary-container') && window.glossaryData) {
+    highlightGlossaryTerms();
+  }
 });
+
+// Simple function to highlight glossary terms in definitions
+function highlightGlossaryTerms() {
+  console.log('Starting glossary term highlighting');
+  
+  // Find all definition elements
+  const definitions = document.querySelectorAll('.definition');
+  console.log('Found', definitions.length, 'definitions to process');
+  
+  // Process each definition
+  definitions.forEach((def, defIndex) => {
+    // Get current term to avoid self-highlighting
+    const entry = def.closest('.glossary-entry');
+    const currentTerm = entry ? entry.querySelector('.term-title')?.textContent.trim() : '';
+    
+    // Process each glossary term
+    window.glossaryData.forEach(item => {
+      if (!item.term || item.term === currentTerm) return;
+      
+      // Check if term exists in this definition's text
+      const defText = def.textContent || '';
+      if (defText.toLowerCase().includes(item.term.toLowerCase())) {
+        // Use a simple replace to add highlighting
+        const currentHTML = def.innerHTML;
+        const termRegex = new RegExp(`\\b(${item.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'gi');
+        const newHTML = currentHTML.replace(termRegex, '<span class="glossary-highlight">$1</span>');
+        
+        if (newHTML !== currentHTML) {
+          def.innerHTML = newHTML;
+          console.log(`Highlighted "${item.term}" in definition ${defIndex + 1}`);
+        }
+      }
+    });
+  });
+  
+  console.log('Glossary highlighting completed');
+}

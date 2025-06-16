@@ -37,10 +37,13 @@
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-/* Show the tooltip on hover */
-.jekyll-glossary:hover .jekyll-glossary-tooltip {
-  visibility: visible;
-  opacity: 1;
+/* Show the tooltip on hover - multiple selectors for better specificity */
+.jekyll-glossary:hover .jekyll-glossary-tooltip,
+.definition .jekyll-glossary:hover .jekyll-glossary-tooltip,
+.glossary-entry .jekyll-glossary:hover .jekyll-glossary-tooltip,
+.jekyll-glossary-tooltip.tooltip-visible {
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* Style for glossary type */

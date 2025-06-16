@@ -253,6 +253,19 @@
   }
 }
 
+/* Subtle highlighting for glossary terms */
+.glossary-highlight {
+  background-color: var(--selection, rgba(74, 144, 226, 0.04));
+  border-radius: 1px;
+  border-bottom: 1px dotted var(--link, rgba(74, 144, 226, 0.2));
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: var(--selection, rgba(74, 144, 226, 0.08));
+    border-bottom: 1px solid var(--link, rgba(74, 144, 226, 0.4));
+  }
+}
+
 /* Glossary entry layout with floating images */
 .glossary-entry {
   margin-bottom: 1.5rem;
@@ -262,10 +275,28 @@
   background: var(--background, #ffffff);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: relative;
+  /* Ensure text selection works properly */
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
 }
 
 .entry-content {
   position: relative;
+  /* Ensure text selection works in content */
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+.text-content {
+  /* Ensure text selection works in text content */
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
 }
 
 .image-content {

@@ -4,7 +4,18 @@ title: Glossary
 feature-img: "assets/images/glossary-header.jpg"
 ---
 
-<script src="{{ '/assets/js/glossary.js' | relative_url }}"></script>
+<!-- Make glossary data available to JavaScript -->
+<script>
+  window.glossaryData = [
+    {% for item in site.data.glossary.glossary %}
+    {
+      term: {{ item.term | jsonify }},
+      definition: {{ item.definition | jsonify }},
+      type: {{ item.type | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script>
 
 <div class="glossary-container">
   {% comment %} Custom German sorting {% endcomment %}
