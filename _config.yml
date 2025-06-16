@@ -30,6 +30,7 @@ paginate_path: "/page:num"
 cookie_consent: false
 
 # Build Settings
+remote_theme: sylhare/Type-on-Strap
 plugins:
   - jekyll-feed
   - jekyll-paginate
