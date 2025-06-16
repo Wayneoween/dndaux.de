@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Glossary
-feature-img: 'assets/images/glossary-header.jpg'
+title: Glossar
+feature-img: 'https://images2.alphacoders.com/129/1293863.jpg'
 ---
 
 <!-- Make glossary data available to JavaScript -->
