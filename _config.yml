@@ -11,7 +11,7 @@ description: >-
 github_username: wayneoween
 
 # Theme Settings
-theme: type-on-strap
+remote_theme: sylhare/Type-on-Strap
 color_theme: auto
 header_text: Adventures in cold waters
 header_feature_image: assets/images/header.jpg
@@ -30,7 +30,6 @@ paginate_path: "/page:num"
 cookie_consent: false
 
 # Build Settings
-remote_theme: sylhare/Type-on-Strap
 plugins:
   - jekyll-feed
   - jekyll-paginate
