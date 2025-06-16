@@ -38,6 +38,24 @@ bundle exec rake glossary:remove_links
 
 ## Workflow
 
+### Automated (Recommended)
+
+The repository includes a pre-commit hook that automatically applies glossary tooltips:
+
+1. **Write naturally** - Just write your posts using glossary terms normally
+2. **Commit as usual** - `git commit` will automatically run the tooltip processing
+3. **Build and deploy** - The tooltips will work on GitHub Pages
+
+The pre-commit hook:
+- Detects when markdown files are being committed
+- Automatically runs `rake glossary:autolink`
+- Stages any modified files for inclusion in the commit
+- Provides clear feedback about what was processed
+
+### Manual (Alternative)
+
+If you prefer manual control or need to troubleshoot:
+
 1. **Write naturally** - Just write your posts using glossary terms normally
 2. **Run autolink** - `bundle exec rake glossary:autolink` before publishing
 3. **Build and deploy** - The tooltips will work on GitHub Pages
@@ -52,6 +70,7 @@ bundle exec rake glossary:remove_links
 
 - **✅ Works with GitHub Pages**: No custom plugins required
 - **✅ Automatic processing**: Rake task finds and replaces terms
+- **✅ Pre-commit automation**: Runs automatically on commit
 - **✅ Reversible**: Can remove all tooltips and return to plain text
 - **✅ Smart matching**: Longest terms first, word boundaries only
 - **✅ Automatic linking**: Tooltips include a link to the glossary page with search
@@ -61,6 +80,38 @@ bundle exec rake glossary:remove_links
 - **✅ Accessible**: Proper hover states and keyboard navigation
 - **✅ Inline rendering**: Proper HTML generation without paragraph breaks
 - **✅ Clean and reliable**: No nested tooltips or HTML corruption
+
+## Pre-commit Hook Setup
+
+The repository includes a pre-commit hook at `.git/hooks/pre-commit` that automatically applies glossary tooltips when you commit markdown files.
+
+### Features:
+- Automatically detects staged markdown files
+- Runs `rake glossary:autolink` before commit
+- Stages any modified files for inclusion in the same commit
+- Provides clear feedback about processing
+
+### Troubleshooting:
+
+**If the hook doesn't run:**
+```bash
+# Make sure the hook is executable
+chmod +x .git/hooks/pre-commit
+
+# Test the hook manually
+.git/hooks/pre-commit
+```
+
+**To bypass the hook temporarily:**
+```bash
+git commit --no-verify -m "Skip pre-commit hook"
+```
+
+**To disable the hook:**
+```bash
+# Rename or remove the hook file
+mv .git/hooks/pre-commit .git/hooks/pre-commit.disabled
+```
 
 ## Technical Implementation
 
