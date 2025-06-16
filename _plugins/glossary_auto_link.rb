@@ -14,7 +14,10 @@ module Jekyll
       glossary_file = File.join(@site.source, '_data', 'glossary.yml')
       return [] unless File.exist?(glossary_file)
 
-      YAML.load_file(glossary_file) || []
+      data = YAML.load_file(glossary_file)
+      return [] unless data && data['glossary']
+
+      data['glossary']
     rescue StandardError => e
       Jekyll.logger.warn 'Glossary:', "Failed to load glossary: #{e.message}"
       []
@@ -51,8 +54,26 @@ module Jekyll
 
     def create_tooltip_html(entry)
       term = entry['term']
-      # Use the same include syntax that our manual system uses
-      "{% include glossary_tooltip.html term=\"#{term}\" %}"
+      definition = entry['definition']
+      type = entry['type']
+
+      # Escape HTML entities
+      term_escaped = CGI.escapeHTML(term)
+      definition_escaped = CGI.escapeHTML(definition)
+
+      # Build type HTML if present
+      type_html = type ? " <em class=\"glossary-type\">(#{CGI.escapeHTML(type)})</em>" : ''
+
+      # Generate the same HTML structure as the include file
+      result = '<span class="jekyll-glossary">'
+      result += "<span class=\"glossary-term\">#{term_escaped}</span>"
+      result += '<span class="jekyll-glossary-tooltip">'
+      result += "<strong>#{term_escaped}</strong>#{type_html}<br>"
+      result += "#{definition_escaped}<br>"
+      result += "<a class=\"jekyll-glossary-source-link\" href=\"/glossary/?search=#{CGI.escape(term)}\" target=\"_blank\"></a>"
+      result += '</span></span>'
+
+      result
     end
   end
 
