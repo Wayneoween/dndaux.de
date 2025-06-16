@@ -13,7 +13,8 @@ repos:
     rev: v3.1.0
     hooks:
       - id: prettier
-        files: \.(js|jsx|ts|tsx|json|css|scss|sass|html|md|yml|yaml)$
+        files: \.(js|jsx|ts|tsx|json|css|scss|sass|yml|yaml)$
+        exclude: ^(_includes/|_plugins/|_layouts/)
         args: [--write]
 
   # Ruby formatting with RuboCop
