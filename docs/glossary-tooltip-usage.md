@@ -6,23 +6,41 @@ This site uses a custom glossary tooltip system that works with GitHub Pages (no
 
 The custom tooltip system is now working correctly with proper inline HTML generation.
 
-## Usage
+## Two Approaches
 
-To add a glossary tooltip to your posts, use the following include syntax:
+### 1. Manual Usage (Always Works)
 
-### Basic Usage
+To manually add a glossary tooltip to your posts, use the include syntax:
+
 ```liquid
 {% include glossary_tooltip.html term="Term Name" %}
-```
-
-This will display "Term Name" with a dotted underline that shows a tooltip on hover with the definition from `_data/glossary.yml`.
-
-### Custom Display Text
-```liquid
 {% include glossary_tooltip.html term="Actual Term Name" text="custom display text" %}
 ```
 
-This will display "custom display text" but show the tooltip for "Actual Term Name" from the glossary.
+### 2. Automatic Processing (Rake Task)
+
+For automatic processing, use the Rake tasks:
+
+```bash
+# Add glossary tooltips to all terms in posts and pages
+bundle exec rake glossary:autolink
+
+# Remove all glossary tooltips and return to plain text
+bundle exec rake glossary:remove_links
+```
+
+**How it works:**
+- Searches all `.md` files in `_posts/` and root directory
+- Finds terms from `_data/glossary.yml`
+- Replaces first occurrence of each term with `{% include glossary_tooltip.html term="..." %}`
+- Sorts by length (longest first) to avoid partial matches
+- GitHub Pages compatible since it only uses includes
+
+## Workflow
+
+1. **Write naturally** - Just write your posts using glossary terms normally
+2. **Run autolink** - `bundle exec rake glossary:autolink` before publishing
+3. **Build and deploy** - The tooltips will work on GitHub Pages
 
 ## Examples
 
@@ -33,12 +51,16 @@ This will display "custom display text" but show the tooltip for "Actual Term Na
 ## Features
 
 - **✅ Works with GitHub Pages**: No custom plugins required
+- **✅ Automatic processing**: Rake task finds and replaces terms
+- **✅ Reversible**: Can remove all tooltips and return to plain text
+- **✅ Smart matching**: Longest terms first, word boundaries only
 - **✅ Automatic linking**: Tooltips include a link to the glossary page with search
 - **✅ Error handling**: Terms not found in glossary are displayed with a subtle style
 - **✅ Case insensitive**: Term matching is case insensitive
 - **✅ Responsive**: Tooltips work on mobile and desktop
 - **✅ Accessible**: Proper hover states and keyboard navigation
 - **✅ Inline rendering**: Proper HTML generation without paragraph breaks
+- **✅ Clean and reliable**: No nested tooltips or HTML corruption
 
 ## Technical Implementation
 
@@ -47,6 +69,7 @@ The system uses:
 - **CSS custom properties** for theme integration
 - **Automatic URL encoding** for glossary links
 - **Fallback handling** for missing terms
+- **Rake automation** for bulk processing
 
 ## Styling
 
