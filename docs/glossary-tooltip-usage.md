@@ -40,7 +40,19 @@ bundle exec rake glossary:remove_links
 
 ### Automated (Recommended)
 
-The repository includes a pre-commit hook that automatically applies glossary tooltips:
+The repository includes multiple automation levels:
+
+#### 1. GitHub Actions (For CMS Users)
+If you're using Sveltia CMS or other web-based editors, GitHub Actions will automatically process your content:
+
+1. **Write naturally** - Create posts using glossary terms normally in Sveltia CMS
+2. **Publish/Save** - When you save in the CMS, it commits to the repository
+3. **Automatic processing** - GitHub Actions detects the commit and runs glossary processing
+4. **Auto-commit** - Processed files are automatically committed back to the repository
+5. **Build and deploy** - The site builds and deploys with tooltips applied
+
+#### 2. Pre-commit Hook (For Git Users)
+If you're editing files directly and committing via Git:
 
 1. **Write naturally** - Just write your posts using glossary terms normally
 2. **Commit as usual** - `git commit` will automatically run the tooltip processing
@@ -52,8 +64,7 @@ The pre-commit hook:
 - Stages any modified files for inclusion in the commit
 - Provides clear feedback about what was processed
 
-### Manual (Alternative)
-
+#### 3. Manual (Alternative)
 If you prefer manual control or need to troubleshoot:
 
 1. **Write naturally** - Just write your posts using glossary terms normally
@@ -69,8 +80,10 @@ If you prefer manual control or need to troubleshoot:
 ## Features
 
 - **✅ Works with GitHub Pages**: No custom plugins required
-- **✅ Automatic processing**: Rake task finds and replaces terms
-- **✅ Pre-commit automation**: Runs automatically on commit
+- **✅ CMS Compatible**: Works with Sveltia CMS via GitHub Actions
+- **✅ Automatic processing**: Multiple automation levels (GitHub Actions, pre-commit hook, Rake task)
+- **✅ Pre-commit automation**: Runs automatically on commit for Git users
+- **✅ GitHub Actions integration**: Processes content automatically for CMS users
 - **✅ Reversible**: Can remove all tooltips and return to plain text
 - **✅ Smart matching**: Longest terms first, word boundaries only
 - **✅ Automatic linking**: Tooltips include a link to the glossary page with search
@@ -80,6 +93,36 @@ If you prefer manual control or need to troubleshoot:
 - **✅ Accessible**: Proper hover states and keyboard navigation
 - **✅ Inline rendering**: Proper HTML generation without paragraph breaks
 - **✅ Clean and reliable**: No nested tooltips or HTML corruption
+
+## GitHub Actions Setup
+
+The repository includes a GitHub Actions workflow (`.github/workflows/pages.yml`) that automatically:
+
+1. **Detects changes** when content is pushed to the main branch
+2. **Processes glossary terms** using the Rake task
+3. **Commits processed files** back to the repository (if changes were made)
+4. **Builds and deploys** the site to GitHub Pages
+
+### Key Features:
+- Runs automatically when Sveltia CMS saves content
+- Uses `[skip ci]` in commit messages to avoid infinite loops
+- Only commits if files were actually changed by glossary processing
+- Seamlessly integrates with GitHub Pages deployment
+
+### Configuration:
+The workflow requires:
+- `contents: write` permission to commit processed files back to the repository
+- GitHub Pages to be configured to use "GitHub Actions" as the source (not "Deploy from a branch")
+
+**To enable this workflow:**
+1. Go to your repository Settings > Pages
+2. Under "Source", select "GitHub Actions" instead of "Deploy from a branch"
+3. The custom workflow will then be used for all deployments
+
+### Troubleshooting:
+- If the default Jekyll action runs instead of your custom workflow, make sure GitHub Pages source is set to "GitHub Actions"
+- Check the Actions tab to see which workflow is running
+- The workflow will show "Auto-process glossary tooltips [skip ci]" commits when processing occurs
 
 ## Pre-commit Hook Setup
 

@@ -51,12 +51,8 @@ module Jekyll
 
     def create_tooltip_html(entry)
       term = entry['term']
-      definition = entry['definition'] || ''
-      type = entry['type']
-      
-      type_html = type ? " <em class=\"glossary-type\">(#{type})</em>" : ""
-      
-      "<span class=\"jekyll-glossary\"><span class=\"glossary-term\">#{term}</span><span class=\"jekyll-glossary-tooltip\"><strong>#{term}</strong>#{type_html}<br>#{definition}<br><a class=\"jekyll-glossary-source-link\" href=\"/glossary/?search=#{CGI.escape(term)}\" target=\"_blank\"></a></span></span>"
+      # Use the same include syntax that our manual system uses
+      "{% include glossary_tooltip.html term=\"#{term}\" %}"
     end
   end
 
