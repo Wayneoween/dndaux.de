@@ -1,8 +1,39 @@
 require 'yaml'
 
+def check_github_actions_or_override
+  # Check if we're running in GitHub Actions
+  return if ENV['GITHUB_ACTIONS'] == 'true'
+  
+  # Check if user explicitly wants to run locally
+  return if ARGV.include?('--trust-me-bro')
+  
+  puts <<~ERROR
+    ⚠️  HOLD UP! ⚠️
+    
+    This Rake task is designed for GitHub Actions and will modify your source files.
+    
+    🎯 RECOMMENDED: Let GitHub Actions handle this automatically
+       → Your markdown stays clean and editable
+       → Tooltips are processed during build time
+       → No clutter in your source files
+    
+    🛠️  If you REALLY want to run this locally anyway:
+       → Use: rake glossary:autolink -- --trust-me-bro
+       → This will modify your source files
+       → You can undo with: rake glossary:remove_links -- --trust-me-bro
+    
+    💡 TIP: The system works perfectly with GitHub Actions - 
+            just write natural markdown and let the automation handle it!
+  ERROR
+  
+  exit 1
+end
+
 namespace :glossary do
-  desc "Automatically add glossary includes to terms in posts and pages"
+  desc "Automatically add glossary includes to terms in posts and pages (GitHub Actions only)"
   task :autolink do
+    check_github_actions_or_override
+    
     puts "Processing glossary auto-linking..."
     
     # Load glossary data
@@ -36,8 +67,10 @@ namespace :glossary do
     puts "Glossary auto-linking completed!"
   end
   
-  desc "Remove glossary includes from posts and pages"
+  desc "Remove glossary includes from posts and pages (GitHub Actions only)"
   task :remove_links do
+    check_github_actions_or_override
+    
     puts "Removing glossary includes..."
     
     # Pattern to match our glossary includes
