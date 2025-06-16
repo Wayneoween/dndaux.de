@@ -175,10 +175,24 @@ function highlightGlossaryTerms() {
       // Check if term exists in this definition's text
       const defText = def.textContent || '';
       if (defText.toLowerCase().includes(item.term.toLowerCase())) {
-        // Use a simple replace to add highlighting
-        const currentHTML = def.innerHTML;
-        const termRegex = new RegExp(`\\b(${item.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'gi');
-        const newHTML = currentHTML.replace(termRegex, '<span class="glossary-highlight">$1</span>');
+        // Work on innerHTML but be more careful
+        let currentHTML = def.innerHTML;
+
+        // Skip if already highlighted
+        if (currentHTML.includes(`<span class="glossary-highlight">${item.term}</span>`)) {
+          return;
+        }
+
+        // Escape special regex characters
+        const escapedTerm = item.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+        // Use a simpler approach that works reliably with Unicode
+        // Match the term surrounded by non-letter characters or start/end of string
+        const termRegex = new RegExp(`(^|[^a-zA-ZäöüÄÖÜß])${escapedTerm}($|[^a-zA-ZäöüÄÖÜß])`, 'gi');
+
+        const newHTML = currentHTML.replace(termRegex, (match, before, after) => {
+          return before + `<span class="glossary-highlight">${item.term}</span>` + after;
+        });
 
         if (newHTML !== currentHTML) {
           def.innerHTML = newHTML;
