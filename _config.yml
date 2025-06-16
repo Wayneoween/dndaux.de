@@ -33,6 +33,7 @@ cookie_consent: false
 plugins:
   - jekyll-feed
   - jekyll-glossary_tooltip
+  - jekyll-liquify
   - jekyll-paginate
   - jekyll-seo-tag
 
