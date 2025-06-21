@@ -23,10 +23,30 @@ new:
 	vim _posts/${DATESTAMP}-TITLE.md
 
 build:
-	bundle exec jekyll b
+	bundle exec jekyll build
 
 clean:
 	$(RM) -rf _site/*
 
 serve:
 	bundle exec jekyll serve --drafts --livereload --future
+
+test:
+	bundle exec jekyll build --destination _test
+	echo "Build test completed successfully"
+	$(RM) -rf _test
+
+update:
+	bundle update
+
+install:
+	bundle install
+
+lint:
+	bundle exec jekyll doctor
+
+check: lint test
+
+setup: install build
+
+.PHONY: all new build clean serve test update install lint check setup

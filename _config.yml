@@ -7,6 +7,9 @@ description: >-
   A D&D campaign blog following the adventures of our party as they
   navigate treacherous waters and uncover ancient mysteries.
 
+# SEO & Social Media
+author: The Lorekeeper
+
 # Social & Contact
 github_username: wayneoween
 
@@ -35,6 +38,7 @@ plugins:
   - jekyll-liquify
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
   style: compressed
