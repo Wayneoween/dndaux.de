@@ -38,7 +38,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     searchInput.addEventListener('input', function (e) {
-      const searchTerm = e.target.value.toLowerCase();
+      let searchTerm = e.target.value.toLowerCase();
+
+      // Handle Norse character substitutions
+      const createNorseVariants = term => {
+        const variants = [term];
+
+        // Create variant with ð substituted for d
+        if (term.includes('d')) {
+          variants.push(term.replace(/d/g, 'ð'));
+        }
+
+        // Create variant with d substituted for ð
+        if (term.includes('ð')) {
+          variants.push(term.replace(/ð/g, 'd'));
+        }
+
+        return [...new Set(variants)]; // Remove duplicates
+      };
+
+      // Create search terms with Norse character variants
+      const searchTerms = createNorseVariants(searchTerm);
+
       const entries = document.querySelectorAll('.glossary-entry');
       const letterHeaders = document.querySelectorAll('.letter-header');
 
@@ -47,7 +68,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const title = entry.querySelector('.term-title').textContent.toLowerCase();
         const definition = entry.querySelector('.definition').textContent.toLowerCase();
 
-        if (title.includes(searchTerm) || definition.includes(searchTerm)) {
+        // Check if any of the search terms match
+        const matches = searchTerms.some(term => title.includes(term) || definition.includes(term));
+
+        if (matches) {
           entry.style.display = 'block';
         } else {
           entry.style.display = 'none';
@@ -70,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Show or hide the header based on whether it has visible entries
-        if (hasVisibleEntries || searchTerm === '') {
+        if (hasVisibleEntries || e.target.value === '') {
           header.style.display = 'block';
         } else {
           header.style.display = 'none';
