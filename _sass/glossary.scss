@@ -5,6 +5,15 @@
   padding: 0 1rem;
 }
 
+/* CSS-only search filtering to preserve text selection */
+.glossary-container[data-search]:not([data-search=""]) .glossary-entry {
+  display: none;
+}
+
+.glossary-container .glossary-entry.search-match {
+  display: block !important;
+}
+
 /* Search box styling */
 .glossary-search {
   margin-bottom: 2rem;

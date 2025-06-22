@@ -38,7 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     searchInput.addEventListener('input', function (e) {
-      let searchTerm = e.target.value.toLowerCase();
+      const searchTerm = e.target.value.toLowerCase();
+      const entries = document.querySelectorAll('.glossary-entry');
+      const letterHeaders = document.querySelectorAll('.letter-header');
+      const container = document.querySelector('.glossary-container');
+
+      // Set search state on container
+      if (container) {
+        if (searchTerm) {
+          container.setAttribute('data-search', searchTerm);
+        } else {
+          container.removeAttribute('data-search');
+        }
+      }
 
       // Handle Norse character substitutions
       const createNorseVariants = term => {
@@ -57,44 +69,46 @@ document.addEventListener('DOMContentLoaded', function () {
         return [...new Set(variants)]; // Remove duplicates
       };
 
-      // Create search terms with Norse character variants
-      const searchTerms = createNorseVariants(searchTerm);
+      const searchVariants = createNorseVariants(searchTerm);
 
-      const entries = document.querySelectorAll('.glossary-entry');
-      const letterHeaders = document.querySelectorAll('.letter-header');
-
-      // Filter entries
+      // Only add search-match class, CSS handles the hiding
       entries.forEach(entry => {
+        if (!searchTerm) {
+          entry.classList.remove('search-match');
+          return;
+        }
+
         const title = entry.querySelector('.term-title').textContent.toLowerCase();
         const definition = entry.querySelector('.definition').textContent.toLowerCase();
 
-        // Check if any of the search terms match
-        const matches = searchTerms.some(term => title.includes(term) || definition.includes(term));
+        // Check if any search variant matches
+        const matches = searchVariants.some(variant => title.includes(variant) || definition.includes(variant));
 
         if (matches) {
-          entry.style.display = 'block';
+          entry.classList.add('search-match');
         } else {
-          entry.style.display = 'none';
+          entry.classList.remove('search-match');
         }
       });
 
-      // Hide letter headers that have no visible entries
+      // Show/hide letter headers based on whether they have matching entries
       letterHeaders.forEach(header => {
-        const letterId = header.id;
         let hasVisibleEntries = false;
 
         // Find all entries that come after this header and before the next header
         let currentElement = header.nextElementSibling;
         while (currentElement && !currentElement.classList.contains('letter-header')) {
-          if (currentElement.classList.contains('glossary-entry') && currentElement.style.display !== 'none') {
-            hasVisibleEntries = true;
-            break;
+          if (currentElement.classList.contains('glossary-entry')) {
+            if (!searchTerm || currentElement.classList.contains('search-match')) {
+              hasVisibleEntries = true;
+              break;
+            }
           }
           currentElement = currentElement.nextElementSibling;
         }
 
         // Show or hide the header based on whether it has visible entries
-        if (hasVisibleEntries || e.target.value === '') {
+        if (hasVisibleEntries) {
           header.style.display = 'block';
         } else {
           header.style.display = 'none';
@@ -127,14 +141,21 @@ document.addEventListener('DOMContentLoaded', function () {
       searchInput.focus();
       toggleClearButton();
 
-      // Show all entries and headers again
+      // Clear search and show all entries/headers
       const entries = document.querySelectorAll('.glossary-entry');
       const letterHeaders = document.querySelectorAll('.letter-header');
+      const container = document.querySelector('.glossary-container');
+
+      // Clear search attribute and classes
+      if (container) {
+        container.removeAttribute('data-search');
+      }
 
       entries.forEach(entry => {
-        entry.style.display = 'block';
+        entry.classList.remove('search-match');
       });
 
+      // Show all headers
       letterHeaders.forEach(header => {
         header.style.display = 'block';
       });
@@ -146,13 +167,31 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Smooth scroll for index links
+  // Smooth scroll for index links with better positioning
   document.querySelectorAll('.alphabet-links a, .index-links a').forEach(link => {
     link.addEventListener('click', function (e) {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute('href'));
       if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
+        // Find the first glossary entry after this letter header
+        let firstEntry = target.nextElementSibling;
+        while (firstEntry && !firstEntry.classList.contains('glossary-entry')) {
+          firstEntry = firstEntry.nextElementSibling;
+        }
+
+        // If we found a glossary entry, scroll to it instead of the header
+        const scrollTarget = firstEntry || target;
+        const targetRect = scrollTarget.getBoundingClientRect();
+        const currentScrollY = window.pageYOffset;
+
+        // Position the target about 80px from the top for better visibility
+        const offset = 80;
+        const targetY = currentScrollY + targetRect.top - offset;
+
+        window.scrollTo({
+          top: Math.max(0, targetY), // Don't scroll above the page top
+          behavior: 'smooth',
+        });
       }
     });
   });

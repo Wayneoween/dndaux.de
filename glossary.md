@@ -70,7 +70,10 @@ feature-img: 'https://images2.alphacoders.com/129/1293863.jpg'
         <h2 class="letter-header" id="letter-{{ current_letter | downcase }}">{{ current_letter }}</h2>
       {% endif %}
 
-      <article class="glossary-entry" id="{{ item.term | downcase | url_encode }}">
+      <article class="glossary-entry"
+               id="{{ item.term | downcase | url_encode }}"
+               data-term="{{ item.term | downcase }}"
+               data-searchable="{{ item.term | downcase }} {{ item.definition | markdownify | strip_html | downcase }}{% if item.more and item.more != '' %} {{ item.more | markdownify | strip_html | downcase }}{% endif %}">
         <div class="entry-content">
           {% if item.image and item.image != '' %}
             <div class="image-content">
