@@ -402,6 +402,75 @@
   max-width: 80%;
 }
 
+/* Scroll to top button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background: var(--link, #4a90e2);
+  color: var(--background, #fff);
+  border: 2px solid transparent;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+
+  &:hover {
+    background: var(--link-hover, #357abd);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(74, 144, 226, 40%);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--text, #333);
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 20%);
+  }
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Ensure button works with dark mode */
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 50%);
+
+    &:hover {
+      box-shadow: 0 6px 16px rgba(74, 144, 226, 60%);
+    }
+  }
+
+  /* Larger on high-resolution screens */
+  @media (width >= 1080px) {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  /* Even larger on very high-resolution screens */
+  @media (width >= 1440px) {
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
 /* Mobile responsive */
 @media (width <= 768px) {
   .glossary-container {
@@ -457,6 +526,14 @@
 
   .glossary-entry {
     padding: 1rem;
+  }
+
+  .scroll-to-top {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    bottom: 15px;
+    right: 15px;
   }
 }
 

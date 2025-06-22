@@ -152,7 +152,60 @@ document.addEventListener('DOMContentLoaded', function () {
   if (document.querySelector('.glossary-container') && window.glossaryData) {
     highlightGlossaryTerms();
   }
+
+  // Add scroll-to-top functionality for glossary page
+  if (document.querySelector('.glossary-container')) {
+    initScrollToTop();
+  }
 });
+
+// Scroll to top functionality
+function initScrollToTop() {
+  // Create scroll to top button
+  const scrollToTopBtn = document.createElement('button');
+  scrollToTopBtn.innerHTML = '↑';
+  scrollToTopBtn.className = 'scroll-to-top';
+  scrollToTopBtn.setAttribute('aria-label', 'Scroll to top');
+  scrollToTopBtn.setAttribute('title', 'Scroll to top');
+
+  document.body.appendChild(scrollToTopBtn);
+
+  // Find the alphabet index
+  const alphabetIndex = document.querySelector('.glossary-index');
+
+  // Show/hide button based on scroll position
+  function toggleScrollButton() {
+    if (alphabetIndex) {
+      const indexRect = alphabetIndex.getBoundingClientRect();
+      const isIndexVisible = indexRect.bottom > 0;
+
+      if (!isIndexVisible) {
+        scrollToTopBtn.classList.add('visible');
+      } else {
+        scrollToTopBtn.classList.remove('visible');
+      }
+    }
+  }
+
+  // Scroll to top functionality
+  scrollToTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
+
+  // Listen for scroll events
+  let scrollTimeout;
+  window.addEventListener('scroll', function () {
+    // Debounce scroll events for better performance
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(toggleScrollButton, 10);
+  });
+
+  // Initial check
+  toggleScrollButton();
+}
 
 // Simple function to highlight glossary terms in definitions
 function highlightGlossaryTerms() {
