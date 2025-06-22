@@ -6,12 +6,8 @@
 }
 
 /* CSS-only search filtering to preserve text selection */
-.glossary-container[data-search]:not([data-search=""]) .glossary-entry {
+.glossary-container[data-search]:not([data-search=""]) .glossary-entry:not(.search-match) {
   display: none;
-}
-
-.glossary-container .glossary-entry.search-match {
-  display: block !important;
 }
 
 /* Search box styling */
@@ -217,9 +213,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  /* Ensure text selection works in titles */
-  user-select: text !important;
 }
 
 .term-type {
@@ -231,9 +224,6 @@
   border-radius: 4px;
   margin-left: 1rem;
   flex-shrink: 0;
-
-  /* Allow text selection in term type */
-  user-select: text !important;
 }
 
 /* Definition styling */
@@ -241,14 +231,8 @@
   line-height: 1.6;
   color: var(--text-color);
 
-  /* Ensure text selection works in definitions */
-  user-select: text !important;
-
   p {
     margin-bottom: 0.75rem;
-
-    /* Ensure text selection works in paragraphs */
-    user-select: text !important;
 
     &:last-child {
       margin-bottom: 0;
@@ -282,21 +266,9 @@
   border-radius: 12px;
   background: var(--background, #fff);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 8%);
-  position: relative;
-
-  /* Ensure text selection works properly */
-  user-select: text !important;
-
-  /* Fix pointer events to allow text selection */
-  pointer-events: auto;
 }
 
 .entry-content {
-  position: relative;
-
-  /* Ensure text selection works in content */
-  user-select: text !important;
-
   /* Use flexbox instead of float for better text selection */
   display: flex;
   flex-direction: row-reverse;
@@ -305,8 +277,6 @@
 }
 
 .text-content {
-  /* Ensure text selection works in text content */
-  user-select: text !important;
   flex: 1;
   min-width: 0; /* Allow text to wrap properly */
 }
@@ -325,11 +295,6 @@
   border-radius: 6px;
   border: 1px solid var(--border-color);
   cursor: pointer;
-
-  /* Fix for click events not working - this was the key fix! */
-  pointer-events: auto !important;
-  position: relative !important;
-  z-index: 10 !important;
 
   /* Prevent image from interfering with text selection */
   user-select: none;
@@ -533,24 +498,17 @@
   }
 }
 
-/* Additional fixes for text selection issues */
-.glossary-container * {
-  /* Ensure all elements allow text selection by default */
-  user-select: text !important;
+/* Allow text selection naturally */
+.glossary-container {
+  /* Reset any inherited user-select rules */
+  user-select: auto;
 }
 
-/* Exceptions for elements that should not be selectable */
+/* Only prevent selection on interactive elements */
 .glossary-image,
 .clear-search-btn,
 .alphabet-links a,
-.modal-close {
-  user-select: none !important;
-}
-
-/* Ensure no pseudo-elements are blocking text selection */
-.glossary-entry::before,
-.glossary-entry::after,
-.entry-content::before,
-.entry-content::after {
-  pointer-events: none !important;
+.modal-close,
+.scroll-to-top {
+  user-select: none;
 }
