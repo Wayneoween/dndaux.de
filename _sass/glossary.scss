@@ -265,19 +265,6 @@
   }
 }
 
-/* Subtle highlighting for glossary terms */
-.glossary-highlight {
-  background-color: var(--selection, rgba(74, 144, 226, 4%));
-  border-radius: 1px;
-  border-bottom: 1px dotted var(--link, rgba(74, 144, 226, 20%));
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: var(--selection, rgba(74, 144, 226, 8%));
-    border-bottom: 1px solid var(--link, rgba(74, 144, 226, 40%));
-  }
-}
-
 /* Glossary entry layout with floating images */
 .glossary-entry {
   margin-bottom: 1.5rem;

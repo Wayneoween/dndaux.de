@@ -4,18 +4,7 @@ title: Glossar
 feature-img: 'https://images2.alphacoders.com/129/1293863.jpg'
 ---
 
-<!-- Make glossary data available to JavaScript -->
-<script>
-  window.glossaryData = [
-    {% for item in site.data.glossary.glossary %}
-    {
-      term: {{ item.term | jsonify }},
-      definition: {{ item.definition | jsonify }},
-      type: {{ item.type | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
-</script>
+
 
 <div class="glossary-container">
   {% comment %} Custom German sorting {% endcomment %}

@@ -148,11 +148,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Simple glossary term highlighting - only run on glossary page
-  if (document.querySelector('.glossary-container') && window.glossaryData) {
-    highlightGlossaryTerms();
-  }
-
   // Add scroll-to-top functionality for glossary page
   if (document.querySelector('.glossary-container')) {
     initScrollToTop();
@@ -205,55 +200,4 @@ function initScrollToTop() {
 
   // Initial check
   toggleScrollButton();
-}
-
-// Simple function to highlight glossary terms in definitions
-function highlightGlossaryTerms() {
-  console.log('Starting glossary term highlighting');
-
-  // Find all definition elements
-  const definitions = document.querySelectorAll('.definition');
-  console.log('Found', definitions.length, 'definitions to process');
-
-  // Process each definition
-  definitions.forEach((def, defIndex) => {
-    // Get current term to avoid self-highlighting
-    const entry = def.closest('.glossary-entry');
-    const currentTerm = entry ? entry.querySelector('.term-title')?.textContent.trim() : '';
-
-    // Process each glossary term
-    window.glossaryData.forEach(item => {
-      if (!item.term || item.term === currentTerm) return;
-
-      // Check if term exists in this definition's text
-      const defText = def.textContent || '';
-      if (defText.toLowerCase().includes(item.term.toLowerCase())) {
-        // Work on innerHTML but be more careful
-        let currentHTML = def.innerHTML;
-
-        // Skip if already highlighted
-        if (currentHTML.includes(`<span class="glossary-highlight">${item.term}</span>`)) {
-          return;
-        }
-
-        // Escape special regex characters
-        const escapedTerm = item.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-        // Use a simpler approach that works reliably with Unicode
-        // Match the term surrounded by non-letter characters or start/end of string
-        const termRegex = new RegExp(`(^|[^a-zA-ZäöüÄÖÜß])${escapedTerm}($|[^a-zA-ZäöüÄÖÜß])`, 'gi');
-
-        const newHTML = currentHTML.replace(termRegex, (match, before, after) => {
-          return before + `<span class="glossary-highlight">${item.term}</span>` + after;
-        });
-
-        if (newHTML !== currentHTML) {
-          def.innerHTML = newHTML;
-          console.log(`Highlighted "${item.term}" in definition ${defIndex + 1}`);
-        }
-      }
-    });
-  });
-
-  console.log('Glossary highlighting completed');
 }
