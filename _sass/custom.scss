@@ -1,0 +1,181 @@
+/* Custom header image positioning - flexible via CSS variables */
+#main {
+  /* Default values */
+  --bg-position-x: center;
+  --bg-position-y: -150px;
+
+  background-position: var(--bg-position-x) var(--bg-position-y) !important;
+}
+
+/* Global font size increase by 10% */
+:root {
+  /* Increase base font size */
+  font-size: 110%;
+}
+
+/* Specific text elements - 10% larger */
+body {
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: calc(2.5rem * 1.1);
+}
+
+h2 {
+  font-size: calc(2rem * 1.1);
+}
+
+h3 {
+  font-size: calc(1.75rem * 1.1);
+}
+
+h4 {
+  font-size: calc(1.5rem * 1.1);
+}
+
+h5 {
+  font-size: calc(1.25rem * 1.1);
+}
+
+h6 {
+  font-size: calc(1rem * 1.1);
+}
+
+p,
+li,
+td,
+th {
+  font-size: 1.1em;
+}
+
+/* Navigation and buttons */
+.navbar-label,
+.site-title {
+  font-size: 1.1em;
+}
+
+/* Post content */
+.post-content,
+.excerpt {
+  font-size: 1.1em;
+}
+
+/* Footer */
+.site-footer {
+  display: none !important;
+}
+
+/* CMS specific - 20% larger */
+.cms-editor-visual,
+.cms-editor-raw,
+.cms-string-widget input,
+.cms-text-widget textarea,
+.cms-markdown-widget textarea,
+.cms-code-widget textarea,
+body[data-cms="true"] {
+  font-size: 1.2em !important;
+}
+
+/* Netlify CMS specific overrides */
+/* stylelint-disable selector-class-pattern */
+[data-slate-editor="true"],
+.nc-controlPane-widget,
+.nc-controlPane-control,
+.nc-widgetText-input,
+.nc-widgetMarkdown-editor {
+  font-size: 1.2em !important;
+}
+/* stylelint-enable selector-class-pattern */
+
+/* General CMS content area */
+#nc-root {
+  font-size: 1.2em !important;
+}
+
+/* Admin panel styles */
+body.admin-page {
+  font-size: 1.2em !important;
+}
+
+/* Glossary-specific font size increases */
+.glossary-container {
+  font-size: 1.1em;
+}
+
+.glossary-search input {
+  font-size: calc(1.1rem * 1.1) !important;
+}
+
+.alphabet-links a {
+  font-size: calc(1.4rem * 1.1);
+}
+
+.glossary-entry h3 {
+  font-size: calc(1.1rem * 1.1);
+}
+
+.letter-header {
+  font-size: calc(2rem * 1.1);
+}
+
+.term-title {
+  font-size: calc(1.4rem * 1.1);
+}
+
+.term-type {
+  font-size: calc(0.9rem * 1.1);
+}
+
+.definition {
+  font-size: calc(1rem * 1.1);
+}
+
+.source-link {
+  font-size: calc(0.9rem * 1.1);
+}
+
+.modal-close {
+  font-size: calc(40px * 1.1);
+}
+
+/* Glossary modal caption font size */
+.modal-caption {
+  font-size: calc(1rem * 1.1);
+}
+
+/* Responsive font scaling - make sure mobile isn't too large */
+@media (width <= 768px) {
+  :root {
+    font-size: 105%; /* Slightly less increase on mobile */
+  }
+
+  body {
+    font-size: 1.05em;
+  }
+
+  /* Keep CMS at 20% even on mobile since it's for editing */
+  body.admin-page {
+    font-size: 1.2em !important;
+  }
+}
+
+/* For very small screens */
+@media (width <= 480px) {
+  :root {
+    font-size: 102%; /* Even less on very small screens */
+  }
+
+  body {
+    font-size: 1.02em;
+  }
+
+  /* Adjust some specific elements for mobile readability */
+  .letter-header {
+    font-size: calc(1.8rem * 1.02);
+  }
+
+  .term-title {
+    font-size: calc(1.2rem * 1.02);
+  }
+}

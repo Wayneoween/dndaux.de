@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Sveltia CMS</title>
+    <link rel="stylesheet" href="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.css" />
+    <script type="module" src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <style>
+      /* Increase font size by 20% for the entire CMS */
+      body {
+        font-size: 120% !important;
+      }
+
+      /* Sveltia CMS specific overrides */
+      * {
+        font-size: inherit !important;
+      }
+
+      /* Text inputs and editors */
+      input, textarea, select, button {
+        font-size: 1em !important;
+      }
+
+      /* Content editor areas */
+      .editor, .prose, .markdown-editor {
+        font-size: 1em !important;
+      }
+
+      /* Make sure all text is legible */
+      [role="textbox"], [contenteditable="true"] {
+        font-size: 1em !important;
+        line-height: 1.5 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sveltia CMS will be automatically initialized -->
+  </body>
+</html>

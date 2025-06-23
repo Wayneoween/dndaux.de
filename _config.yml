@@ -1,0 +1,63 @@
+# Site Configuration
+title: Raiders of the Serpent Sea
+email: rotss-dnd@cle.ar.it
+baseurl: ''
+url: 'https://dndaux.de'
+description: >-
+  A D&D campaign blog following the adventures of our party as they
+  navigate treacherous waters and uncover ancient mysteries.
+
+# SEO & Social Media
+author: The Lorekeeper
+
+# Social & Contact
+github_username: wayneoween
+
+# Theme Settings
+remote_theme: sylhare/Type-on-Strap
+color_theme: auto
+header_text: Abenteuer in kalten Gewässern
+header_feature_image: assets/images/header.jpg
+header_feature_image_responsive: false
+
+# Content & Navigation
+permalink: /:title/
+excerpt: true
+post_navigation: true
+
+# Pagination
+paginate: 10
+paginate_path: '/page:num'
+
+# Features
+cookie_consent: false
+
+# Build Settings
+plugins:
+  - jekyll-feed
+  - jekyll-liquify
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
+
+# Exclude from processing
+exclude:
+  - .jekyll-cache/
+  - .pre-commit-config.yaml
+  - .prettierrc
+  - .prettierignore
+  - .stylelintrc.json
+  - .rubocop.yml
+  - setup-precommit.sh
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - docs/
+  - node_modules/
+  - vendor/

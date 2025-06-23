@@ -1,0 +1,288 @@
+glossary:
+  - term: Aldyhn
+    definition: Göttin der Weisheit, verehrt von den Hallharn. Anführerin der Vanir-Götter.
+    more: Einst Anführerin der Vanir, opferte sie ihr Auge am Brunnen der Weisheit und erhielt dafür die Gabe der Prophezeiung. Als erste Völv sah sie Ragnarök voraus. Ihre weißen Raben überbringen Botschaften an Sterbliche.
+    type: Vanir
+    image: '/assets/images/aldyhn.png'
+    image_alt: Aldyhn, Göttin der Weisheit
+    url: ''
+  - term: Vani
+    definition: Gott der Schlacht, verehrt von den Risa.
+    more: Der prahlerische Gott kämpfte im Schatten mit flinker Klinge, sang aber seine Taten großartig. Er trägt bunte Würfel bei sich. Sein wahres Wesen wird von den Tallfolk-Risa missverstanden, die ihm nacheifern.
+    type: Vanir
+    image: '/assets/images/vani.png'
+    image_alt: Vani, Gott der Schlacht
+    url: ''
+  - term: Gnark und Idin
+    definition: Die Zwillinge - Gott der Felder und Göttin der Schmieden, verehrt von den Tvar.
+    more: Unzertrennliche Geschwister, die nach dem Verlust der Waffe ihrer Mutter einen Kampfstil entwickelten, bei dem zwei Krieger als Einheit agieren. Gnark herrscht über Ackerbau und Ernte, Idin über Schmiedekunst und Handwerk. Die Tvar ehren sie durch Zwillingsgeburten und bevorzugen Zwillingsjarls.
+    type: Vanir
+    image: ''
+    image_alt: Die Zwillingsgötter Gnark und Idin
+    url: ''
+  - term: Knat
+    definition: Göttin der Wettkämpfe, verehrt von den Knattle. Erste, die in die Schlacht stürmte.
+    more: Große, breitschultrige Kriegerin mit geflochtenen Zöpfen, die den Wettkampf verkörpert. Als Kind bereits eine vollendete Kriegerin und Athletin, sammelte sie Trophäen in Bogenschießen, Skifahren, Schwimmen und Laufen. Die Knattle ehren sie durch ständige Wettkämpfe und Ehrenschwimmen durch die eisigen Gewässer. Ihre Konkurrenzlust inspiriert fairen Wettstreit unter den Kriegern.
+    type: Vanir
+    image: ''
+    image_alt: Knat, Göttin der Wettkämpfe
+    url: ''
+  - term: Luta
+    definition: Göttin des Willens, verehrt von den Lutan. Jüngste der Vanir, ihre Statue ist verschollen.
+    more: Die jüngste Vanir, oft allein gelassen, da ihre Geschwister unzertrennlich waren. Entwickelte Kampflust und meisterte den Kampf mit zwei Äxten. Die nomadischen Lutan folgen ihrem Beispiel der stillen Stärke.
+    type: Vanir
+    image: '/assets/images/luta.png'
+    image_alt: Luta, Göttin des Willens
+    url: ''
+  - term: Palter
+    definition: Gott der Hoffnung, verehrt von den Örn. Einst der Schönste, nun durch Narben entstellt.
+    more: Einst schönster aller Vanir, trug er prachtvolle Rüstung und einen Streitkolben. Sein Helm mit Adlerflügeln war sein Erkennungszeichen. Von einem Jötunn-Wolf schwer verwundet, wurde er von Vani und Luta gerettet. Trotz entstellender Narben an Gesicht und Brust verlor er nie seinen Charme und seine Güte. Er würde jeden Fremden bei sich aufnehmen, egal woher sie kommen oder wohin sie gehen. Die Örn verehren ihn als Symbol der Hoffnung inmitten des Verfalls.
+    type: Vanir
+    image: ''
+    image_alt: Palter, Gott der Hoffnung
+    url: ''
+  - term: Hel
+    definition: Herrin der Toten, verehrt von den Whar. Aus den alten Legenden bekannt.
+    more: In den Sagen wird sie als Herrscherin der Unterwelt beschrieben, die zwischen Leben und Tod wandeln kann. Manche Geschichten erzählen, sie sammle die Seelen der Gefallenen. Die Whar verehren sie als ihre Göttin, was andere Klans verstört. Ob sie mehr als nur eine Legende ist, wissen nur wenige.
+    type: Legende
+    image: ''
+    image_alt: Hel, Herrin der Toten
+    url: ''
+  - term: Boða
+    definition: Jötunn-Königin aus den alten Sagen, die angeblich die Vanir verfluchte.
+    more: In den dunkelsten Legenden wird sie als mächtige Jötunn beschrieben, die durch einen uralten Fluch korrumpiert wurde. Manche Geschichten behaupten, ihre dunkle Magie verwandelte die Vanir in Stein. Die meisten betrachten sie als Märchenfigur, mit der man Kinder vor der Macht des Bösen warnt.
+    type: Legende
+    image: ''
+    image_alt: Boða, die Verfluchte
+    url: ''
+  - term: Mirgal
+    definition: Trickstergott aus den Legenden, angeblicher Schöpfer des Regenbogenspeers.
+    more: In den alten Geschichten wird er als Vanir-Verräter beschrieben, der in seinem Machtstreben sein Volk betrog. Manche Sagen erzählen, seine Magie erschuf versehentlich Grimnir. Die Völv sprechen von ihm als komischen Bösewicht aus den Verlorenen Landen. Ob er je existierte, ist unter Gelehrten umstritten.
+    type: Legende
+    image: '/assets/images/mirgal.png'
+    image_alt: Mirgal, der Trickstergott
+    url: ''
+  - term: Hrolf
+    definition: Held von hundert Raubzügen, Hallharn-Krieger und Führer der Helden zu Beginn der Kampagne.
+    more: Bodenständiger Hallharn-Krieger, geschätzt für seine Scherze und seinen Schutz der Mannschaft. Verkörpert den Hallharn-Wunsch nach Einigkeit der Klans gegen kommende Bedrohungen.
+    type: Person
+    image: '/assets/images/hrolf.png'
+    image_alt: Hrolf, Held von hundert Raubzügen
+    url: ''
+  - term: Hallharn
+    definition: Führender Klan mit Hauptsiedlung Hallwik in der Seufzerbucht. Jarl Mutter Guhnbarg.
+    more: Einer der ursprünglichen Klans, jahrhundertealt, traditionell führend bei Völv-Versammlungen. Verehren Aldyhn und respektieren die Weisheit aller Frauen - nur Frauen können hier Jarl werden. Besitzen zahlreiche Siedlungen und Kriegsschiffe. Überzeugt von der Nähe Ragnaröks und entschlossen, vereint zu siegen.
+    type: Klan
+    image: '/assets/images/hallarn_shield.webp'
+    image_alt: Wappen der Hallharn
+    url: ''
+  - term: Tvar
+    definition: Praktisches Bauern- und Schmiedevolk.
+    more: Einer der drei ursprünglichen Klans, bekannt für reiche Ernten und Handwerkskunst. Verehren die Zwillinge Gnark und Idin, bevorzugen Zwillingsjarls. Haben zahlreiche spezialisierte Außenposten für verschiedene Ressourcen. Praktisch veranlagt und bodenständig. Reden mit unsichtbaren Tomten, die ihre Arbeit segnen.
+    type: Klan
+    image: '/assets/images/tvar_shield.webp'
+    image_alt: Wappen der Tvar
+    url: ''
+  - term: Lutan
+    definition: Nomadischer Klan, oft im Konflikt mit anderen.
+    more: Ursprünglicher Klan, aber nie so einflussreich wie Tvar oder Hallharn, was ihre Jarls frustriert. Streben nach Prestige und Ruhm, finden sich aber oft auf der falschen Seite von Konflikten. Verehren Luta und leben nomadisch mit 2-3 wechselnden Siedlungen. Glauben an Ragnarök, aber zurückhaltend, da sie meist gegen Hallharn opponieren. Ihre Reisen machen sie zu Wissensträgern der weiten Welt.
+    type: Klan
+    image: '/assets/images/lutan_shield.webp'
+    image_alt: Wappen der Lutan
+    url: ''
+  - term: Knattle
+    definition: Klan des Hohen Nordens, Walfänger und Wettkämpfer.
+    more: Leben in den extremsten, kältesten Regionen Grimnirs. Nutzen Walknochenmaterial statt Holz für Schiffe und Häuser. Der Lange Winter belastet sie weniger durch ihre Gewöhnung an Kälte. Ständige Wettkämpfe in Kraft, Geschick und Brettspielen aus Stoßzähnen. Hroarr ist ungewöhnlich großer Zwerg (5 Fuß). Ehren den Steinhof durch Schwimmen - Verlust von Gliedmaßen gilt als Segen. Glauben an Ragnarök, aber setzen auf Überleben statt Eingreifen.
+    type: Klan
+    image: '/assets/images/knattle_shield.webp'
+    image_alt: Wappen der Knattle
+    url: ''
+  - term: Risa
+    definition: Klan der Großvölker.
+    more: Neuerer Klan der Riesenhaften, meist braun-, manche eisblauhäutig. Fühlen sich als Außenseiter und müssen ständig Respekt verdienen. Verehren Vani und suchen Anerkennung jenseits körperlicher Stärke. Freuen sich auf Ragnarök, sind aber leicht beleidigt. Ihre einzige Siedlung Fernlandung an Turnfjalls Südküste zeigt ihre isolierte Position unter den Klans.
+    type: Klan
+    image: '/assets/images/risa_shield.webp'
+    image_alt: Wappen der Risa
+    url: ''
+  - term: Örn
+    definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur (Insel des Glanzes). Jarl Lahahel Korloke.
+    more: Verehren Palter und sehen Schönheit in allem, besonders im Unvollkommenen. Gelten als talentierteste Schmiede und Handwerker, bauen die schönsten Schiffe, Waffen und Werkzeuge. Wenige verstreute Handelslager, da sie meist reisen.
+    type: Klan
+    image: '/assets/images/orn_shield.webp'
+    image_alt: Wappen der Örn
+    url: ''
+  - term: Whar
+    definition: Aufstrebender Klan, der Hel verehrt.
+    more: Vor einer Generation noch kleiner Klan, berüchtigt für Hel-Verehrung statt der Steinhof-Götter. Stiegen durch kühne Raubzüge gegen Rivalen und Baendur auf. Gerüchte über riesige Reittiere, unbekannt in Grimnir. Kleinere Siedlungen bei Nirgendwo.
+    type: Klan
+    image: '/assets/images/whar_shield.webp'
+    image_alt: Wappen der Whar
+    url: ''
+  - term: Drifthall
+    definition: Schwimmende Stadt, in der sich alle acht Jahre die Klans versammeln, um den Alljarl zu wählen.
+    more: Wundersame schwimmende Versammlung aus verbundenen Hjemskip um eine zentrale Insel. Fünf innere Hjemskips bilden das Zentrum. Äußere Ringe nach Klans organisiert.  Zentrum der Demokratie und politischen Intrigen bei der Alljarl-Wahl.
+    type: Ort
+    image: ''
+    image_alt: Die schwimmende Stadt Drifthall
+    url: ''
+  - term: Nirgendwo
+    definition: Grenzstadt für Verbannte und Neuankömmlinge.
+    more: Kreuzung verschiedener Kulturen am Rande der Zivilisation. Neuankömmlinge bleiben in Zelten ausserhalb der Stadt. Vom Regenbogenspeer hierher Gebrachte vermischen sich mit Verbannten und geflohenen Kriegern. Krieger-Kultur dominiert trotz Vielfalt.
+    type: Ort
+    image: ''
+    image_alt: Die Stadt Nirgendwo
+    url: ''
+  - term: Steinhof
+    definition: Ort, an dem die in Stein verwandelten Vanir-Götter stehen, Zentrum des göttlichen Glaubens.
+    more: Heiliger Hain auf Turnfjall-Gipfel, umgeben von einem See. Versteinerte Götterstatuen stehen um einen Altar, in dem der Regenbogenspeer verankert ist. Nur wenige Expeditionen suchten ihn in vergangenen Generationen - keine kehrte zurück. Zentrum des Vanir-Glaubens und Quelle göttlicher Macht.
+    type: Ort
+    image: ''
+    image_alt: Der Steinhof der Götter
+    url: ''
+  - term: Ragnarök
+    definition: Das prophezeite Ende der Welt. Die Völv haben es vorhergesehen.
+    more: Von den Völv prophezeites Weltende, das sich durch zunehmende Zeichen ankündigt. Der Lange Winter, der nicht weichen will, erweckt bei vielen Besorgnis. Nicht nur Ende, sondern auch Chance für Neugeburt der Welt.
+    type: Ereignis
+    image: ''
+    image_alt: Ragnarök - Das Ende der Welt
+    url: ''
+  - term: Alljarl
+    definition: Oberster Anführer aller Klans, gewählt alle acht Jahre in Drifthall. Aktuell Mutter Guhnbarg.
+    more: Höchste Führungsposition der vereinten Klans, gewählt durch komplexes Wahlsystem bei der Drifthall-Versammlung. Mutter Guhnbarg von den Hallharn ist aktuelle Amtsinhaberin und treibt Vorbereitungen für Ragnarök voran. Führt nur in Krisenzeiten, normalerweise bleiben Klans unabhängig. Wahlkampf geprägt von politischen Allianzen.
+    type: Rang
+    image: ''
+    image_alt: Zeichen des Alljarls
+    url: ''
+  - term: Regenbogenspeer
+    definition: Mächtiges Artefakt aus den Legenden, bringt Personen nach Grimnir.
+    more: Legendäres Artefakt, das in der Steinhof-Insel verankert sein soll. Bringt Personen aus anderen Welten nach Grimnir und soll große magische Kräfte besitzen.
+    type: Gegenstand
+    image: '/assets/images/rainbow_spear.png'
+    image_alt: Der mystische Regenbogenspeer
+    url: ''
+  - term: Mutter Guhnbarg
+    definition: Elfische Alljarl aller Krieger und Anführerin des Hallharn-Klans. Oberste Klerikerin der Aldyhn.
+    more: Seit über hundert Jahren herrscht sie über ihren Klan und ist eine strenge, aber fürsorgliche Anführerin. Sie glaubt fest daran, dass Ragnarök naht und dass die Klans sich darauf vorbereiten müssen. Bekannt für ihre blutigen Turniere und Duelle auf Leben und Tod.
+    type: Person
+    image: '/assets/images/mother_guhnbarg.png'
+    image_alt: Mutter Guhnbarg, Alljarl
+    url: ''
+  - term: Yrsa
+    definition: Halb-Ork-Völv und eine der drei Weisesten. Höchstrangige Seherin der Krieger.
+    more: Obwohl ihr Haar bereits ergraut, besitzt sie noch die Energie und Leidenschaft einer viel jüngeren Seele. Sie ist von der Last heimgesucht, dass Ragnarök in ihrer Lebenszeit kommen könnte - eine Verantwortung, die sie schwer trägt.
+    type: Person
+    image: '/assets/images/yrsa.png'
+    image_alt: Yrsa, die Weiseste Völv
+    url: ''
+  - term: Meek
+    definition: Halblings-Berater von Mutter Guhnbarg im Hallharn-Klan. Verschlagener Mann mit mehr Einfluss als angemessen.
+    more: Obwohl er Guhnbargs blutigen Methoden nicht zustimmt, widerspricht er ihrer Führung nicht öffentlich.
+    type: Person
+    image: ''
+    image_alt: Meek, Berater der Hallharn
+    url: ''
+  - term: Fyrkat
+    definition: Rote Drachengeborene und höchstrangige der Seherwächter der Völv.
+    more: Obwohl sie sich in ihrer Jugend gewünscht hatte, selbst eine Völv zu werden, fehlte ihr die Gabe. Durch ihre lange Dienstzeit bei diplomatischen Treffen kennt sie Details über jeden Klan und teilt diese gerne.
+    type: Person
+    image: '/assets/images/fyrkat.png'
+    image_alt: Fyrkat, Seher-Wache der Völv
+    url: ''
+  - term: Cenric Edgare
+    definition: König des Steinkönigreichs und mächtiger Baendur-Herrscher.
+    more: Ein ehrgeiziger Mann, dessen Blutlinie angeblich vom Witchking abstammt. Er führte mehrere gescheiterte Kriege gegen die Krieger und wurde in die vulkanischen Westlande zurückgedrängt. Cenric hat zahlreiche Kinder, die in andere Baendur-Königreiche eingeheiratet haben.
+    type: Person
+    image: '/assets/images/cenric_edgare.png'
+    image_alt: König Cenric Edgare der Baendur
+    url: ''
+  - term: Finnan
+    definition: Halblings-Kleriker des Palter und Hauptpriester auf Fallegur. Mit Indigo-Tätowierungen bedeckt.
+    more: Ein temperamentvoller Priester.
+    type: Kleriker
+    image: ''
+    image_alt: Finnan, Kleriker des Palter
+    url: ''
+  - term: Lahahel Korloke
+    definition: Jarl der Örn, eine angesehene Elfin und Meisterhandwerkerin. Führt den Klan bereits seit über zwei Jahrhunderten.
+    more: Verkörpert die Lehre von Palter, Schönheit im Unvollkommenen zu finden. Bekannt dafür, verletzte oder verlorene Seelen aufzunehmen und ihnen einen Platz im Klan zu geben. Unter ihrer Führung ist Fallegur zu einem Zufluchtsort für Künstler und Handwerker aller Völker geworden.
+    type: Person
+    image: ''
+    image_alt: Lahahel Korloke, Jarl der Örn
+    url: ''
+  - term: Jötunn
+    definition: Uralte Feinde der Vanir aus den Legenden. Mächtige Wesen, die in den alten Geschichten erwähnt werden.
+    more: In den Sagen werden sie als große und schreckliche Kreaturen beschrieben, die einst gegen die Vanir kämpften. Die Meisten betrachten sie als mythische Wesen aus längst vergangenen Zeiten. Manche alte Geschichten erzählen, dass sie die Vanir aus den Verlorenen Landen vertrieben haben könnten, aber das sind nur Legenden. Wenige glauben, dass sie noch existieren - die meisten sehen sie als Märchenfiguren, mit denen man Kinder erschreckt.
+    type: Legende
+    image: ''
+    image_alt: Die Jötunn aus den alten Legenden
+    url: ''
+  - term: Vanir
+    definition: Die Götter des Steinhofs, mächtige Krieger aus den alten Legenden. Werden als lebende Statuen verehrt.
+    more: Laut den Völv waren sie einst echte Krieger, die aus einem fernen Reich kamen und Grimnir erschufen. Jetzt stehen ihre steinernen Gestalten irgendwo auf dem Turnfjall. Zu ihnen gehören Aldyhn (Weisheit), die Zwillinge Gnark und Idin, Knat (Wettkämpfe), Luta (Wille), Palter (Hoffnung) und Vani (Schlacht).
+    type: Legende
+    image: ''
+    image_alt: Die Vanir, Götter des Steinhofs
+    url: ''
+  - term: Baendur
+    definition: Königreiche der Sesshaften. Der Name bedeutet "Sinkt Schnell" im Krieger-Dialekt.
+    more: Dutzende kleinere Königreiche, verstreut über die Welt. Lose durch Philosophie verbunden, aber nicht vereint. Nachfahren eines alten Reiches, das von Drachen bedroht wurde. Ihre Vorfahren flohen wie die Krieger nach Grimnir, etablierten aber Königreiche statt Klans. Ihre Waffen sind oft hochwertiger als die der Krieger, weshalb sie beliebte Raubziele sind.  König Cenric Edgare im Norden gilt als mächtigster ihrer Herrscher.
+    type: Völker
+    image: ''
+    image_alt: Die Baendur-Königreiche
+    url: ''
+  - term: Hexenkönig
+    definition: Gefürchteter Herrscher der Eisenherz-Hexen. Gepanzerter Krieger-Hexer aus den tiefen Wäldern.
+    more: Seit Jahrhunderten führt er die Hexen der Eisenherz-Wälder an. Selbst tapferste Krieger fürchten das Kriegshorn des Hexenkönigs, wenn er mit Hexen und ihren Bestien durch die schneebedeckten Wälder zieht. Die Völv retteten die Klans einst vor seinem ersten Aufstieg zur Macht. Seine Gefährtin, die Matrone, ist ebenso gefürchtet. Viele Dörfer wurden bereits verlassen aufgefunden - Opfer von Hexenjagden, bei denen sich Hexen in widerliche Bestien verwandeln.
+    type: Legende
+    image: ''
+    image_alt: Der gefürchtete Hexenkönig
+    url: ''
+  - term: Langschiff
+    definition: Standard-Kriegsschiff der Krieger. Schnell, wendig und für Raubzüge optimiert.
+    more: Das Rückgrat der Krieger-Flotten. Lang und schmal gebaut für Geschwindigkeit, mit Rudern und einem Segel. Kann sowohl auf dem offenen Meer als auch in flachen Gewässern fahren. Perfekt für schnelle Raubzüge und Flucht. Die meisten Klans besitzen mehrere Langschiffe für ihre Kriegszüge.
+    type: Schiff
+    image: ''
+    image_alt: Krieger-Langschiff
+    url: ''
+  - term: Hjemskip
+    definition: Große Hausschiffe der Klans. Schwimmende Häuser und Versammlungsorte.
+    more: Massive Schiffe, die als schwimmende Häuser dienen. Viel größer als Langschiffe, mit Wohnräumen, Werkstätten und Versammlungshallen. Jeder große Klan besitzt mindestens ein Hjemskip als mobiles Zuhause. In Drifthall werden die Hjemskips zu einer schwimmenden Stadt verbunden. Beherbergen die Familien und Ältesten der Klans.
+    type: Schiff
+    image: ''
+    image_alt: Großes Hjemskip eines Klans
+    url: ''
+  - term: Faering
+    definition: Kleines Ruderboot für kurze Strecken und Transport zwischen Schiffen.
+    more: Einfaches, kleines Boot mit vier Rudern. Wird für kurze Überfahrten, Transport zwischen größeren Schiffen oder zum Anlanden an Küsten verwendet. Jedes größere Schiff führt mehrere Faerings mit sich. Schnell und wendig, aber nur für ruhige Gewässer und kurze Distanzen geeignet.
+    type: Schiff
+    image: ''
+    image_alt: Kleines Faering-Ruderboot
+    url: ''
+  - term: Groa
+    definition: Neueste der drei Weisesten Völv, jünger als die anderen. Identifiziert sich als männlich und trägt Männerkleidung.
+    more: Als jüngste der Weisesten Völv bringt er frische Perspektiven in den Rat der Seherinnen. Obwohl er männliche Kleidung trägt und sich als Mann identifiziert, wird er von den Völv respektiert und akzeptiert.
+    type: Person
+    image: '/assets/images/groa.webp'
+    image_alt: Groa, der jüngste Weise Völv
+    url: ''
+  - term: Jorei
+    definition: Elfische Völv und Hüterin des Archivs der Seherinnen. Ihr fehlt der kleine Finger der linken Hand.
+    more: Als Hüterin des Archivs bewacht sie die Schätze und das gesammelte Wissen der Völv. Der Verlust ihres kleinen Fingers ist ein Zeichen ihrer Hingabe - ein Opfer, das sie für ihre Rolle brachte. Ihre Elfennatur verleiht ihr ein langes Gedächtnis für alte Weisheiten.
+    type: Person
+    image: '/assets/images/jorei.png'
+    image_alt: Jorei, Hüterin des Archivs der Völv
+    url: ''
+  - term: Seherwächter
+    definition: Kriegerorden, in dem sich jeder sechzehn Jahre dem Schutz der Völv widmet. Viele sind ehemalige Völv-Lehrlinge.
+    more: Krieger, die ihre Gabe der Wahrsagerei nicht stark genug entwickeln konnten, um Völv zu werden. Stattdessen wählen sie den ehrenvollen Weg, die Seherinnen zu beschützen. Nach sechzehn Jahren Dienst kehren viele zu ihren Klans zurück und stärken so die Bande zwischen den Völv und den Kriegern.
+    type: Gruppe
+    image: ''
+    image_alt: Die Seherwächter
+    url: ''
+  - term: Völv
+    definition: Weise Seherinnen, Hüterinnen der Geschichte und Prophezeiungen.
+    more: Prophetische Seherinnen, die Kriegergeschichte mündlich überliefern und dadurch höchsten Respekt genießen. Aldyhn war die erste Völv nach ihrem Opfer am Weisheitsbrunnen. Normalerweise gibt es neun Völv - drei Weiseste (die Führung, Yrsa, Groa und Jorei), Ehrwürdige (ältere) und Jüngere (Lehrlinge). Sie sehen Ragnarök kommen und leiten die Alljarl-Wahlen. Yrsa führt als Weiseste die Versammlungen.
+    type: Person
+    image: ''
+    image_alt: Die weisen Völv
+    url: ''

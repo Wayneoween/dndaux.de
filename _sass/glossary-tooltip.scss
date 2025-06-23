@@ -1,0 +1,94 @@
+/* Custom Glossary Tooltip Styles */
+.jekyll-glossary {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted var(--link, #4a90e2);
+  cursor: help;
+  color: var(--link, #4a90e2);
+  text-decoration: none;
+}
+
+.glossary-term {
+  display: inline;
+}
+
+.jekyll-glossary .jekyll-glossary-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 250px;
+  max-width: 350px;
+  background-color: var(--text, #333);
+  color: var(--background, #fff);
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.4;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 15%);
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Smooth transition */
+  transition:
+    opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+/* Show the tooltip on hover - multiple selectors for better specificity */
+.jekyll-glossary:hover .jekyll-glossary-tooltip,
+.definition .jekyll-glossary:hover .jekyll-glossary-tooltip,
+.glossary-entry .jekyll-glossary:hover .jekyll-glossary-tooltip,
+.jekyll-glossary-tooltip.tooltip-visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Style for glossary type */
+.glossary-type {
+  color: var(--meta, #ccc);
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+/* Style the source link */
+.jekyll-glossary-source-link::before {
+  content: "[→ Glossar]";
+  color: var(--meta, #ccc);
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+
+.jekyll-glossary-source-link {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.jekyll-glossary-source-link:hover {
+  opacity: 1;
+}
+
+/* Arrow pointing down from tooltip */
+.jekyll-glossary .jekyll-glossary-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: var(--text, #333) transparent transparent transparent;
+}
+
+/* Style for terms not found in glossary */
+.glossary-term-not-found {
+  color: var(--meta, #888);
+  border-bottom: 1px dotted var(--meta, #888);
+  cursor: help;
+}
