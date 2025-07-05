@@ -56,11 +56,11 @@ glossary:
     image_alt: Boða, die Verfluchte
     url: ''
   - term: Mirgal
-    definition: Trickstergott aus den Legenden, angeblicher Schöpfer des Regenbogenspeers.
+    definition: Gott aus den Legenden, angeblicher Schöpfer des Regenbogenspeers.
     more: In den alten Geschichten wird er als Vanir-Verräter beschrieben, der in seinem Machtstreben sein Volk betrog. Manche Sagen erzählen, seine Magie erschuf versehentlich Grimnir. Die Völv sprechen von ihm als komischen Bösewicht aus den Verlorenen Landen. Ob er je existierte, ist unter Gelehrten umstritten.
     type: Legende
     image: '/assets/images/mirgal.png'
-    image_alt: Mirgal, der Trickstergott
+    image_alt: Mirgal
     url: ''
   - term: Hrolf
     definition: Held von hundert Raubzügen, Hallharn-Krieger und Führer der Helden zu Beginn der Kampagne.
