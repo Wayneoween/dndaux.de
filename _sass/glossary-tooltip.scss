@@ -57,7 +57,7 @@
 
 /* Style the source link */
 .jekyll-glossary-source-link::before {
-  content: "[→ Glossar]";
+  content: '[→ Glossar]';
   color: var(--meta, #ccc);
   font-size: 0.8em;
   margin-top: 0.5em;
@@ -76,7 +76,7 @@
 
 /* Arrow pointing down from tooltip */
 .jekyll-glossary .jekyll-glossary-tooltip::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 50%;

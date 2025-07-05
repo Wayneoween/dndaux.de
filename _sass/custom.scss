@@ -73,13 +73,13 @@ th {
 .cms-text-widget textarea,
 .cms-markdown-widget textarea,
 .cms-code-widget textarea,
-body[data-cms="true"] {
+body[data-cms='true'] {
   font-size: 1.2em !important;
 }
 
 /* Netlify CMS specific overrides */
 /* stylelint-disable selector-class-pattern */
-[data-slate-editor="true"],
+[data-slate-editor='true'],
 .nc-controlPane-widget,
 .nc-controlPane-control,
 .nc-widgetText-input,
