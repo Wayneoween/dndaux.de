@@ -157,6 +157,36 @@ document.addEventListener('DOMContentLoaded', function () {
   if (document.querySelector('.glossary-container')) {
     initScrollToTop();
   }
+
+  // Check for a selector in the URL on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  const hash = window.location.hash;
+
+  if (searchInput) {
+    let initialSearch = '';
+
+    // Check for a query parameter named 'filter'
+    if (urlParams.has('filter')) {
+      initialSearch = urlParams.get('filter');
+    }
+
+    // Check for a query parameter named 'search'
+    if (urlParams.has('search')) {
+      initialSearch = urlParams.get('search');
+    }
+
+    // Check for a hash in the URL
+    if (hash) {
+      const hashTerm = hash.replace('#', '').toLowerCase();
+      initialSearch = decodeURIComponent(hashTerm);
+    }
+
+    if (initialSearch) {
+      searchInput.value = initialSearch;
+      const inputEvent = new Event('input');
+      searchInput.dispatchEvent(inputEvent);
+    }
+  }
 });
 
 // Modal functions
