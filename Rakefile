@@ -30,11 +30,11 @@ def check_github_actions_or_override
 end
 
 namespace :glossary do
-  desc "Automatically add glossary includes to terms in posts and pages (GitHub Actions only)"
+  desc 'Automatically add glossary includes to terms in posts and pages (GitHub Actions only)'
   task :autolink do
     check_github_actions_or_override
 
-    puts "Processing glossary auto-linking..."
+    puts 'Processing glossary auto-linking...'
 
     # Load glossary data
     glossary_file = '_data/glossary.yml'
@@ -46,7 +46,7 @@ namespace :glossary do
     glossary_data = YAML.load_file(glossary_file) || {}
     glossary = glossary_data['glossary'] || glossary_data || []
     if glossary.empty?
-      puts "Warning: Glossary is empty"
+      puts 'Warning: Glossary is empty'
       exit 0
     end
 
@@ -62,17 +62,18 @@ namespace :glossary do
     Dir.glob('*.md').each do |file|
       next if file == 'glossary.md'
       next if file.start_with?('README')
+
       process_file(file, sorted_terms)
     end
 
-    puts "Glossary auto-linking completed!"
+    puts 'Glossary auto-linking completed!'
   end
 
-  desc "Remove glossary includes from posts and pages (GitHub Actions only)"
+  desc 'Remove glossary includes from posts and pages (GitHub Actions only)'
   task :remove_links do
     check_github_actions_or_override
 
-    puts "Removing glossary includes..."
+    puts 'Removing glossary includes...'
 
     # Pattern to match our glossary includes
     include_pattern = /{%\s*include\s+glossary_tooltip\.html[^%]*%}/
@@ -86,15 +87,15 @@ namespace :glossary do
       content.gsub!(include_pattern) do |match|
         # Extract term from include
         if match =~ /term=["']([^"']+)["']/
-          term = $1
+          term = Regexp.last_match(1)
           # Check if there's custom display text
           if match =~ /text=["']([^"']+)["']/
-            $1  # Use display text
+            Regexp.last_match(1) # Use display text
           else
-            term  # Use term name
+            term # Use term name
           end
         else
-          match  # Fallback, keep original
+          match # Fallback, keep original
         end
       end
 
@@ -116,15 +117,15 @@ namespace :glossary do
       content.gsub!(include_pattern) do |match|
         # Extract term from include
         if match =~ /term=["']([^"']+)["']/
-          term = $1
+          term = Regexp.last_match(1)
           # Check if there's custom display text
           if match =~ /text=["']([^"']+)["']/
-            $1  # Use display text
+            Regexp.last_match(1) # Use display text
           else
-            term  # Use term name
+            term # Use term name
           end
         else
-          match  # Fallback, keep original
+          match # Fallback, keep original
         end
       end
 
@@ -134,13 +135,13 @@ namespace :glossary do
       end
     end
 
-    puts "Glossary include removal completed!"
+    puts 'Glossary include removal completed!'
   end
 end
 
 def process_file(file, sorted_terms)
   content = File.read(file)
-  original_content = content.dup
+  content.dup
 
   # Skip if file already contains glossary includes
   return if content.include?('{% include glossary_tooltip.html')
@@ -153,12 +154,12 @@ def process_file(file, sorted_terms)
       body = parts[2]
     else
       # No valid frontmatter, process entire content
-      frontmatter = ""
+      frontmatter = ''
       body = content
     end
   else
     # No frontmatter
-    frontmatter = ""
+    frontmatter = ''
     body = content
   end
 
@@ -172,15 +173,13 @@ def process_file(file, sorted_terms)
     pattern = /\b#{Regexp.escape(term)}\b/i
 
     # Replace only the first occurrence with a glossary include
-    if body.match?(pattern)
-      body.sub!(pattern, "{% include glossary_tooltip.html term=\"#{term}\" %}")
-    end
+    body.sub!(pattern, "{% include glossary_tooltip.html term=\"#{term}\" %}") if body.match?(pattern)
   end
 
   # Reconstruct the file content if body was modified
-  if body != original_body
-    new_content = frontmatter + body
-    File.write(file, new_content)
-    puts "  Processed: #{file}"
-  end
+  return unless body != original_body
+
+  new_content = frontmatter + body
+  File.write(file, new_content)
+  puts "  Processed: #{file}"
 end

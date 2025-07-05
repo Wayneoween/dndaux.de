@@ -28,14 +28,6 @@ repos:
           - rubocop-performance
           - rubocop-rails
 
-  # Alternative Ruby formatter (standardrb) - uncomment if you prefer this over RuboCop
-  # - repo: https://github.com/testdouble/standard
-  #   rev: v1.34.0
-  #   hooks:
-  #     - id: standard
-  #       args: [--fix]
-  #       files: \.(rb|rake)$
-
   # SCSS/Sass linting and formatting
   - repo: https://github.com/awebdeveloper/pre-commit-stylelint
     rev: 0.0.2
@@ -47,3 +39,12 @@ repos:
           - stylelint@15.11.0
           - stylelint-config-standard-scss@11.1.0
           - stylelint-scss@5.3.1
+
+  # Custom hook for glossary type validation
+  - repo: local
+    hooks:
+      - id: validate-glossary-types
+        name: Validate Glossary Types
+        entry: ruby scripts/validate_glossary_types.rb
+        language: system
+        files: _data/glossary.yml
