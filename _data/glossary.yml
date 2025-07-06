@@ -230,13 +230,6 @@ glossary:
     image: ''
     image_alt: Die Baendur-Königreiche
     url: ''
-  - term: Hexenkönig
-    definition: Gefürchteter Herrscher der Eisenherz-Hexen. Gepanzerter Krieger-Hexer aus den tiefen Wäldern.
-    more: Seit Jahrhunderten führt er die Hexen der Eisenherz-Wälder an. Selbst tapferste Krieger fürchten das Kriegshorn des Hexenkönigs, wenn er mit Hexen und ihren Bestien durch die schneebedeckten Wälder zieht. Die Völv retteten die Klans einst vor seinem ersten Aufstieg zur Macht. Seine Gefährtin, die Matrone, ist ebenso gefürchtet. Viele Dörfer wurden bereits verlassen aufgefunden - Opfer von Hexenjagden, bei denen sich Hexen in widerliche Bestien verwandeln.
-    type: Legende
-    image: ''
-    image_alt: Der gefürchtete Hexenkönig
-    url: ''
   - term: Langschiff
     definition: Standard-Kriegsschiff der Krieger. Schnell, wendig und für Raubzüge optimiert.
     more: Das Rückgrat der Krieger-Flotten. Lang und schmal gebaut für Geschwindigkeit, mit Rudern und einem Segel. Kann sowohl auf dem offenen Meer als auch in flachen Gewässern fahren. Perfekt für schnelle Raubzüge und Flucht. Die meisten Klans besitzen mehrere Langschiffe für ihre Kriegszüge.
@@ -285,4 +278,32 @@ glossary:
     type: Person
     image: ''
     image_alt: Die weisen Völv
+    url: ''
+  - term: Hexenkönig
+    definition: Unsterblicher Krieger und gefürchteter Herrscher der Eisenwald-Hexen. Selbst tapferste Krieger zögern bei seinem Namen.
+    more: Seit Jahrhunderten führt er Scharen von Hexen und Bestien durch die Wälder Grimnirs. Sein Ruf kündigt Tod und Verwüstung an. Gerüchte besagen, er könne selbst tödlichste Wunden einfach abschütteln. Die Matrone, eine mächtige Hexe, gilt als seine Beraterin und Gefährtin.
+    type: Legende
+    image: ''
+    image_alt: Der Hexenkönig, Herrscher der Eisenwald-Hexen
+    url: ''
+  - term: Eisenwald-Hexen
+    definition: Gefürchteter Hexenzirkel, der im Eisenwald lebt. Bekannt für ihre roten Roben und dunkle Magie.
+    more: Werden auch "rote Frauen" oder "Gesichtsdiebe" genannt. Stehlen angeblich ungehorsame Kinder aus Dörfern. Dienen dem Hexenkönig und leben im Eisenwald.
+    type: Gruppe
+    image: ''
+    image_alt: Eisenwald-Hexen in ihren charakteristischen roten Roben
+    url: ''
+  - term: Matrone
+    definition: Mächtigste Hexe vom Hexenkönig. Eine der gefürchtetsten Gestalten der Eisenwald-Hexen.
+    more: Auch einfach "Hexe des Eisenwalds". Gilt als die Gefährtin des Hexenkönigs.
+    type: Legende
+    image: ''
+    image_alt: Die Matrone, gefürchtete Hexe des Eisenwalds
+    url: ''
+  - term: Eisenwald
+    definition: Wald voller Eisenherz-Bäume. Heimat der gefürchteten Eisenwald-Hexen.
+    more: Ein dichter, unheimlicher Wald irgendwo auf dem Inneren Kontinent. Die Bäume sollen lebendig sein und sich bewegen. Gerüchte besagen, dass ganze Dörfer vom Wald verschlungen wurden. Nur die Mutigsten wagen sich hinein.
+    type: Ort
+    image: ''
+    image_alt: Der mysteriöse Eisenwald mit seinen lebendigen Bäumen
     url: ''
