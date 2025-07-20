@@ -2,6 +2,8 @@
 layout: page
 title: Glossar
 feature-img: 'https://images2.alphacoders.com/129/1293863.jpg'
+feature-img-position-x: center
+feature-img-position-y: 58%
 ---
 
 {% assign unsorted_terms = site.data.glossary.glossary %}
