@@ -19,12 +19,12 @@ Verlorenen Lande. Mirgal brachte das Ende. Doch Aldyhn, in ihrer unendlich
 wachsenden Weisheit, verstand, wie er auch zu einem Anfang werden könnte.
 
 Als sie das prächtige Regenbogenportal beschwor, durchbohrte sie Mirgal wieder
-und wieder. Blut spritzte, bedeckte sie, den Speer und ergoss sich schließlich
-in die Leere. Jenes Blut wurde durch die Kraft des Portals verwandelt, und es
-wucherte. Dort, auf der anderen Seite, köchelte und blubberte es, ein weites
-Meer aus Purpur. Ihre nächsten Schläge waren präzise, Fleischstücke, die sich
-wanden, zusammenrollten und wuchsen, sich um jenes Blutmeer wickelten und
-dagegen kämpften.
+und wieder. Blut spritzte, bedeckte sie, den Regenbogenspeer und ergoss sich
+schließlich in die Leere. Jenes Blut wurde durch die Kraft des Portals
+verwandelt, und es wucherte. Dort, auf der anderen Seite, köchelte und blubberte
+es, ein weites Meer aus Purpur. Ihre nächsten Schläge waren präzise,
+Fleischstücke, die sich wanden, zusammenrollten und wuchsen, sich um jenes
+Blutmeer wickelten und dagegen kämpften.
 
 Die beiden - Fleisch und Blut; Land und Meer - führten Grimnirs ersten Krieg
 gegeneinander und kämpften darum, ein Gleichgewicht zu finden. Der größte

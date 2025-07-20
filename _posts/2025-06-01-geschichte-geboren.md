@@ -38,14 +38,15 @@ Unmögliche.
 
 ![Aldyhn und Mirgal am Ende der Verlorenen Lande](/assets/images/posts/geschichte-geboren.webp)
 
-Als Mirgal besiegt in die Knie sank, ergriff Aldyhn seinen Speer in einer Hand,
-ihre Klinge in der anderen. In dem Speer brodelte die Magie, die ihr Onkel so
-verantwortungslos gehandhabt hatte. Sie sprach inzwischen lange vergessene Worte
-der Beschwörung und die Welt bebte, als ein Portal gewaltsam aufriss. Aldyhn
-schnitt ihrem Onkel mit der Speerspitze die Kehle durch und rief durch das
-Portal. Und mit diesen Worten opferte sie Mirgal vergessenen Göttern, die sowohl
-von den Jötunn als auch von den Vanir verehrt wurden. Sein letzter Atemzug und
-die ursprüngliche Magie, die das Portal anheizte, gebaren etwas Neues.
+Als Mirgal besiegt in die Knie sank, ergriff Aldyhn seinen Regenbogenspeer in
+einer Hand, ihre Klinge in der anderen. In dem Speer brodelte die Magie, die ihr
+Onkel so verantwortungslos gehandhabt hatte. Sie sprach inzwischen lange
+vergessene Worte der Beschwörung und die Welt bebte, als ein Portal gewaltsam
+aufriss. Aldyhn schnitt ihrem Onkel mit der Speerspitze die Kehle durch und rief
+durch das Portal. Und mit diesen Worten opferte sie Mirgal vergessenen Göttern,
+die sowohl von den Jötunn als auch von den Vanir verehrt wurden. Sein letzter
+Atemzug und die ursprüngliche Magie, die das Portal anheizte, gebaren etwas
+Neues.
 
 Obwohl die Magie ihr Fleisch versengte, stand Aldyhn stark und geleitete die
 Letzten der Vanir - und die Unschuldigen, die sie beschützten - in diese neuen
