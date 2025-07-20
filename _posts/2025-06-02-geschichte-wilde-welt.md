@@ -4,6 +4,7 @@ title: "Wilde Welt"
 date: 2025-06-02 23:00:00 +0200
 categories:
   - Geschichte
+thumbnail: '/assets/images/posts/geschichte-wilde-welt.webp'
 feature-img: '/assets/images/posts/geschichte-wilde-welt.webp'
 feature-img-position-x: center
 feature-img-position-y: 20%
