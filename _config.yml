@@ -22,7 +22,7 @@ header_feature_image_responsive: false
 
 # Content & Navigation
 permalink: /:title/
-excerpt: true
+excerpt: false
 post_navigation: true
 
 # Pagination
