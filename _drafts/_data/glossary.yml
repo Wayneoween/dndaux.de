@@ -83,13 +83,6 @@ glossary:
     image: '/assets/images/rud_nosight.png'
     image_alt:
     url: ''
-  - term: Siddhe
-    definition:
-    more:
-    type:
-    image: '/assets/images/siddhe.png'
-    image_alt:
-    url: ''
   - term: Skuld
     definition:
     more:

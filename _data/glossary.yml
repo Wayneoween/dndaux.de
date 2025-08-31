@@ -314,3 +314,45 @@ glossary:
     image: ''
     image_alt: Varang-Krieger verschiedener Völker vereint
     url: ''
+  - term: Bjørn
+    definition: Alter Krieger des Whar-Klans. Hat den Whar den Rücken gekehrt.
+    more: Ist im tiefen Glauben an Hel. Lebte seit dem Verlassen der Whar als Einsiedler.
+    type: Spielercharakter
+    image: ''
+    image_alt: Bjørn, der verfluchte Krieger
+    url: ''
+  - term: Ove
+    definition: Mönch des Örn-Klans. Erwachte ohne Erinnerungen und wurde von Holzschnitzer Ingalf adoptiert.
+    more: Er erschien ohne Gedächtnis auf Fallegur und wurde von der Gemeinde aufgenommen. Lahahel Korloke deutete sein Erscheinen als Zeichen Palters. Meistert die Holzschnitzerei und schafft schöne Gegenstände für Tempel und Freunde.
+    type: Spielercharakter
+    image: ''
+    image_alt: Ove, der gefallene Mönch
+    url: ''
+  - term: Rekja
+    definition: Skaldin des Hallharn-Klans. Altert nicht und wird von Albträumen über Ragnarök heimgesucht.
+    more: Wurde von den Hallharn aufgenommen. Ausgebildet von den Völv als Seherin, aber ihre Albträume von Ragnarök machten sie untauglich. Wurde zur Skaldin und besang die Taten der Krieger. Ihre Mission ist es, Grimnir vor den Jötunn zu schützen.
+    type: Spielercharakter
+    image: ''
+    image_alt: Rekja, die wachsame Skaldin
+    url: ''
+  - term: Kudrun
+    definition: Eine Grim vom Hallharn-Klan. Königliche Erbin der Baendur und Wächterin der Völv.
+    more: Einst Prinzessin eines Baendur-Königreichs, entführt und zur Heirat gezwungen. Überlebte den Angriff auf ihre Adoptivfamilie und floh in die Gunst eines uralten Geists des Eisenwaldes. Sucht Rache an den Mördern ihrer Familie und will ihr Königreich zurückerobern.
+    type: Spielercharakter
+    image: ''
+    image_alt: Kudrun, die königliche Erbin
+    url: ''
+  - term: Siddhe
+    definition: Junges Mädchen aus der Stadt "Tiefwasser", offenbar vom Regenbogenspeer nach Grimnir gebracht.
+    more: Kind mit dunklen Haaren und blasser Haut, das in einem Turm gefunden wurde. Kann sich nicht an ihren richtigen Namen erinnern. Neugierig und hilfsbereit.
+    type: Person
+    image: '/assets/images/siddhe.png'
+    image_alt: Siddhe, das Mädchen aus Tiefwasser
+    url: ''
+  - term: Gulli
+    definition: Druide des Whar-Klans und Bruder von Athils. Anhänger der Hel und Co-Jarl der Whar.
+    more: Leitete den Überfall auf Hrolfs Krieger am Turm. Seine Schwester Athils ist die zweite Anführerin der Whar.
+    type: Person
+    image: '/assets/images/gulli.png'
+    image_alt: Gulli, Druide der Whar
+    url: ''
