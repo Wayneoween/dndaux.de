@@ -356,3 +356,24 @@ glossary:
     image: '/assets/images/gulli.png'
     image_alt: Gulli, Druide der Whar
     url: ''
+  - term: Egill
+    definition: Rothäutige Tiefling. Lebt in Nowhere und verbrennt Nägel.
+    more: Verbringt ihre Zeit damit, Finger- und Zehennägel zu sammeln und zu verbrennen, um ein Schiff, dass sie in Albträumen sieht, zu verhindern.
+    type: Person
+    image: '/assets/images/egill.png'
+    image_alt: Egill
+    url: ''
+  - term: Celorfin
+    definition: Verwalter der Docks von Nowhere. Einarmiger ehemaliger Krieger.
+    more: Kennt die Crews, die regelmäßig anlegen. Hat Vorurteile.
+    type: Person
+    image: '/assets/images/celorfin.png'
+    image_alt: Celorfin, Verwalter der Docks
+    url: ''
+  - term: Zelan
+    definition: Gastwirtin und Betreiberin der Taverne "Auge des Sturms" in Nirgendwo.
+    more: Kräftige ältere Frau. Trägt ein Amulett der Zwillingsgötter Gnark und Idin. Verkauft Met und vermietet Schlafplätze.
+    type: Person
+    image: '/assets/images/zelan.png'
+    image_alt: Zelan, Gastwirtin des Auges des Sturms
+    url: ''
