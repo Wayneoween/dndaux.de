@@ -357,14 +357,14 @@ glossary:
     image_alt: Gulli, Druide der Whar
     url: ''
   - term: Egill
-    definition: Rothäutige Tiefling. Lebt in Nowhere und verbrennt Nägel.
+    definition: Rothäutige Tiefling. Lebt in Nirgendwo und verbrennt Nägel.
     more: Verbringt ihre Zeit damit, Finger- und Zehennägel zu sammeln und zu verbrennen, um ein Schiff, dass sie in Albträumen sieht, zu verhindern.
     type: Person
     image: '/assets/images/egill.png'
     image_alt: Egill
     url: ''
   - term: Celorfin
-    definition: Verwalter der Docks von Nowhere. Einarmiger ehemaliger Krieger.
+    definition: Verwalter der Docks von Nirgendwo. Einarmiger ehemaliger Krieger.
     more: Kennt die Crews, die regelmäßig anlegen. Hat Vorurteile.
     type: Person
     image: '/assets/images/celorfin.png'
