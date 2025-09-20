@@ -1,4 +1,5 @@
 .bundle/
+.envrc
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
