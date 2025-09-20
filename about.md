@@ -13,10 +13,14 @@ Hier dokumentieren wir das Abenteuer unserer Heldengruppe durch die eisige, nord
 
 Unsere diverse Gruppe von Abenteurern vereint Vertreter verschiedener Klans und Hintergründe:
 
-- **Bjørn Lutaskr**, der verfluchte Barbar, einst von den Whar, der nun auf unbekannten Pfaden wandelt.
-- **Kudrun Wulfrun**, die Königliche Erbin. Eine Grim vom Hallharn-Klan, mit adeligen Wurzeln, von dunklen Mächten gespeist.
-- **Ove Ingalfaskr**, der Gefallene. Ein Mönch vom Örn-Klan, der aus dem Nichts fiel und nun Erinnerungen sucht.
-- **Rekja Aldyhnloke**, die Wachsame. Eine Bardin vom Rande der Hallharn, stets auf der Suche nach verlorenen Geschichten Grimnirs.
+- **Bjørn Lutaskr** - **ᛁ**
+  - _Der verfluchte Barbar_, einst von den Whar, der nun auf unbekannten Pfaden wandelt.
+- **Kudrun Wulfrun** - **ᛊ**
+  - _Die Königliche Erbin_. Eine Grim vom Hallharn-Klan, mit adeligen Wurzeln, von dunklen Mächten gespeist.
+- **Ove Ingalfaskr** - **ᛈ**
+  - _Der Gefallene_. Ein Mönch vom Örn-Klan, der aus dem Nichts fiel und nun Erinnerungen sucht.
+- **Rekja Aldyhnloke** - **ᚲ**
+  - _Die Wachsame_. Eine Bardin vom Rande der Hallharn, stets auf der Suche nach verlorenen Geschichten Grimnirs.
 
 ## Die Welt von Grimnir
 
