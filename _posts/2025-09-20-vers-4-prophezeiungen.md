@@ -29,7 +29,7 @@ Am folgenden Tag begaben sie sich zu dem Seher. Kinickan, ein Wicker, drei Mann 
 
 Ove, dem die Vergangenheit fehlte, solle den Brunnen der Weisheit aufsuchen und dort die Feder vorzeigen, die er von einer Walküre am Strand nach dem Überfall empfangen hatte.
 
-Bjørn, von einem Fluch gezeichnet, solle nach Falegur ziehen. Dort werde er jene finden, die er seit langem suche.
+Bjørn, von einem Fluch gezeichnet, solle nach Fallegur ziehen. Dort werde er jene finden, die er seit langem suche.
 
 Rekja aber sah er an einem schrecklichen Ort, bei einem Turm aus Holz, und dort "ihn", mit Schwert und fratzenverziertem Schild. Dort müsse sie einen Hauch der Wahrheit erlangen.
 
@@ -45,7 +45,7 @@ Im übrigen Teil der Stadt ward nur wenig offenbar:
 
 Ein Streit zwischen der Crew der Grau und des Vipernschiffs, bei dem böser Worte mit Leben und Blut gesühnt wurde.
 
-Eine Zeltstadt voller Flüchtlinge, mit Toki, aufgebracht und aufwieglerisch. Die Jarl von Nirgendwo verweigerte den Bau fester Hütten, aus Sorge um die schwindenden Holzvorräte.
+Eine Zeltstadt voller Flüchtlinge, mit Toki, aufgebracht und aufwieglerisch. Die Jarlin von Nirgendwo verweigerte den Bau fester Hütten, aus Sorge um die schwindenden Holzvorräte.
 
 Und schließlich ein Besuch bei dieser Jarl selbst, die mit den Waffen übte und den Helden wenig Hilfe bot.
 

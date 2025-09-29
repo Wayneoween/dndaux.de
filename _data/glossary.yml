@@ -377,3 +377,31 @@ glossary:
     image: '/assets/images/zelan.png'
     image_alt: Zelan, Gastwirtin des Auges des Sturms
     url: ''
+  - term: Fallegur
+    definition: Insel des Glanzes, Hauptsiedlung der Örn.
+    more: Tränenförmige Insel im östlichen Arm des Schlangenmeers, berühmt für natürliche Schönheit mit grünen Wiesen und fast reinem Marmorfundament. Die Örn bauten hier eine elegante Heimat und eine Festung auf dem höchsten Punkt. Wichtiger Handelshafen für Klans und Baendur.
+    type: Ort
+    image: ''
+    image_alt: Die Insel Fallegur
+    url: ''
+  - term: Kinickan
+    definition: Wicker-Runenwerfer und Seher in Nirgendwo. Übergroßer Mann aus blau-schwarzem Holz.
+    more: Lebt in einem Baumhain nahe dem Fluss außerhalb von Nirgendwo. Trägt weißes Gewand und wirft Runen aus verzauberten Blättern, um Schicksale zu deuten.
+    type: Person
+    image: '/assets/images/kinickan.png'
+    image_alt: Kinickan, der Runenwerfer
+    url: ''
+  - term: Winanric
+    definition: Das Weinkönigreich der Westlichen Küsten. Eines der größeren Baendur-Königreiche.
+    more: Fruchtbares Königreich auf den Inseln der Westlichen Küsten, berühmt für seine Weinberge - die reichsten und süßesten in ganz Grimnir.
+    type: Ort
+    image: ''
+    image_alt: Das Weinkönigreich Winanric
+    url: ''
+  - term: Beowyln
+    definition: Zwergen-Jarlin von Nirgendwo. Veteranin mit langem, geflochtenem silbernem Haar und Bart.
+    more: Hält seit Jahrzehnten die inoffizielle Führung über Nirgendwo und beschützt die Stadt und ihre Bewohner wie eine Familie. Hart und schroff zu Fremden, aber fürsorglich zu den Ihren.
+    type: Person
+    image: '/assets/images/beowlyn.png'
+    image_alt: Beowyln, Jarl von Nirgendwo
+    url: ''
