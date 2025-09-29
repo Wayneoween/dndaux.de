@@ -10,6 +10,14 @@ draft: false
 session: 4
 ---
 
+> Nicht alles Übel, das uns schrecken soll, entstammt den Verlorenen Landen oder Mirgals Verrat. Manch finstere Macht erwuchs aus Grimnir selbst. Ob zuerst die Eisenherz-Bäume in den verlassensten Winkeln unserer neuen Welt Wurzeln schlugen, oder die Hexen, die sie pflegen - das weiß niemand gewiss. Nur dies wird überliefert: Diese Waldweiber wandelten schon, ehe der Hexenkönig selbst geboren war. Viele glauben, es seien einst Huldra, ursprünglichste Geschöpfe Grimnis, gewesen, die vom rechten Pfad abgekommen sind.
+>
+> Die Krieger und Baendur geben ihnen viele Namen. Die Rotfrauen, die Gesichtsdiebe. Doch trotz all der Geschichten über sie finden sich nur sehr wenige wahre Begegnungen in den Überlieferungen. Ihr Wirken verbirgt sich meist hinter dunklen Schatten und Aberglauben.
+>
+> Ein verlassen aufgefundenes Dorf mag Zeugnis einer Hexenjagd sein - einer grausigen Heimsuchung, bei der sich - so sagen sie - manche Hexen zu scheußlichen Bestien wandeln, während andere auf Bestien durch die dunklen Wälder reiten.
+>
+> Und so schlagen die Krieger auf die Hexen ein - selbst bei den kleinsten Hinweisen. Es scheint der einzige Weg, wahrhaft sicher zu bleiben. Sie fällen auch die Eisenherz-Bäume, wenn sie sie finden. Denn nur so können diese Wesen keinen festen Halt in Grimnir gewinnen.
+
 Das Methaus bot nicht nur Trank und Unterkunft, sondern auch eine Bühne, auf der Rekja und Kudrun den Ruhm der Helden mehrten. Zum Groll Tormunds, des örtlichen Erzählers, der die volle Aufmerksamkeit für sein Schattenspiel begehrte. Er erzählte die Geschichte von Mirgal, von dessen Unterwerfung unter Bo∂a und von dessen Tod, aus dem unsere Welt erst geboren ward.
 
 Während Ove und Rekja die Werft aufsuchten, um nach einem Schiff zu fragen, hielt Bjørn seine Ohren offen. Es hieß, dass viele schon Gulli und den Whar zum Opfer gefallen seien, und ihr Leben oder wenigstens ihr Boot verloren hätten. Doch statt sich gegen Gulli zu verbünden, befehdeten sich die einflussreichsten Kapitäne Nirgendwos untereinander. Ihre Überfälle brachten nicht mehr die alte Beute, und der harte Winter hinterließ seine Spuren.
