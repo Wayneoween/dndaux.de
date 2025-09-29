@@ -15,9 +15,9 @@ Das Methaus bot nicht nur Trank und Unterkunft, sondern auch eine Bühne, auf de
 Während Ove und Rekja die Werft aufsuchten, um nach einem Schiff zu fragen, hielt Bjørn seine Ohren offen. Es hieß, dass viele schon Gulli und den Whar zum Opfer gefallen seien, und ihr Leben oder wenigstens ihr Boot verloren hätten. Doch statt sich gegen Gulli zu verbünden, befehdeten sich die einflussreichsten Kapitäne Nirgendwos untereinander. Ihre Überfälle brachten nicht mehr die alte Beute, und der harte Winter hinterließ seine Spuren.
 
 Diese Kapitäne waren:
-* Skuti und _Die Grau_
-* Hadd und _die Ravenskip_
-* Lurx und _das Vipernschiff_
+* Skuti und Die Grau
+* Hadd und die Ravenskip
+* Lurx und das Vipernschiff
 
 Kudrun zog sich zurück und beschwor einen Gefährten aus Magie: Myrkr, den Raben, wachsam im Verborgenen.
 
