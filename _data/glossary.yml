@@ -405,3 +405,45 @@ glossary:
     image: '/assets/images/beowlyn.png'
     image_alt: Beowyln, Jarl von Nirgendwo
     url: ''
+  - term: Die Grau
+    definition: Explorer-Langschiff von Skuti mit einäugiger Ziegenbock-Galionsfigur. Durchschnittliche Qualität.
+    more: Aus fein gefrästen Brettern aus silberweißer Kiefer gebaut. Solides, zuverlässiges Schiff.
+    type: Schiff
+    image: ''
+    image_alt: Das Langschiff Die Grau
+    url: ''
+  - term: Ravenskip
+    definition: Explorer-Langschiff von Hadd mit Rabenkopf-Bug. Unterdurchschnittliche Qualität.
+    more: Schwarzes Holz verleiht dem Schiff ein dunkles, imposantes Erscheinungsbild. Hadd gewann das Schiff im Duell vom vorherigen Kapitän.
+    type: Schiff
+    image: ''
+    image_alt: Die Rarvenskip
+    url: ''
+  - term: Vipernschiff
+    definition: Explorer-Langschiff von Lurx mit Schlangenkopf-Bug. Unterdurchschnittliche Qualität.
+    more: Altes Familienerbstück über Generationen vererbt. Der Schlangenkopf-Bug wurde kürzlich erneuert.
+    type: Schiff
+    image: ''
+    image_alt: Das Vipernschiff
+    url: ''
+  - term: Skuti
+    definition: Auch Skuti von der Axt. Kapitän der Grau. Ihm fehlt halbe linke Hand.
+    more: Langjähriger Freund der Schiffsbauer Lron. Seine Mutter starb vor wenigen Monaten, sorgt sich um seinen Vater auf einer Farm im Norden.
+    type: Person
+    image: ''
+    image_alt: Skuti von der Axt
+    url: ''
+  - term: Hadd
+    definition: Kapitän des Rabenschiffs. Hat Vorurteile gegen Nicht-Menschen.
+    more: Vom Knattle-Klan, verließ den Klan nicht nur um seinen Bruder zu rächen, sondern weil er glaubt, ein Zwerg sollte kein Jarl eines Krieger-Klans sein.
+    type: Person
+    image: ''
+    image_alt: Hadd vom Rabenschiff
+    url: ''
+  - term: Lurx
+    definition: Kapitänin des Vipernschiffs.
+    more: Führt eine gute Crew und genießt Beowyln's Respekt.
+    type: Person
+    image: ''
+    image_alt: Lurx vom Vipernschiff
+    url: ''
