@@ -53,7 +53,7 @@ Im übrigen Teil der Stadt ward nur wenig offenbar:
 
 Ein Streit zwischen der Crew der Grau und des Vipernschiffs, bei dem böser Worte mit Leben und Blut gesühnt wurde.
 
-Eine Zeltstadt voller Flüchtlinge, mit Toki, aufgebracht und aufwieglerisch. Die Jarlin von Nirgendwo verweigerte den Bau fester Hütten, aus Sorge um die schwindenden Holzvorräte.
+Eine Zeltstadt voller Flüchtlinge, mit Toki, aufgebracht und aufwieglerisch. Beowyln, die Jarlin von Nirgendwo verweigerte den Bau fester Hütten, aus Sorge um die schwindenden Holzvorräte.
 
 Und schließlich ein Besuch bei dieser Jarl selbst, die mit den Waffen übte und den Helden wenig Hilfe bot.
 
