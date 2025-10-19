@@ -27,17 +27,17 @@ Skuti war müde. Sein Schiff wollte er nicht mehr führen. Und so ließ er einen
 
 Nur eine Bedingung gab es: Die Helden sollten seine Schulden eintreiben.
 
-- Selan, Wirtin des Methauses, schuldete fünfundzwanzig Goldstücke, weil Skuti ihr Dach gegen Sturm und Regen gefestigt hatte.
+- Zelan, Wirtin des Methauses, schuldete fünfundzwanzig Goldstücke, weil Skuti ihr Dach gegen Sturm und Regen gefestigt hatte.
 - Celorfin, der Hafenmeister, schuldete fünfundvierzig für Arbeiten am Dock.
 - Asward, Anführer eines Söldnertrupps, hundert für den Transport seiner Männer.
 - Jarlin Beowyln, achtzig für den Schutz der Stadt.
-- Die Elrons, Schiffsbauer, sechzig für Holz und Werklohn.
-- Und Tuki, die Zwergin aus dem Flüchtlingslager, fünfzehn für Proviant.
+- Peron und Garsh Lron, Schiffsbauern, sechzig für Holz und Werklohn.
+- Und Toki, die Zwergin aus dem Flüchtlingslager, fünfzehn für Proviant.
 
 Widerwillig machten sich die Helden an die Arbeit. Selan und Celorfin zahlten ohne Zögern.
 
 Asward jedoch leistete Widerstand. Erst als Blut geflossen war, zwei seiner Männer tot und er dem Tod nahe, gab auch er seinen Anteil her — einen Beutel von Münzen.
 
-Doch diese Münzen waren geprägt mit einem Gesicht, das Kudrun nur zu gut kannte. Und so offenbarte sich, dass Asward Teil jener Gräuel war, die Kudruns Vergangenheit überschatteten. Und schlimmer noch: Der Auftrag dazu stammte von Senrik, Kudruns eigenem Großvater — ausgeführt von Danik, ihrem totgeglaubten Vater.
+Doch diese Münzen waren geprägt mit einem Gesicht, das Kudrun nur zu gut kannte. Und so offenbarte sich, dass Asward Teil jener Gräuel war, die Kudruns Vergangenheit überschatteten. Und schlimmer noch: Der Auftrag dazu stammte von König Cenric Edgare, Kudruns eigenem Großvater — ausgeführt von Danik, ihrem totgeglaubten Vater.
 
 So kamen die Helden zu ihrem Schiff, Skuti zu seinem Gold, und Kudrun zu vielen Fragen.

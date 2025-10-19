@@ -430,20 +430,27 @@ glossary:
     definition: Auch Skuti von der Axt. Kapitän der Grau. Ihm fehlt halbe linke Hand.
     more: Langjähriger Freund der Schiffsbauer Lron. Seine Mutter starb vor wenigen Monaten, sorgt sich um seinen Vater auf einer Farm im Norden.
     type: Person
-    image: ''
+    image: '/assets/images/skuti.png'
     image_alt: Skuti von der Axt
     url: ''
   - term: Hadd
     definition: Kapitän des Rabenschiffs. Hat Vorurteile gegen Nicht-Menschen.
     more: Vom Knattle-Klan, verließ den Klan nicht nur um seinen Bruder zu rächen, sondern weil er glaubt, ein Zwerg sollte kein Jarl eines Krieger-Klans sein.
     type: Person
-    image: ''
+    image: '/assets/images/hadd.png'
     image_alt: Hadd vom Rabenschiff
     url: ''
   - term: Lurx
     definition: Kapitänin des Vipernschiffs.
     more: Führt eine gute Crew und genießt Beowyln's Respekt.
     type: Person
-    image: ''
+    image: '/assets/images/lurx.png'
     image_alt: Lurx vom Vipernschiff
+    url: ''
+  - term: Toki
+    definition: Halbling in Nirgendwo. Lebt im Zeltlager und kämpft für bessere Bedingungen der Flüchtlinge.
+    more: Aufgewachsen in denselben Zelten, in denen sie noch immer lebt. Anführerin der Flüchtlinge aus dem Zeltlager.
+    type: Person
+    image: '/assets/images/toki.png'
+    image_alt: Toki, Aktivistin von Nirgendwo
     url: ''
