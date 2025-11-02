@@ -11,8 +11,6 @@ session: 6
 categories: [verse]
 ---
 
-Danach, so sagt man sich heute, entflohen alle Drachen Grimnir und folgten dem geworfenen Wyrm zum Mond von Valhöll.
-
 Die restlichen Schulden konnten eingetrieben werden, ohne dass weiteres Blut zu vergießen.
 
 Beowyln, die Jarlin von Nirgendwo, lud die Helden an ihre Tafel, als Eigner eines Schiffes und in der Rangordnung der Stadt aufgestiegen. Sie war nicht erfreut, ihr Gold zu verlieren, aber erleichtert, dass Skuti seine Laufbahn beendete, bevor sie ein gewaltsames Ende finden würde.

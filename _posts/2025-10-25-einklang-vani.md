@@ -23,3 +23,5 @@ story: Vani Wrestles the Dragon
 > "Du wirst hier nicht länger verweilen, verwirrter Wyrm!" Vani drehte sich weiter, selbst als Flammen ihn versengten. Dann ließ er mit einem Mal los und schleuderte den Drachen mit solcher Wucht, dass er durch die Luft und Leere flog und hart auf dem Mond einen Krater hinterließ.
 >
 > "Ich bat dich freundlich zu gehen", rief Vani kopfschüttelnd hinterher, während er die Flammen löschte. "Hättest du mein Angebot nur genau so freundlich angenommen."
+>
+> Danach, so sagt man sich heute, entflohen alle Drachen Grimnir und folgten dem geworfenen Wyrm zum Mond von Valhöll.
