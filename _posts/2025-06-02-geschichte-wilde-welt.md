@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wilde Welt"
+title: "Eine Wilde Welt"
 date: 2025-06-02 23:00:00 +0200
 categories:
   - Geschichte
@@ -11,6 +11,7 @@ feature-img-position-y: 20%
 draft: false
 session: -1
 categories: [stories]
+story: A Wild World
 ---
 
 > Es gab einmal eine Welt, eine andere Welt, die wir heute die Verlorenen Lande

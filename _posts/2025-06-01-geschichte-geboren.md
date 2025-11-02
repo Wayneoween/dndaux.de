@@ -11,6 +11,7 @@ feature-img-position-y: 85%
 draft: false
 session: -1
 categories: [stories]
+story: Birthed by Primal Magic
 ---
 
 > Vor Jahrhunderten führten auf einer weiten, schönen und wundersamen Welt die

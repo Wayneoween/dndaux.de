@@ -105,7 +105,7 @@ glossary:
     image_alt: Wappen der Risa
     url: ''
   - term: Örn
-    definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur (Insel des Glanzes). Jarl Lahahel Korloke.
+    definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur. Jarl Lahahel Korloke.
     more: Verehren Palter und sehen Schönheit in allem, besonders im Unvollkommenen. Gelten als talentierteste Schmiede und Handwerker, bauen die schönsten Schiffe, Waffen und Werkzeuge. Wenige verstreute Handelslager, da sie meist reisen.
     type: Klan
     image: '/assets/images/orn_shield.webp'
@@ -448,8 +448,8 @@ glossary:
     image_alt: Lurx vom Vipernschiff
     url: ''
   - term: Toki
-    definition: Halbling in Nirgendwo. Lebt im Zeltlager und kämpft für bessere Bedingungen der Flüchtlinge.
-    more: Aufgewachsen in denselben Zelten, in denen sie noch immer lebt. Anführerin der Flüchtlinge aus dem Zeltlager.
+    definition: Halbling. Teil der Crew der Helden. Lebte im Zeltlager in Nirgendwo.
+    more: Aufgewachsen in einem Zelt in Nirgendwo und ehemalige Anführerin der Flüchtlinge. Ist der Schiffscrew der Helden beigetreten.
     type: Person
     image: '/assets/images/toki.png'
     image_alt: Toki, Aktivistin von Nirgendwo
@@ -460,4 +460,11 @@ glossary:
     type: Person
     image: ''
     image_alt: Danik 'Hetel' Edgare
+    url: ''
+  - term: Otis
+    definition: Elfischer Historiker, Künstler und Wanderer. Letzter lebender Zeuge des Exodus aus den Verlorenen Landen.
+    more: Jahrhundertealt und stets zwischen den Klans unterwegs. Verbrachte einige Jahre auf Fallegur bei den Örn. Bekannt für seine bunten Künstlergewänder und seine Trompete.
+    type: Person
+    image: '/assets/images/otis.png'
+    image_alt:
     url: ''

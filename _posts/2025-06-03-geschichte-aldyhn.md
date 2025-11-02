@@ -11,6 +11,7 @@ feature-img-position-y: 90%
 draft: false
 session: -1
 categories: [stories]
+story: Aldhyn, First of the Völv
 ---
 
 > Obwohl sie die Welt erschaffen hatte, fand Aldyhn sich nach dem Betreten an
