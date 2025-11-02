@@ -8,6 +8,7 @@ feature-img-position-x: center
 feature-img-position-y: 50%
 draft: false
 session: 3
+categories: [verse]
 ---
 
 Der Kampf war so kurz wie brutal. Aaron, die Gestalt, die einst Aaron war, kämpfte beseelt von unheiliger Kraft. Selbst geköpft kämpfte sie fort. Und als sie endlich fiel, wollte Bjørn es nicht hinnehmen, sondern zerhackte ihren Leib in immer kleinere Stücke, bis Ove ihn endlich beruhigte. Doch schwerer als dieser Anblick wog die Frage: Hatte Hel, Herrin der Unterwelt, dieses Ungeheuer wissentlich aus dem Reich der Toten zurückgesandt? Bjørn wollte, konnte es nicht glauben. Aber Hrolf sah keine andere Erklärung.

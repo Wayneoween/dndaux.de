@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Einklang: Geboren aus Urmagie"
+title: "Einklang: Grimnir"
 date: 2025-09-06 14:00:00 +0200
 draft: false
+categories: [stories]
+story: Birthed by Primal Magic
 ---
 
 > Grimnir ist ein hartes Land. Der Norden ist die Heimat von Inseln, bedeckt von Eis und Schnee, unaufhörlich von eisigen Winden gepeitscht, während die Lande im Süden von Vulkanen und zerklüfteten Lavafeldern überschwemmt werden. Der Schlangensee windet sich zwischen diesen beiden rauen Extremen hindurch und umschlingt die inneren Kontinente sowie unzählige Inseln.

@@ -8,6 +8,7 @@ feature-img-position-x: center
 feature-img-position-y: 50%
 draft: false
 session: 2
+categories: [verse]
 ---
 
 Aber die Miniaturwelt zeigte noch mehr: Als Rekja und Siddhe sie erneut aktivieren, sehen sie Grimnir und verstörende Szenen. Eine Horde Mammuts im Norden, und ein gigantisches Etwas unter dem Eis. Den Hexenkönig, schwer gerüstet, ein grotesk grinsendes Schild in Händen, inmitten rostiger Wälder. Und in den Bergen ein Riese mit blauer Haut, ein Jötun, seit Jahrhunderten nicht in Grimnir gesehen.

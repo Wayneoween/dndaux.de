@@ -4,6 +4,8 @@ title: "Einklang: Die Banner von Fallegur"
 date: 2025-10-03 14:00:00 +0200
 draft: false
 session: 5
+categories: [stories]
+story: The Banners of Fallegur
 ---
 
 > Jeder Klan, der die Wellen des Schlangensees durchpflügt, führt sein eigenes Banner – ein wehender Stolz aus Stoff und Farbe, der Ruhm, Blutlinie und Schicksal verkündet. Diese Banner sind mehr als bloße Symbole; sie sind die Seele eines Klans, gewebt aus den Taten ihrer Ahnen, getränkt mit dem Ruhm ihrer gefallenen Krieger und oftmals gesegnet von den Völv.

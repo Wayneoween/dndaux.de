@@ -8,6 +8,7 @@ feature-img-position-x: center
 feature-img-position-y: 13%
 draft: false
 session: 6
+categories: [verse]
 ---
 
 Danach, so sagt man sich heute, entflohen alle Drachen Grimnir und folgten dem geworfenen Wyrm zum Mond von Valhöll.

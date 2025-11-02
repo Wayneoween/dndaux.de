@@ -8,6 +8,7 @@ feature-img-position-x: center
 feature-img-position-y: 25%
 draft: false
 session: 4
+categories: [verse]
 ---
 
 Das Methaus bot nicht nur Trank und Unterkunft, sondern auch eine Bühne, auf der Rekja und Kudrun den Ruhm der Helden mehrten. Zum Groll Tormunds, des örtlichen Erzählers, der die volle Aufmerksamkeit für sein Schattenspiel begehrte. Er erzählte die Geschichte von Mirgal, von dessen Unterwerfung unter Bo∂a und von dessen Tod, aus dem unsere Welt erst geboren ward.

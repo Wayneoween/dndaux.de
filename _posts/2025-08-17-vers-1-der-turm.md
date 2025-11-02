@@ -7,6 +7,7 @@ feature-img:  '/assets/images/posts/vers-1/tower.webp'
 feature-img-position-x: center
 feature-img-position-y: 50%
 draft: false
+categories: [verse]
 session: 1
 ---
 

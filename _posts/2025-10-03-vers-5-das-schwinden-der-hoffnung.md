@@ -8,6 +8,7 @@ feature-img-position-x: center
 feature-img-position-y: 25%
 draft: false
 session: 5
+categories: [verse]
 ---
 
 Und so suchten die Helden weiter nach einem Weg, ein Schiff Nirgendwos unter ihre Kontrolle zu bringen.

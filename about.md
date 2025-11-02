@@ -3,6 +3,7 @@ layout: page
 title: Über
 feature-img: 'assets/images/about-header.jpg'
 permalink: /about/
+position: 4
 ---
 
 Willkommen zu unserer **[Raiders of the Serpent Sea](https://modiphius.net/collections/raiders-of-the-serpent-sea)** Kampagne!
