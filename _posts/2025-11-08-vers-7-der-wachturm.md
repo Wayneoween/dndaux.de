@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vers 7: Der Wachturm"
-date: 2025-10-25 19:00:00 +0200
+date: 2025-11-08 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-7/wachturm.webp'
 feature-img:  '/assets/images/posts/vers-7/wachturm.webp'
 feature-img-position-x: center

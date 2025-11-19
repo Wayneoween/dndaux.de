@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einklang: Fallegur"
-date: 2025-10-08 14:00:00 +0200
+date: 2025-11-08 14:00:00 +0200
 draft: false
 session: 7
 categories: [stories]
