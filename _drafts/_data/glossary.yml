@@ -48,13 +48,6 @@ glossary:
     image: '/assets/images/hroarr.png'
     image_alt:
     url: ''
-  - term: Otis
-    definition:
-    more:
-    type:
-    image: '/assets/images/otis.png'
-    image_alt:
-    url: ''
   - term: Odur
     definition:
     more:
