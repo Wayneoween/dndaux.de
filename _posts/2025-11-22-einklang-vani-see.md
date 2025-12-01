@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einklang: Vani und der See"
-date: 2026-11-22 14:00:00 +0200
+date: 2025-11-22 14:00:00 +0200
 draft: false
 session: 7
 categories: [stories]
