@@ -51,3 +51,5 @@ Eine Zeltstadt voller Flüchtlinge, mit Toki, aufgebracht und aufwieglerisch. Be
 Und schließlich ein Besuch bei dieser Jarl selbst, die mit den Waffen übte und den Helden wenig Hilfe bot.
 
 So blieb ungewiss, wie die Helden Nirgendwo verlassen sollten. Ein eigenes Schiff war zu teuer, und eines zu stehlen schien unklug. Doch das Fest, das am Abend stattfinden sollte, versprach vielleicht eine Gelegenheit.
+
+Weiter Richtung Bär.
