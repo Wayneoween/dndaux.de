@@ -1,7 +1,7 @@
 repos:
   # General hooks for all files
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c # frozen: v6.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -10,7 +10,7 @@ repos:
 
   # JavaScript/TypeScript formatting with Prettier
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v4.0.0-alpha.8
+    rev: f12edd9c7be1c20cfa42420fd0e6df71e42b51ea # frozen: v4.0.0-alpha.8
     hooks:
       - id: prettier
         files: \.(js|jsx|ts|tsx|json|css|scss|sass|yml|yaml)$
@@ -19,7 +19,7 @@ repos:
 
   # Ruby formatting with RuboCop
   - repo: https://github.com/rubocop/rubocop
-    rev: v1.77.0
+    rev: 2fc5a29b03dd9789ddc1523b2b1786a2b1e841d7 # frozen: v1.81.7
     hooks:
       - id: rubocop
         args: [--autocorrect]
@@ -30,7 +30,7 @@ repos:
 
   # SCSS/Sass linting and formatting
   - repo: https://github.com/awebdeveloper/pre-commit-stylelint
-    rev: 0.0.2
+    rev: f792d6b33f0673991b8c044b5bb3bcae0399ada5 # frozen: 0.0.2
     hooks:
       - id: stylelint
         files: \.(css|scss|sass)$
