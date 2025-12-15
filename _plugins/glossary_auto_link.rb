@@ -111,13 +111,13 @@ module Jekyll
 
     output = page.output.dup
     # 1) Remove the hidden tooltip content entirely
-    output.gsub!(/<span\s+class="jekyll-glossary-tooltip">.*?<\/span>/m, '')
+    output.gsub!(%r{<span\s+class="jekyll-glossary-tooltip">.*?</span>}m, '')
     # 2) Unwrap the visible term
-    output.gsub!(/<span\s+class="glossary-term">(.*?)<\/span>/m, '\\1')
+    output.gsub!(%r{<span\s+class="glossary-term">(.*?)</span>}m, '\\1')
     # 3) Remove the outer glossary wrapper
-    output.gsub!(/<span\s+class="jekyll-glossary">(.*?)<\/span>/m, '\\1')
+    output.gsub!(%r{<span\s+class="jekyll-glossary">(.*?)</span>}m, '\\1')
     # 4) Handle not-found variant
-    output.gsub!(/<span\s+class="glossary-term-not-found"[^>]*>(.*?)<\/span>/m, '\\1')
+    output.gsub!(%r{<span\s+class="glossary-term-not-found"[^>]*>(.*?)</span>}m, '\\1')
 
     page.output = output
   end
