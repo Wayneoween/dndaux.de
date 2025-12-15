@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vers 9: Gullis Fall"
-date: 2025-11-22 19:00:00 +0200
+date: 2025-12-06 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-9/kudrun.webp'
 feature-img:  '/assets/images/posts/vers-9/kudrun.webp'
 feature-img-position-x: center
