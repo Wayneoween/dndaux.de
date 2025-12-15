@@ -29,7 +29,7 @@ Rekja hauchte den Helden noch einmal Leben ein als Gulli sich sich in eine monst
 
 Aber Bjørn, Tränen in den Augen, ertrug den Anblick seines früheren Zöglings und der unheiligen Macht Hels nicht länger, jener Macht, der er sein Leben gewidmet hatte und die ihn nun so verriet.
 
-So verließ er den Tempel und war nicht mehr dabei als Gulli, um sein Leben flehend, noch berichtete: Seine Schwester Artil reite einen Wolf wie Hel selbst. Sie habe im Norden eine Baendur-Festung erobert, Rockpike genannt — die Feste von Kudruns Großvater, König Cenric. Und sie halte eine Gefangene: eine Walküre.
+So verließ er den Tempel und war nicht mehr dabei als Gulli, um sein Leben flehend, noch berichtete: Seine Schwester Athils reite einen Wolf wie Hel selbst. Sie bereitet im Norden eine Belagerung einer Baendur-Festung, Rockpike genannt — die Feste von Kudruns Großvater, König Cenric — vor. Und in den Kerkern der Festung halte er eine Gefangene: eine Walküre.
 
 Doch alles Flehen war vergebens. Hrolf erfüllte den Schwur und köpfte Gulli.
 
@@ -39,4 +39,4 @@ Stunden später von Rekja gefunden und schleppte sie ihn mit Kraft oder Sturheit
 
 Sie betrauerten ihn und verbrannten ihn, zusammen mit den übrigen Gefallenen.
 
-Doch Bjørn, als alles um ihn herum zu Asche zerfiel, blieb unversehrt. Und mit den ersten Strahlen des neuen Tages erwachte er, um weitere Narben reicher, zu neuem Leben — Leben im Banne eines Fluches, der ihm seit über einem Jahrhundert die Erlösung des Todes verwehrt.
+Doch Bjørn, als alles um ihn herum zu Asche zerfiel, blieb unversehrt. Viele Stunden später, mit den ersten Strahlen des neuen Tages, erwachte er, wieder um Narben reicher, zu neuem Leben — Leben im Banne eines Fluches, der ihm seit über einem Jahrhundert die Erlösung des Todes verwehrt.
