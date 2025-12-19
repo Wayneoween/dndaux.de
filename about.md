@@ -14,13 +14,13 @@ Hier dokumentieren wir das Abenteuer unserer Heldengruppe durch die eisige, nord
 
 Unsere diverse Gruppe von Abenteurern vereint Vertreter verschiedener Klans und Hintergründe:
 
-- **Bjørn Lutaskr** - **ᛁ**
+- **Bjørn Lutaskr** - **ᛁ** **ᚾ**
   - _Der verfluchte Barbar_, einst von den Whar, der nun auf unbekannten Pfaden wandelt.
-- **Kudrun Wulfrun** - **ᛊ**
+- **Kudrun Wulfrun** - **ᛊ** **ᛟ**(rev)
   - _Die Königliche Erbin_. Eine Grim vom Hallharn-Klan, mit adeligen Wurzeln, von dunklen Mächten gespeist.
-- **Ove Ingalfaskr** - **ᛈ**
+- **Ove Ingalfaskr** - **ᛈ** **ᛗ**(rev)
   - _Der Gefallene_. Ein Mönch vom Örn-Klan, der aus dem Nichts fiel und nun Erinnerungen sucht.
-- **Rekja Aldyhnloke** - **ᚲ**
+- **Rekja Aldyhnloke** - **ᚲ** **ᛉ**
   - _Die Wachsame_. Eine Bardin vom Rande der Hallharn, stets auf der Suche nach verlorenen Geschichten Grimnirs.
 
 ## Die Welt von Grimnir
