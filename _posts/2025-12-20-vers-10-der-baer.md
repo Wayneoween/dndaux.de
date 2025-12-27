@@ -21,16 +21,16 @@ Mit schier übermenschlichem Geschick gelang es ihm, Schild und Schuhe zu erreic
 
 ![Kudrun ersprießt einen Whar](/assets/images/posts/vers-10/baer.webp)
 
-Wieder führte die Reise gen Norden. Da erkannte Ove, dass der Ort des Vulkanausbruchs den sie vor Nächten beobachteten kein anderer sein konnte als seine Heimat, Falegur. Und so wurde Falegur ihr Ziel — war es doch auch jener Ort, zu dem Kinickans Prophezeiung Bjørn geschickt hatte.
+Wieder führte die Reise gen Norden. Da erkannte Ove, dass der Ort des Vulkanausbruchs den sie vor Nächten beobachteten kein anderer sein konnte als seine Heimat, Fallegur. Und so wurde Fallegur ihr Ziel — war es doch auch jener Ort, zu dem Bjørn durch die Prophezeiung von Kinickan in Nirgendwo geschickt worden war.
 
-Die Insel lag fast gänzlich unter Lava begraben. Ein einzelner Turm ragte hervor, alles, was von der Stadt geblieben war. In einem Fjord, an einem vom Feuer verschonten Strand, lagen zwei schwarz bemalte Schiffe mit den Bannern der Luthan. Als das Schiff der Helden sich näherte, floh deren Crew, denn ein bannerloses Schiff weckte kein Vertrauen.
+Die Insel lag fast gänzlich unter Lava begraben. Ein einzelner Turm ragte hervor, alles, was von der Stadt geblieben war. In einem Fjord, an einem vom Feuer verschonten Strand, lagen zwei schwarz bemalte Schiffe mit den Bannern der Lutan. Als das Schiff der Helden sich näherte, floh deren Crew, denn ein bannerloses Schiff weckte kein Vertrauen.
 
-Auf dem Weg ins Herz der Insel fanden die Helden ein Lager der Luthan. Dort war an eine hölzerne Statue von Palter die traurige Gestalt einer Elfin gekettet — eine Angehörige von Oves Klan. Die Versuche friedlicher Rede scheiterten, doch dem Zorn Oves war der Anführer der Luthan nicht gewachsen. Die übrigen ließ man ziehen, unter der Weisung, die Überlebenden des Vulkanausbruchs unbehelligt zu lassen.
+Auf dem Weg ins Herz der Insel fanden die Helden ein Lager der Lutan. Dort war an eine hölzerne Statue von Palter die traurige Gestalt einer Elfin gekettet — eine Angehörige von Oves Klan. Die Versuche friedlicher Rede scheiterten, doch dem Zorn Oves war der Anführer der Lutan nicht gewachsen. Die übrigen ließ man ziehen, unter der Weisung, die Überlebenden des Vulkanausbruchs unbehelligt zu lassen.
 
-Erst nach Rettung, Heilung und Befragung der Elfin, Alfrid genannt, wurde die Wahrheit offenbar: Die Luthan waren nicht zufällige Nutznießer des Unglücks der Insel. Sie waren die Ursache der Katastrophe. Einer ihrer Magier, Trandil, hatte sich kurz vor dem Ausbruch in die Höhlen unter der Insel begeben.
+Erst nach Rettung, Heilung und Befragung der Elfin, Halfrid genannt, wurde die Wahrheit offenbar: Die Lutan waren nicht zufällige Nutznießer des Unglücks der Insel. Sie waren die Ursache der Katastrophe. Einer ihrer Magier, Trandil, hatte sich kurz vor dem Ausbruch in die Höhlen unter der Insel begeben.
 
-Da bereute Ove, dass man die Luthan hatte ziehen lassen, und er korrigierte den Fehler. Er verfolgte die langsameren Krieger und machte mit ihnen kurzen Prozess.
+Da bereute Ove, dass man die Lutan hatte ziehen lassen, und er korrigierte den Fehler. Er verfolgte die langsameren Krieger und machte mit ihnen kurzen Prozess.
 
-In einem der Zelte des befreiten Lagers führte eine Leiter hinab, zu Häusern, die nun unter erstarrter Lava begraben lagen. Alfrid bat die Helden, ihre Familie zu finden und die Werkzeuge ihres Klans zu bergen, auf dass sie nicht in falsche Hände fielen.
+In einem der Zelte des befreiten Lagers führte eine Leiter hinab, zu Häusern, die nun unter erstarrter Lava begraben lagen. Halfrid bat die Helden, ihre Familie zu finden und die Werkzeuge ihres Klans zu bergen, auf dass sie nicht in falsche Hände fielen.
 
-Doch Bjørn beschlich ein dunkles Gefühl: Er meinte, Alfrid schon einmal gesehen zu haben. Vielleicht war sie es gewesen, derentwegen er nach Falegur gesandt worden war? Diejenige, die Schuld war am Fluch, der jetzt auf ihm lastete.
+Doch Bjørn beschlich ein dunkles Gefühl: Er meinte, Halfrid schon einmal gesehen zu haben. Vielleicht war sie es gewesen, derentwegen er nach Fallegur gesandt worden war? Diejenige, die Schuld war am Fluch, der jetzt auf ihm lastete.

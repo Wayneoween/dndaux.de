@@ -468,3 +468,10 @@ glossary:
     image: '/assets/images/otis.png'
     image_alt:
     url: ''
+  - term: Halfrid
+    definition: Elfische Überlebende des Vulkanausbruchs auf Fallegur. Weberin des Örn-Klans.
+    more: Eine Überlebende die auf der Oberfläche der zerstörten Insel gefunden wurde.
+    type: Person
+    image: '/assets/images/halfrid.png'
+    image_alt: Halfrid, Überlebende von Fallegur
+    url: ''
