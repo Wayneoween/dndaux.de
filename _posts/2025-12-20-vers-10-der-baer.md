@@ -11,7 +11,7 @@ session: 10
 categories: [verse]
 ---
 
-Die Rückkehr Bjørns aus dem Tod — verflucht, wiedererstanden, vielleicht untot — erfüllte Herzen der Crew mit Furcht. Rekja, Kapitänin und Anführerin, verhinderte offene Zwietracht, doch die Verunsicherung wich nicht, auf der Fahrt zum nächsten Ziel: zu jener Insel, auf der ein riesiger Bär die Knattle vertrieben hatte und nun über zurückgelassene Artefakte wachte — Schuhe und ein Schild von magischer Macht.
+Die Rückkehr Bjørns aus dem Tod — verflucht, wiedererstanden, vielleicht untot — erfüllte Herzen der Crew mit Furcht. Rekja, Kapitänin und Anführerin, verhinderte offene Zwietracht, doch die Verunsicherung wich nicht, auf der Fahrt zum nächsten Ziel: zu jener Insel, auf der ein riesiger Bär die Knattle vertrieben hatte und nun über zurückgelassene Artefakte wachte, ein besonderes paar Stiefel und ein Schild von magischer Macht.
 
 Auch eine Prophezeiung Siddhes besserte die Stimmung nicht. Sie übte sich im Werfen der Runen, und mit einer Stimme, die nicht die ihre war, sprach sie von *dem Mann, der sterben möchte*, und von *einem Mann ohne Namen auf blutigem Thron, den er nicht verdient hatte*. Später konnte sie sich an Nichts mehr erinnern.
 
@@ -21,11 +21,11 @@ Mit schier übermenschlichem Geschick gelang es ihm, Schild und Schuhe zu erreic
 
 ![Kudrun ersprießt einen Whar](/assets/images/posts/vers-10/baer.webp)
 
-Wieder führte die Reise gen Norden. Da erkannte Ove, dass der Ort des Vulkanausbruchs den sie vor Nächten beobachteten kein anderer sein konnte als seine Heimat, Fallegur. Und so wurde Fallegur ihr Ziel — war es doch auch jener Ort, zu dem Bjørn durch die Prophezeiung von Kinickan in Nirgendwo geschickt worden war.
+Wieder führte die Reise gen Norden. Da erkannte Ove, dass der Ort des Vulkanausbruchs den sie vor Nächten beobachteten kein anderer sein konnte als seine Heimat, Fallegur. Und so wurde Fallegur ihr Ziel, war es doch auch jener Ort, zu dem Bjørn durch die Prophezeiung von Kinickan in Nirgendwo geschickt worden war.
 
 Die Insel lag fast gänzlich unter Lava begraben. Ein einzelner Turm ragte hervor, alles, was von der Stadt geblieben war. In einem Fjord, an einem vom Feuer verschonten Strand, lagen zwei schwarz bemalte Schiffe mit den Bannern der Lutan. Als das Schiff der Helden sich näherte, floh deren Crew, denn ein bannerloses Schiff weckte kein Vertrauen.
 
-Auf dem Weg ins Herz der Insel fanden die Helden ein Lager der Lutan. Dort war an eine hölzerne Statue von Palter die traurige Gestalt einer Elfin gekettet — eine Angehörige von Oves Klan. Die Versuche friedlicher Rede scheiterten, doch dem Zorn Oves war der Anführer der Lutan nicht gewachsen. Die übrigen ließ man ziehen, unter der Weisung, die Überlebenden des Vulkanausbruchs unbehelligt zu lassen.
+Auf dem Weg ins Herz der Insel fanden die Helden ein Lager der Lutan. Dort war an eine hölzerne Statue von Palter die traurige Gestalt einer Elfin gekettet, eine Angehörige von Oves Klan. Die Versuche friedlicher Rede scheiterten, doch dem Zorn Oves war der Anführer der Lutan nicht gewachsen. Die übrigen ließ man ziehen, unter der Weisung, die Überlebenden des Vulkanausbruchs unbehelligt zu lassen.
 
 Erst nach Rettung, Heilung und Befragung der Elfin, Halfrid genannt, wurde die Wahrheit offenbar: Die Lutan waren nicht zufällige Nutznießer des Unglücks der Insel. Sie waren die Ursache der Katastrophe. Einer ihrer Magier, Trandil, hatte sich kurz vor dem Ausbruch in die Höhlen unter der Insel begeben.
 
