@@ -11,7 +11,7 @@ session: 11
 categories: [verse]
 ---
 
-Als Ove, Kudrun und Rekja bereits die Leiter hinabgestiegen waren, blieb Bjørn zurück. Er glaube in Halfrid die zu erkennen, die ihn einst verflucht hatte, und er begann sie mit Fragen und Drohungen zu bedrängen. Doch offenbarte sie ihm, dass nicht sie es gewesen war, sondern vielleicht ihre Großmutter Olayra. Diese sei aber schon lange tot, ihr Schrein begraben wie ganz Falegur, verschüttet unter der erstarrten Lava.
+Als Ove, Kudrun und Rekja bereits die Leiter hinabgestiegen waren, blieb Bjørn zurück. Er glaube in Halfrid die zu erkennen, die ihn einst verflucht hatte, und er begann sie mit Fragen und Drohungen zu bedrängen. Doch offenbarte sie ihm, dass nicht sie es gewesen war, sondern vielleicht ihre Großmutter Olayra. Diese sei aber schon lange tot, ihr Schrein begraben wie ganz Fallegur, verschüttet unter der erstarrten Lava.
 
 Und so stiegen die Helden hinab und fanden ein verzweigtes Gewirr aus Tunneln. Sie wandelten durch die Innenräume einstiger Häuser, durch Gärten ohne Himmel, zerstört und schwer zugänglich. Sie suchten den Weg zum Turm der Überlebenden, doch selbst Ove fiel die Orientierung schwer im Labyrinth aus erstarrter Lava.
 
@@ -21,7 +21,7 @@ Ein kurzer Kampf entbrannte, bis die Lutan sich ergeben mussten. Kudrun verhexte
 
 Nach weiterer Erkundung und einer unerfreulichen Begegnung mit Geschöpfen aus Magma und Metall fanden die Helden die Überreste eines Ladens voller Bücher. Der Ort erschien sicher genug für eine kurze Rast. Dort jedoch verbarg sich eine kleine Gestalt: Phrine, eine verängstigte Wicker, bewaffnet mit einem Bogin, aber mit nur einem Arm.
 
-Phrine fasste schnell Vertrauen, besonders zu Rekja, die sie als ihresgleichen erkannte (was so manches erklärte und zugleich neue Fragen aufwarf). Sie erzählte von einem Traum: Ein Smaragd habe in ihrer Hand gelegen und sie mit vielen anderen Wickern in die Berge gelockt. Dort standen der Regenbogenspeer, den man für zerstört hielt, und die versteinerten Götter. Als einer der Wicker den Speer mit dem Edelstein berührte, kam es zu einer gewaltigen Explosion. Nach hastiger Flucht und einem tiefen Sturz in die Schlangensee wurde Phrine jedoch gerettet und nach Falegur gebracht.
+Phrine fasste schnell Vertrauen, besonders zu Rekja, die sie als ihresgleichen erkannte (was so manches erklärte und zugleich neue Fragen aufwarf). Sie erzählte von einem Traum: Ein Smaragd habe in ihrer Hand gelegen und sie mit vielen anderen Wickern in die Berge gelockt. Dort standen der Regenbogenspeer, den man für zerstört hielt, und die versteinerten Götter. Als einer der Wicker den Speer mit dem Edelstein berührte, kam es zu einer gewaltigen Explosion. Nach hastiger Flucht und einem tiefen Sturz in die Schlangensee wurde Phrine jedoch gerettet und nach Fallegur gebracht.
 
 Etwas erholt zogen die Helder weiter und fanden das Haus des Sehers, gezeichnet mit Runen und einer Warnung. Es sei versiegelt, so hieß es, bis zum Ende einer Untersuchung. Im Inneren eine verstörende Szene: Auf einem Granitthron der Seher, den Kopf in den Nacken gelegt, und aus seinem Mund wuchs ein armdicker Stamm bis zur Decke. Zu seinen Füßen eine Frau in einer Lache aus Blut. Daneben Runensteine, geworfen und offenbart: genau die Geburtsrunen der Helden – und eine weitere.
 

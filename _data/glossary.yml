@@ -475,3 +475,10 @@ glossary:
     image: '/assets/images/halfrid.png'
     image_alt: Halfrid, Überlebende von Fallegur
     url: ''
+  - term: Phrine
+    definition: Mysteriöse Wicker-Frau, die in den Ruinen von Fallegur gefunden wurde.
+    more: Eine junge Wicker, die einen prophetischen Traum vom Regenbogenspeer hatte. Schloss sich der Gruppe an, hält sich aber meist im Hintergrund.
+    type: Person
+    image: '/assets/images/phrine.webp'
+    image_alt: Phrine, die Wicker aus Fallegur
+    url: ''
