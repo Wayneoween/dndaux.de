@@ -482,3 +482,10 @@ glossary:
     image: '/assets/images/phrine.webp'
     image_alt: Phrine, die Wicker aus Fallegur
     url: ''
+  - term: Olayra
+    definition: Verstorbene Skaldin, die Bjørn mit einem mächtigen Fluch belegte.
+    more: Starb vor etwa 50 Jahren an einer Krankheit, während sie anderen half. In den Ruinen von Fallegur existiert ein Schrein zu ihrem Gedenken.
+    type: Person
+    image: '/assets/images/olayra.webp'
+    image_alt: Olayra, die Skaldin
+    url: ''
