@@ -11,7 +11,7 @@ session: 2
 categories: [verse]
 ---
 
-Aber die Miniaturwelt zeigte noch mehr: Als Rekja und Siddhe sie erneut aktivieren, sehen sie Grimnir und verstörende Szenen. Eine Horde Mammuts im Norden, und ein gigantisches Etwas unter dem Eis. Den Hexenkönig, schwer gerüstet, ein grotesk grinsendes Schild in Händen, inmitten rostiger Wälder. Und in den Bergen ein Riese mit blauer Haut, ein Jötun, seit Jahrhunderten nicht in Grimnir gesehen.
+Aber die Miniaturwelt zeigte noch mehr: Als Rekja und Siddhe sie erneut aktivieren, sehen sie Grimnir und verstörende Szenen. Eine Horde Mammuts im Norden, und ein gigantisches Etwas unter dem Eis. Den Hexenkönig, schwer gerüstet, ein grotesk grinsendes Schild in Händen, inmitten rostiger Wälder. Und in den Bergen ein Riese mit blauer Haut, ein Jötunn, seit Jahrhunderten nicht in Grimnir gesehen.
 
 Auch im Obergeschoss fanden sich weitere Überraschungen. Fresken mit den Legenden der Vanir, aber auch prominent Mirgal, den Verräter, und Boða, die Verführerin. Eine Kiste barg einen silbernen Kopf, Augen geschlossen, den Mund zugenäht. Auch das, so glaubte zumindest Rekja, war Mirgal.
 

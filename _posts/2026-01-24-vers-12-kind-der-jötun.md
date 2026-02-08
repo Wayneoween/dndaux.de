@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vers 12: Kind der Jötun"
+title: "Vers 12: Kind der Jötunn"
 date: 2026-01-24 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-12/trandil.webp'
 feature-img:  '/assets/images/posts/vers-12/trandil.webp'
