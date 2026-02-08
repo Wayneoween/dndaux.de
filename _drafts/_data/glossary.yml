@@ -83,10 +83,3 @@ glossary:
     image: '/assets/images/skuld.png'
     image_alt:
     url: ''
-  - term: Trandil
-    definition:
-    more:
-    type:
-    image: '/assets/images/trandil.png'
-    image_alt:
-    url: ''

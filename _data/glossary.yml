@@ -378,8 +378,8 @@ glossary:
     image_alt: Zelan, Gastwirtin des Auges des Sturms
     url: ''
   - term: Fallegur
-    definition: Insel des Glanzes, Hauptsiedlung der Örn.
-    more: Tränenförmige Insel im östlichen Arm des Schlangenmeers, berühmt für natürliche Schönheit mit grünen Wiesen und fast reinem Marmorfundament. Die Örn bauten hier eine elegante Heimat und eine Festung auf dem höchsten Punkt. Wichtiger Handelshafen für Klans und Baendur.
+    definition: Insel des Glanzes, Hauptsiedlung der Örn. Durch Vulkanausbruch zerstört.
+    more: Einst tränenförmige Insel im östlichen Arm des Schlangenmeers, berühmt für natürliche Schönheit mit grünen Wiesen und Marmorfundament. Nun von schwarzer Lava bedeckt, die Stadt verschüttet. Nur die Festung ragt noch aus dem erkalteten Gestein. Der Magier Trandil löste die Katastrophe aus.
     type: Ort
     image: ''
     image_alt: Die Insel Fallegur
@@ -488,4 +488,11 @@ glossary:
     type: Person
     image: '/assets/images/olayra.webp'
     image_alt: Olayra, die Skaldin
+    url: ''
+  - term: Trandil
+    definition: Lutan-Magier, verantwortlich für die Zerstörung Fallegurs.
+    more: Von Finnan in die Tiefen der Insel Fallegur geführt, wo er den Vulkanausbruch auslöste.
+    type: Person
+    image: '/assets/images/trandil.png'
+    image_alt: Trandil, der Lutan-Magier
     url: ''
