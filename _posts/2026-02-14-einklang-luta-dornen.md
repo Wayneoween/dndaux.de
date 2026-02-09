@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einklang: Vergessene Schnitzerei"
-date: 2026-02-07 14:00:00 +0200
+date: 2026-02-14 14:00:00 +0200
 draft: false
 session: 13
 categories: [stories]
