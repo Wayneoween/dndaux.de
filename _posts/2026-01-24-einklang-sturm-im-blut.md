@@ -22,9 +22,9 @@ story: Custom - Zelan
 > Ahnen haben all das hinter sich gelassen, als sie hierher kamen, nach Grimnir.
 > Da bin ich mir sicher."
 >
-> Und wer oft genug und genau hinhört, bemerkt eine immerwährende Pause bei
-> diesen letzten Worten, einen immerwährenden Blick. Nur einen Herzschlag lang.
-> Dann schenkt sie nach, und das Gespräch wendet sich anderen Dingen zu.
+> Und wer oft genug und genau hinhört, bemerkt eine Pause bei diesen letzten
+> Worten. Immer dieselbe. Und einen Blick. Immer denselben. Nur einen
+> Herzschlag lang.
 >
 > Denn wer möchte schon hören, dass der Nachbar, der Freund, das eigene Kind –
 > oder gar man selbst – das Blut jener Ungeheuer in sich trägt, vor denen alle
