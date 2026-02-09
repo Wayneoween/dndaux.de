@@ -7,9 +7,9 @@ story: Custom - Zelan
 ---
 
 > In der großen Schankstube von Nirgendwo, im Auge des Sturms, hört man viele
-> Geschichten. Die meisten davon sind Lügen. Manche davon sind wahr. Und einige
-> wenige verbergen eine Wahrheit, die der Erzähler selbst nicht kennt, oder
-> nicht kennen will.
+> Geschichten. Die meisten davon sind Lügen. Manche davon sind sogar halb wahr.
+> Und einige wenige verbergen eine Wahrheit, die der Erzähler selbst nicht
+> kennt. Oder nicht kennen will.
 >
 > Zelan, die Wirtin, ist eine Frau vieler Worte und fester Überzeugungen. Wer
 > lang genug an ihrem Tresen sitzt, wird sie irgendwann über die Tuss reden
@@ -30,5 +30,5 @@ story: Custom - Zelan
 > oder gar man selbst – das Blut jener Ungeheuer in sich trägt, vor denen alle
 > hier aus den Verlorenen Landen flohen?
 >
-> Manchmal ist die gefährlichste Lüge jene, an die man glauben muss. Um
+> Manchmal ist die gefährlichste Lüge jene, an die man glauben muss, um
 > weiterleben zu können.
