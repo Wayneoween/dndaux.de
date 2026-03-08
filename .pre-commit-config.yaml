@@ -19,7 +19,7 @@ repos:
 
   # Ruby formatting with RuboCop
   - repo: https://github.com/rubocop/rubocop
-    rev: 2fc5a29b03dd9789ddc1523b2b1786a2b1e841d7 # frozen: v1.81.7
+    rev: fd076726f524a9a551f9a528eec2df57e2762146 # frozen: v1.85.1
     hooks:
       - id: rubocop
         args: [--autocorrect]
