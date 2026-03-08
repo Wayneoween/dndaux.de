@@ -33,7 +33,7 @@ Die Helden erwachten äußerst unsanft. Sie lagen, in Tücher gehüllt, am Heck 
 
 Auf dem Deck herrschte Chaos. Die Mannschaft kämpfte gegen eine gewaltige Seeschlange aus den Tiefen der Schlangensee. Mit einem einzigen Biss brachte das Ungeheuer Bjørn an den Rand des Todes. Doch Ove antwortete mit der Kraft des Blitzes, und ebenso gewaltig traf sein Schlag. Da wand sich die Schlange und versank in der See.
 
-Die Fahrt ging weiter gen Rockpike, der Bergfestung. Zwei Tagesmärsche lagen noch vor den Helden. Doch schon am Horizont zeichnete sich Unheil ab: Eine dichte Rauchwolke stieg zum Himmel. Und klirrende Kälte drang in ihre Knochen.
+Die Fahrt ging weiter gen Rockpike, der Bergfestung der Baendur. Zwei Tagesmärsche lagen noch vor den Helden. Doch schon am Horizont zeichnete sich Unheil ab: Eine dichte Rauchwolke stieg zum Himmel. Und klirrende Kälte drang in ihre Knochen.
 
 Erst nach einem langen Marsch über gefährliche Bergpfade erreichten sie die Quelle des Rauches. Am Fuß eines tosenden Wasserfalls lag ein Dorf, alle Hütten bis auf die Grundfesten niedergebrannt.
 
@@ -43,7 +43,7 @@ So schlugen die Helden ihr Nachtlager einige Stunden entfernt von diesem Ort des
 
 ![Überfall](/assets/images/posts/vers-14/ueberfall.webp)
 
-Ein kurzer und blutiger Kampf entbrannte. Von den Whar überlebte nur ihr Anführer: Skurr, den Bjørn wiedererkannte. Er berichtete von Athils, der Jarl der Whar, die die Festung belagere. Und er sprach davon, dass die Helden sich ihnen anschließen sollten. Doch das kam kaum in Betracht.
+Ein kurzer und blutiger Kampf entbrannte. Von den Whar überlebte nur ihr Anführer: Skurr, den Bjørn wiedererkannte. Er berichtete von Athils, der Jarlin der Whar, die die Festung belagere. Und er sprach davon, dass die Helden sich ihnen anschließen sollten. Doch das kam kaum in Betracht.
 
 Am Morgen, der Nacht noch ein wenig Schlaf abgerungen, fanden sie weitere Spuren. Schlurfende Gestalten waren in der Finsternis vorbeigezogen, aus Richtung des zerstörten Dorfes.
 
