@@ -37,7 +37,6 @@ feature-img-position-y: 58%
   <!-- Term index -->
   {% if sorted_terms.size > 5 %}
   <nav class="glossary-index">
-    <h3>Begriffe</h3>
     <div class="term-links" data-term-count="{{ sorted_terms.size }}">
       {% for item in sorted_terms %}
         <a href="#term-{{ item.term | downcase | url_encode }}">{{ item.term }}</a>
