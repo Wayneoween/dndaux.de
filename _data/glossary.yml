@@ -496,3 +496,17 @@ glossary:
     image: '/assets/images/trandil.png'
     image_alt: Trandil, der Lutan-Magier
     url: ''
+  - term: Lan
+    definition: Elitekriegerin König Cenrics, Anführerin der Schneemäntel. Einzige Überlebende eines Whar-Überfalls von Frostwren.
+    more: Loyal gegenüber ihrem König, überzeugt von der Rechtmäßigkeit der Baendur. Von den Whar verschont, um als Botin zu dienen. Hält Skuld für eine gewöhnliche Frau.
+    type: Person
+    image: '/assets/images/lan.png'
+    image_alt: Lan, Schneemantel der Baendur
+    url: ''
+  - term: Athils
+    definition: Jarlin der Whar, Schwester von Gulli, belagert Rockpike mit ihrem Klan und Wölfen.
+    more: Führte die Whar angeblich auf Hels Geheiß in den Hohen Norden.
+    type: Person
+    image: '/assets/images/athils.png'
+    image_alt: Athils Vestemb, Jarlin der Whar
+    url: ''
