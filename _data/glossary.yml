@@ -42,8 +42,8 @@ glossary:
     image_alt: Palter, Gott der Hoffnung
     url: ''
   - term: Hel
-    definition: Herrin der Toten, verehrt von den Whar. Aus den alten Legenden bekannt.
-    more: In den Sagen wird sie als Herrscherin der Unterwelt beschrieben, die zwischen Leben und Tod wandeln kann. Manche Geschichten erzählen, sie sammle die Seelen der Gefallenen. Die Whar verehren sie als ihre Göttin, was andere Klans verstört. Ob sie mehr als nur eine Legende ist, wissen nur wenige.
+    definition: Herrin der Toten, verehrt von den Whar. Herrscht über die Unterwelt.
+    more: In den Sagen wird sie als Herrscherin der Unterwelt beschrieben, die zwischen Leben und Tod wandeln kann. Manche Geschichten erzählen, sie sammle die Seelen der Gefallenen. Die Whar verehren sie als ihre Göttin und handeln auf ihr Geheiß, was andere Klans sehr verstört. Bjørn predigte ihren Glauben Jahrzehnte in Cledon. Ob sie gütig oder grausam ist, darüber gehen die Meinungen auseinander.
     type: Legende
     image: ''
     image_alt: Hel, Herrin der Toten
@@ -56,8 +56,8 @@ glossary:
     image_alt: Boða, die Verfluchte
     url: ''
   - term: Mirgal
-    definition: Gott aus den Legenden, angeblicher Schöpfer des Regenbogenspeers.
-    more: In den alten Geschichten wird er als Vanir-Verräter beschrieben, der in seinem Machtstreben sein Volk betrog. Manche Sagen erzählen, seine Magie erschuf versehentlich Grimnir. Die Völv sprechen von ihm als komischen Bösewicht aus den Verlorenen Landen. Ob er je existierte, ist unter Gelehrten umstritten.
+    definition: Gott aus den Legenden, angeblicher Schöpfer des Regenbogenspeers, Verräter der Vanir.
+    more: In den alten Geschichten wird er als Vanir-Verräter beschrieben, der in seinem Machtstreben sein Volk betrog. Manche Sagen erzählen, seine Magie erschuf versehentlich Grimnir. Die Völv sprechen von ihm als komischen Bösewicht aus den Verlorenen Landen. Ob er je existierte, ist unter Gelehrten umstritten. Die Helden fanden einen eisernen Kopf mit seinem Antlitz in einem Turm und sein Gemälde im Hexenschrein-Traum, eingeschüchtert von einer großen Frau mit gewaltiger Axt.
     type: Legende
     image: '/assets/images/mirgal.png'
     image_alt: Mirgal
@@ -351,7 +351,7 @@ glossary:
     url: ''
   - term: Gulli
     definition: Druide des Whar-Klans und Bruder von Athils. Anhänger der Hel und Co-Jarl der Whar.
-    more: Leitete den Überfall auf Hrolfs Krieger am Turm. Seine Schwester Athils ist die zweite Anführerin der Whar.
+    more: Leitete den Überfall auf Hrolfs Krieger am Turm. Seine Schwester Athils ist die zweite Anführerin der Whar. Von den Helden im Kampf getötet.
     type: Person
     image: '/assets/images/gulli.png'
     image_alt: Gulli, Druide der Whar
