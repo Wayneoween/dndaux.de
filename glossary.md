@@ -12,9 +12,10 @@ feature-img-position-y: 58%
 
 {% assign german_alphabet = 'A,Ä,B,C,D,E,F,G,H,I,J,K,L,M,N,O,Ö,P,Q,R,S,T,U,Ü,V,W,X,Y,Z' | split: ',' %}
 
-{% comment %} Sort terms according to German alphabet {% endcomment %}
+{% comment %} Sort terms according to German alphabet, then alphabetically within each letter group {% endcomment %}
+{% assign alpha_sorted = unsorted_terms | sort: "term" %}
 {% for letter in german_alphabet %}
-{% for term in unsorted_terms %}
+{% for term in alpha_sorted %}
 {% assign first_letter = term.term | slice: 0, 1 | upcase %}
 {% if first_letter == letter %}
 {% assign sorted_terms = sorted_terms | push: term %}

@@ -5,7 +5,7 @@ date: 2026-03-28 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-15/bruecke.webp'
 feature-img:  '/assets/images/posts/vers-15/bruecke.webp'
 feature-img-position-x: center
-feature-img-position-y: 20%
+feature-img-position-y: 45%
 draft: false
 session: 15
 categories: [verse]

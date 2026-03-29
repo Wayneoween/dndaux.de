@@ -510,3 +510,17 @@ glossary:
     image: '/assets/images/athils.png'
     image_alt: Athils Vestemb, Jarlin der Whar
     url: ''
+  - term: Rockpike
+    definition: Bergfestung König Cenrics im Hohen Norden, Sitz der Baendur-Herrschaft. Von den Whar belagert.
+    more: Eine befestigte Stadt auf einem steilen Gipfel, nur über tückische Serpentinen und Seilbrücken erreichbar. Steinmauern aus dem Berg selbst gehauen, 45 Fuß hoch.
+    type: Ort
+    image: '/assets/images/rockpike.jpg'
+    image_alt: Rockpike, Bergfestung der Baendur
+    url: ''
+  - term: Helmaul
+    definition: Angebliche Portale zur Unterwelt. Die Whar nutzen sie auf Hels Geheiß, um durch Grimnir zu reisen.
+    more: Nur mit Hels Erlaubnis lassen sie sich passieren.
+    type: Ort
+    image: ''
+    image_alt: Ein Helmaul, Portal zur Unterwelt
+    url: ''
