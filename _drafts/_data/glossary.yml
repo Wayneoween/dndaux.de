@@ -76,10 +76,3 @@ glossary:
     image: '/assets/images/rud_nosight.png'
     image_alt:
     url: ''
-  - term: Skuld
-    definition: Gefangene auf Rockpike, angeblich eine Walküre.
-    more: Schweigsam. Bestreitet vehement, eine Walküre zu sein.
-    type: NPC
-    image: '/assets/images/skuld.png'
-    image_alt: Skuld, Cenrics Gefangene
-    url: ''

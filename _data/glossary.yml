@@ -192,7 +192,7 @@ glossary:
     definition: König des Steinkönigreichs und mächtiger Baendur-Herrscher.
     more: Ein ehrgeiziger Mann, dessen Blutlinie angeblich vom Witchking abstammt. Er führte mehrere gescheiterte Kriege gegen die Krieger und wurde in die vulkanischen Westlande zurückgedrängt. Cenric hat zahlreiche Kinder, die in andere Baendur-Königreiche eingeheiratet haben.
     type: Person
-    image: ''
+    image: '/assets/images/cenric_edgare.png'
     image_alt: König Cenric Edgare der Baendur
     url: ''
   - term: Finnan
@@ -523,4 +523,11 @@ glossary:
     type: Ort
     image: ''
     image_alt: Ein Helmaul, Portal zur Unterwelt
+    url: ''
+  - term: Skuld
+    definition: Gefangene auf Rockpike, angeblich eine Walküre.
+    more: Schweigsam. Hatte einen Eid geleistet der an König Cenric verkauft wurde.
+    type: Person
+    image: '/assets/images/skuld.png'
+    image_alt: Skuld, Cenrics Gefangene
     url: ''

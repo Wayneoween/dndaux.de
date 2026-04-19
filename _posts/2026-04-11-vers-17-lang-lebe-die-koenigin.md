@@ -15,21 +15,21 @@ König Cenric flehte um sein Leben und versuchte Kudrun mit schmeichelnden Worte
 
 Ein kurzer, heftiger Kampf entbrannte. Cenric zeigte große Macht und griff nach dunkleren Kräften, doch vermochte er der Überzahl nicht standzuhalten. So wurde er schließlich von Kudrun niedergerungen, und die befreite Frau, die man eine Walküre geheißen hatte, trennte sein Haupt vom Leib.
 
-In der Stille nach dem Kampf war Zeit, mit der Kriegerin zu sprechen. Skald war ihr Name, doch ihre Worte waren knapp. Eine Walküre sei sie nicht; vielmehr habe sie in der Schuld eines Mannes gestanden, der diese Last an den König weitergegeben hatte.
+In der Stille nach dem Kampf war Zeit, mit der Kriegerin zu sprechen. Skuld war ihr Name, doch ihre Worte waren knapp. Eine Walküre sei sie nicht; vielmehr habe sie in der Schuld eines Mannes gestanden, der diese Last an den König weitergegeben hatte.
 
 Da ihr Schicksal unter den Whar ungewiss war, schloss sie sich den Helden an.
 
 Lärm von Plünderung und Grausamkeit kündigte das Eintreffen der Whar an, und Athils trat mit ihrem Wolf in den Thronsaal. Zufriedenheit lag in ihrem Blick, denn ihre Pläne waren aufgegangen. Für die Helden habe sie keine weitere Verwendung, sprach sie, und gestattete ihnen, ihres Weges zu ziehen.
 
-Auf dem Rückweg nahmen sie reichlich Proviant an sich, und Skald trug die Last zweier Männer. Auch Lan, noch ohne Bewusstsein, wurde aus der Festung gebracht, auf dass sie nicht ein weiteres Opfer der Whar werde. Doch als sie erwachte und vom Fall ihres Königs und ihres Klans erfuhr, kehrte sie umgehend um, getrieben von Rache oder Hoffnung auf Erlösung.
+Auf dem Rückweg nahmen sie reichlich Proviant an sich, und Skuld trug die Last zweier Männer. Auch Lan, noch ohne Bewusstsein, wurde aus der Festung gebracht, auf dass sie nicht ein weiteres Opfer der Whar werde. Doch als sie erwachte und vom Fall ihres Königs und ihres Klans erfuhr, kehrte sie umgehend um, getrieben von Rache oder Hoffnung auf Erlösung.
 
-Der Weg zurück zum Schiff war beschwerlich. Nur einmal wurden sie aufgehalten, als sie auf die gewaltigen Spuren eines Hügelriesen stießen. Bald darauf, ungenügend versteckt in einem kleinen Wäldchen fanden sie ihn selbst: Grok war sein Name. Groß war er von Gestalt, doch nicht feindseligem von Gemüt. Rekja gab ihm ihre ungenutzten Rationen, und er dankte es ihr freigiebig. Nahrung, werde im Norden immer knapper, da die Kälte weiter wachse, und so sei er augezogen.
+Der Weg zurück zum Schiff war beschwerlich. Nur einmal wurden sie aufgehalten, als sie auf die gewaltigen Spuren eines Hügelriesen stießen. Bald darauf, ungenügend versteckt in einem kleinen Wäldchen fanden sie ihn selbst: Grohk war sein Name. Groß war er von Gestalt, doch nicht feindseligem von Gemüt. Rekja gab ihm ihre ungenutzten Rationen, und er dankte es ihr freigiebig. Nahrung werde im Norden immer knapper, da die Kälte weiter wachse, und so sei er ausgezogen.
 
-Am Schiff wurden sie von der verbliebenen Mannschaft empfangen. Vor allem Siddhe hatte ihrer Rückkehr sehnlich erwartet. Nachdem Kudrun nun ihre Rache genommen, Ove seine Walküre gerettet und Bjørn sich mit seiner Herrin versöhnt hatte, war die Zeit gekommen weiterzuziehen — hin zum Brunnen der Weisheit und zu den Völv, in der Hoffnung auf Antworten.
+Am Schiff wurden sie von der verbliebenen Mannschaft empfangen. Vor allem Siddhe hatte ihrer Rückkehr sehnlich erwartet. Nachdem Kudrun nun ihre Rache genommen, Ove seine Walküre gerettet, und Bjørn sich mit seiner Herrin versöhnt hatte, war die Zeit gekommen weiterzuziehen — hin zum Brunnen der Weisheit und zu den Völv, in der Hoffnung auf Antworten.
 
 Doch noch vor ihrer Ankunft zeigten sich düstere Zeichen. Das Packeis lag dichter denn je und wurde von der Schlangensee weit nach Süden gedrängt. Die Anlegestelle war verwüstet, und die wenigen verbliebenen Schiffe lagen auf den Strand gezogen, fern vom erdrückenden Eis.
 
-Mit schwerem Herzen machten sich die Helden auf den Weg zum Tempel, begleitet von Siddhe, Hrolf und Skald. Dort fanden sie Spuren von Gewalt, zerbrochene Bäume und einen gewaltigen Block aus Eis, der die Quelle der Weisheit unter sich begrub.
+Mit schwerem Herzen machten sich die Helden auf den Weg zum Tempel, begleitet von Siddhe, Hrolf und Skuld. Dort fanden sie Spuren von Gewalt, zerbrochene Bäume und einen gewaltigen Block aus Eis, der die Quelle der Weisheit unter sich begrub.
 
 ![Der Tempel](/assets/images/posts/vers-17/tempel.webp)
 
