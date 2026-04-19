@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einklang: Die Sprecherinnen der Götter"
-date: 2026-04-03 14:00:00 +0200
+date: 2026-04-11 14:00:00 +0200
 categories: [stories]
 story: Jarl Torkel quote (Appendix D)
 ---

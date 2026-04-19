@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vers 17: Lang lebe die Königin"
-date: 2026-04-03 19:00:00 +0200
+date: 2026-04-11 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-17/tempel.webp'
 feature-img:  '/assets/images/posts/vers-17/tempel.webp'
 feature-img-position-x: center
