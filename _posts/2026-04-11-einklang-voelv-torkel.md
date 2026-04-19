@@ -23,8 +23,8 @@ vergessen. Und so wandern und berichten sie nun durch Grimnir, geflüstert eher
 als gesungen, denn niemand möchte eine Völva zum Feind haben.
 
 Manche Krieger nicken, wenn sie die Worte hören, und trinken schweigend.
-Andere schütteln den Kopf und erinnern daran, was die Völv alles bewirkt haben
-- die Warnungen vor dem Hexenkönig, die Vermittlungen zwischen zerstrittenen
+Andere schütteln den Kopf und erinnern daran, was die Völv alles bewirkt haben:
+die Warnungen vor dem Hexenkönig, die Vermittlungen zwischen zerstrittenen
 Klans, die Deutung der Runen, die manchem Helden sein Schicksal erhellt hat.
 
 Doch eine Frage bleibt und wird in diesen dunklen Tagen nur lauter: Was, wenn
