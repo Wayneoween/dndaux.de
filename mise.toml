@@ -1,5 +1,5 @@
 [tools]
 direnv = "2.37.1"
-node = "25.2.1"
-pre-commit = "4.4"
+node = "26.2.0"
+pre-commit = "4.6"
 ruby = "3.4.8"
