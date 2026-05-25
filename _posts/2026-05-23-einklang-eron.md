@@ -8,8 +8,8 @@ story: Custom - Eron
 
 
 > Es gibt eine Geschichte, die Skalden ungern erzählen. Nicht weil sie schlecht
-> wäre. Sondern weil sie nichts auflösen, und das sind selten gute Lieder. Also
-> flüstert man sie, oder sie werden gar nicht erzählt.
+> wäre. Sondern weil sie nichts auflöst, und das sind selten gute Lieder. Also
+> flüstert man sie, oder sie wird gar nicht erzählt.
 >
 > Dieses Lied erzählt von Eron. Kein berühmter Mann. Kein Held der hundert
 > Raubzüge, kein Jarl. Er war einfach. Aber er trug eine Frage in sich, eine
