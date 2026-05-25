@@ -12,7 +12,7 @@ story: Custom - Eron
 > flüstert man sie, oder sie wird gar nicht erzählt.
 >
 > Dieses Lied erzählt von Eron. Kein berühmter Mann. Kein Held der hundert
-> Raubzüge, kein Jarl. Er war einfach. Aber er trug eine Frage in sich, eine
+> Raubzüge. Kein Jarl. Er war einfach. Aber er trug eine Frage in sich, eine
 > einzige, die er nicht los wurde und die ihn nicht schlafen lies, wenn er sich
 > hinlegte.
 >
