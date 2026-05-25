@@ -5,7 +5,7 @@ date: 2026-05-23 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-18/jul.webp'
 feature-img: '/assets/images/posts/vers-18/jul.webp'
 feature-img-position-x: center
-feature-img-position-y: 45%
+feature-img-position-y: 69%
 draft: false
 session: 18
 categories: [verse]
