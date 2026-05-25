@@ -1,59 +1,45 @@
 glossary:
-  - term: Athils
-    definition:
-    more:
-    type:
-    image: '/assets/images/athils.png'
-    image_alt:
-    url: ''
   - term: Berghild
-    definition:
-    more:
-    type:
+    definition: Jarlin der Tvar.
+    more: Berghild die Tapfere herrscht allein über den Klan, an ihrer Seite ihre eigenen Zwillingstöchter.
+    type: Person
     image: '/assets/images/berghild.png'
-    image_alt:
+    image_alt: Berghild die Tapfere, Jarlin der Tvar
     url: ''
   - term: Embla
-    definition:
-    more:
-    type:
+    definition: Sucherin der Zaubererkonklave auf Drifthall.
+    more: Eine talentierte Magierin, die magische Gegenstände an Reisende verkauft.
+    type: Person
     image: '/assets/images/embla.png'
-    image_alt:
+    image_alt: Embla, die Suchende
     url: ''
   - term: Hafbjorn
-    definition:
-    more:
-    type:
+    definition: Bärenähnlicher Tiergeborener-Krieger auf Drifthall.
+    more: Ein massiger, höflicher Krieger, der seinesgleichen sucht.
+    type: Person
     image: '/assets/images/hafbjorn.png'
-    image_alt:
+    image_alt: Hafbjorn der Bär
     url: ''
   - term: Hjordis
-    definition:
-    more:
-    type:
+    definition: Tallfolk Jarlin der Risa.
+    more: Groß und muskulös, vertritt ihren Klan bei der Versammlung in Drifthall.
+    type: Person
     image: '/assets/images/hjordis.png'
-    image_alt:
-    url: ''
-  - term: Hlammi
-    definition:
-    more:
-    type:
-    image: '/assets/images/hlammi.png'
-    image_alt:
+    image_alt: Hjordis Gornemb, Jarlin der Risa
     url: ''
   - term: Hroarr
-    definition:
-    more:
-    type:
+    definition: Zwergischer Jarl der Knattle.
+    more: Hroarr Langspeer ist ein ungewöhnlich großer Zwerg und gilt als einer der weisesten Jarls seit Generationen. Liebt Brettspiele und Wettkämpfe.
+    type: Person
     image: '/assets/images/hroarr.png'
-    image_alt:
+    image_alt: Hroarr Langspeer, Jarl der Knattle
     url: ''
   - term: Odur
-    definition:
-    more:
-    type:
+    definition: Tallfolk der Risa mit auffälliger blauer Haut.
+    more: Trotz seiner gewaltigen Größe sanftmütig und wohlgesprochen, arbeitet als Kundschafter und Holzschnitzer.
+    type: Person
     image: '/assets/images/odur.png'
-    image_alt:
+    image_alt: Odur der Risa
     url: ''
   - term: Regulus
     definition:

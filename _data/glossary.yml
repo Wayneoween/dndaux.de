@@ -504,8 +504,8 @@ glossary:
     image_alt: Lan, Schneemantel der Baendur
     url: ''
   - term: Athils
-    definition: Jarlin der Whar, Schwester von Gulli, belagert Rockpike mit ihrem Klan und Wölfen.
-    more: Führte die Whar angeblich auf Hels Geheiß in den Hohen Norden.
+    definition: Jarlin der Whar, Schwester von Gulli, Anführerin der Belagerung von Rockpike.
+    more: Führte die Whar angeblich auf Hels Geheiß in den Hohen Norden und ließ den Klan durch kühne Raubzüge zu Macht aufsteigen.
     type: Person
     image: '/assets/images/athils.png'
     image_alt: Athils Vestemb, Jarlin der Whar
@@ -530,4 +530,11 @@ glossary:
     type: Person
     image: '/assets/images/skuld.png'
     image_alt: Skuld, Cenrics Gefangene
+    url: ''
+  - term: Hlammi
+    definition: Frostriesin, die die Quelle der Weisheit überfiel.
+    more: Brach mit Eis und Sturm auf den Tempel der Völv herein. Wurde in den Eishöhlen gestellt und besiegt.
+    type: Person
+    image: '/assets/images/hlammi.png'
+    image_alt: Hlammi, die Frostriesin
     url: ''
