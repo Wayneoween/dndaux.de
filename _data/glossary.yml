@@ -171,7 +171,7 @@ glossary:
     definition: Halb-Ork-Völv und eine der drei Weisesten. Höchstrangige Seherin der Krieger.
     more: Obwohl ihr Haar bereits ergraut, besitzt sie noch die Energie und Leidenschaft einer viel jüngeren Seele. Sie ist von der Last heimgesucht, dass Ragnarök in ihrer Lebenszeit kommen könnte - eine Verantwortung, die sie schwer trägt.
     type: Person
-    image: '/assets/images/yrsa.png'
+    image: '/assets/images/yrsa.webp'
     image_alt: Yrsa, die Weiseste Völv
     url: ''
   - term: Meek
@@ -262,7 +262,7 @@ glossary:
     definition: Elfische Völv und Hüterin des Archivs der Seherinnen. Ihr fehlt der kleine Finger der linken Hand.
     more: Als Hüterin des Archivs bewacht sie die Schätze und das gesammelte Wissen der Völv. Der Verlust ihres kleinen Fingers ist ein Zeichen ihrer Hingabe - ein Opfer, das sie für ihre Rolle brachte. Ihre Elfennatur verleiht ihr ein langes Gedächtnis für alte Weisheiten.
     type: Person
-    image: '/assets/images/jorei.png'
+    image: '/assets/images/jorei.webp'
     image_alt: Jorei, Hüterin des Archivs der Völv
     url: ''
   - term: Seherwächter
