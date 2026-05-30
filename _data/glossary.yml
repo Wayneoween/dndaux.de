@@ -580,3 +580,17 @@ glossary:
     image: ''
     image_alt: Oda, Jarlin der Örn
     url: ''
+  - term: Embla
+    definition: Sucherin der Zaubererkonklave auf Drifthall.
+    more: Eine talentierte Magierin, die magische Gegenstände an Reisende verkauft.
+    type: Person
+    image: '/assets/images/embla.png'
+    image_alt: Embla, die Suchende
+    url: ''
+  - term: Hafbjorn
+    definition: Bärenähnlicher Tiergeborener-Krieger auf Drifthall.
+    more: Ein massiger, höflicher Krieger, der seinesgleichen sucht.
+    type: Person
+    image: '/assets/images/hafbjorn.png'
+    image_alt: Hafbjorn der Bär
+    url: ''
