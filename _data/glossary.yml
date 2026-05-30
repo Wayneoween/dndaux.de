@@ -92,7 +92,7 @@ glossary:
     url: ''
   - term: Knattle
     definition: Klan des Hohen Nordens, Walfänger und Wettkämpfer.
-    more: Leben in den extremsten, kältesten Regionen Grimnirs. Nutzen Walknochenmaterial statt Holz für Schiffe und Häuser. Der Lange Winter belastet sie weniger durch ihre Gewöhnung an Kälte. Ständige Wettkämpfe in Kraft, Geschick und Brettspielen aus Stoßzähnen. Hroarr ist ungewöhnlich großer Zwerg (5 Fuß). Ehren den Steinhof durch Schwimmen - Verlust von Gliedmaßen gilt als Segen. Glauben an Ragnarök, aber setzen auf Überleben statt Eingreifen.
+    more: Leben in den extremsten, kältesten Regionen Grimnirs. Nutzen Walknochenmaterial statt Holz für Schiffe und Häuser. Der Lange Winter belastet sie weniger durch ihre Gewöhnung an Kälte. Ständige Wettkämpfe in Kraft, Geschick und Brettspielen aus Stoßzähnen. Hroarr Langspeer ist ungewöhnlich großer Zwerg (5 Fuß). Ehren den Steinhof durch Schwimmen - Verlust von Gliedmaßen gilt als Segen. Glauben an Ragnarök, aber setzen auf Überleben statt Eingreifen.
     type: Klan
     image: '/assets/images/knattle_shield.webp'
     image_alt: Wappen der Knattle
@@ -188,6 +188,13 @@ glossary:
     image: '/assets/images/fyrkat.png'
     image_alt: Fyrkat, Seher-Wache der Völv
     url: ''
+  - term: Nar
+    definition: Ältester Sohn des früheren Knattle-Jarls Yngvar.
+    more: Aufgewachsen in der Gewissheit, eines Tages selbst die Knattle zu führen, unterlag er im großen Messen dem Zwerg Hroarr Langspeer. Stolz, ehrgeizig und ein geselliger Gastgeber, hinter dessen Lächeln die Bitterkeit über die verlorene Nachfolge gelegentlich durchschimmert.
+    type: Person
+    image: '/assets/images/nar.png'
+    image_alt: Nar, Sohn des ehemaligen Knattle-Jarls Yngvar
+    url: ''
   - term: Cenric Edgare
     definition: König des Steinkönigreichs und mächtiger Baendur-Herrscher.
     more: Ein ehrgeiziger Mann, dessen Blutlinie angeblich vom Witchking abstammt. Er führte mehrere gescheiterte Kriege gegen die Krieger und wurde in die vulkanischen Westlande zurückgedrängt. Cenric hat zahlreiche Kinder, die in andere Baendur-Königreiche eingeheiratet haben.
@@ -203,8 +210,8 @@ glossary:
     image_alt: Finnan, Kleriker des Palter
     url: ''
   - term: Lahahel Korloke
-    definition: Jarl der Örn, eine angesehene Elfin und Meisterhandwerkerin. Führt den Klan bereits seit über zwei Jahrhunderten.
-    more: Verkörpert die Lehre von Palter, Schönheit im Unvollkommenen zu finden. Bekannt dafür, verletzte oder verlorene Seelen aufzunehmen und ihnen einen Platz im Klan zu geben. Unter ihrer Führung ist Fallegur zu einem Zufluchtsort für Künstler und Handwerker aller Völker geworden.
+    definition: Ehemalige Jarlin der Örn. Bei der Katastrophe umgekommen.
+    more: Verkörperte die Lehre von Palter, Schönheit im Unvollkommenen zu finden. War bekannt dafür, verletzte oder verlorene Seelen aufzunehmen und ihnen einen Platz im Klan zu geben. Unter ihrer Führung wurde Fallegur zu einem Zufluchtsort für Künstler und Handwerker aller Völker.
     type: Person
     image: ''
     image_alt: Lahahel Korloke, Jarl der Örn
@@ -537,4 +544,39 @@ glossary:
     type: Person
     image: '/assets/images/hlammi.png'
     image_alt: Hlammi, die Frostriesin
+    url: ''
+  - term: Hroarr
+    definition: Zwergischer Jarl der Knattle. Als Findelkind aufgenommen, im großen Messen zum Jarl aufgestiegen.
+    more: Als Kind zu den Knattle gekommen, wuchs er zum vollwertigen Klanmitglied auf und brillierte in den Wettkämpfen. Beim rituellen Ehrenschwimmen durch eisige, von Flusswalen verseuchte Gewässer verlor er einen Arm aber überlebte. Nach dem Tod des alten Jarls gewann er das große Messen, doch nicht alle Knattle dulden ihn als Zwerg an ihrer Spitze.
+    type: Person
+    image: '/assets/images/hroarr_longspear.png'
+    image_alt: Hroarr, Jarl der Knattle
+    url: ''
+  - term: Berghild
+    definition: Jarlin der Tvar, genannt "die Tapfere".
+    more: Bodenständige, direkte Anführerin, die ehrliche Arbeit und einfaches Essen vorzieht. Sie regierte gemeinsam mit ihrem Zwillingsbruder Torkel, bis dieser an einer seltsamen Krankheit starb.
+    type: Person
+    image: '/assets/images/berghild.png'
+    image_alt: Berghild die Tapfere, Jarlin der Tvar
+    url: ''
+  - term: Kare
+    definition: Jarl der Lutan, erfahrener aber vorsichtiger Krieger.
+    more: Besonnener Anführer. Pragmatisch und kompromissbereit, wahrt gern das Gesicht und stellt viele Fragen.
+    type: Person
+    image: ''
+    image_alt: Kare, Jarl der Lutan
+    url: ''
+  - term: Hjordis
+    definition: Jarlin der Risa.
+    more: Eine große, raue Tallfolk-Kriegerin, die ihren Klan erst seit wenigen Jahren führt und beweisen will, dass sie der Aufgabe gewachsen ist.
+    type: Person
+    image: '/assets/images/hjordis.png'
+    image_alt: Hjordis, Jarlin der Risa
+    url: ''
+  - term: Oda
+    definition: Anführerin der Örn nach der Zerstörung von Fallegur.
+    more: Halbelfin und Kapitänin des letzten Örn-Langschiffsr. Ihren neuen Namen nahm sie zu Ehren von Lahahel Korloke an. Sie sucht Gerechtigkeit für ihren Klan.
+    type: Person
+    image: ''
+    image_alt: Oda, Jarlin der Örn
     url: ''
