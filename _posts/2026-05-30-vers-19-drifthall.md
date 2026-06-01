@@ -27,13 +27,13 @@ Ove sah das Meer einer vergangenen Welt, seiner alten Heimat.
 
 Bjørn stand zwischen Hunderten schattenhafter Gestalten. Nur eine war klar zu erkennen: Olayra, die Skaldin, die ihn vor all den Jahren verflucht hatte. Er lief auf sie zu und flehte um ein Zeichen, wie sich der Fluch brechen ließe. Doch obwohl Olayra zu ihm sprach, war kein Laut zu hören.
 
-Kudrun sah den alten Cenric und einen jungen, trotzigen Mann, beide mit grßen Runen auf der Brust. Dann wurde Cenric von einer silbernen Klinge durchbohrt. Ein Echo des Geschehens in Rockpike?
+Kudrun sah den alten Cenric und einen jungen, trotzigen Mann, beide mit leuchtenden Runen auf der Brust. Dann wurde Cenric Kopf von einer silbernen Klinge abgetrennt. Ein Echo des Geschehens in Rockpike?
 
 So wurden ihnen Zeichen offenbart, die sich nur schwer deuten ließen. Und jene, von denen man Antworten erhofft hatte, die Ältesten der Völv, blieben weiterhin verschwunden. Wie sollte es nun weitergehen?
 
-In dieser Ratlosigkeit offenbarte die Quelle noch ein letztes Geheimnis. Durch das Opfer zweier wertvoller Zauberrollen durfte Rekja mit der Jarlin ihres Klans sprechen. Von ihr erfuhr sie, dass eine Notversammlung einberufen worden war: eine Drifthall. Die Schiffe sammelten sich einige Tagereisen nordwestlich der Quelle. Dort würden auch die Völv sein.
+In dieser Ratlosigkeit offenbarte die Quelle noch ein letztes Geheimnis. Durch das Opfer zweier wertvoller Zauberrollen durfte Rekja mit der Jarlin ihres Klans sprechen. Von ihr erfuhr sie, dass Drifthall, früher als sonst, zu einer Notversammlung einberufen worden war. Die Schiffe sammelten sich einige Tagereisen nordwestlich der Quelle. Dort würden auch die Völv sein.
 
-Und so hatten die Helden ein neues Ziel und kehrten zu ihrem Boot zurück. Die noch immer hungrigen Hügelriesen ließen sich durch den Kopf ihrer erschlagenen Anführerin von einem Angriff abhalten.
+Und so hatten die Helden ein neues Ziel und kehrten zu ihrem Schiff zurück. Die noch immer hungrigen Hügelriesen ließen sich durch den Kopf ihrer erschlagenen Anführerin von einem Angriff abhalten.
 
 Zwei Tage später hatten sie bereits viele Seemeilen zurückgelegt, als ihnen eine letzte Vision zuteilwurde.
 
@@ -58,3 +58,5 @@ Kaum hatten die Helden angelegt, wurden sie von einer kräftigen Dragonbon empfa
 Sie führte die Gruppe über Planken und Decks zu einer gewaltigen Barke nahe dem Zentrum der Flotte. Dort, in einem Innenraum, der eher einer Höhle als einer Halle glich und nur von Kohlebecken erleuchtet wurde, warteten die drei Ältesten.
 
 Vielleicht würden sie nun endlich Antworten erhalten.
+
+![Die Völv warten auf die Helden](/assets/images/posts/vers-19/voelv_drifthall.webp)
