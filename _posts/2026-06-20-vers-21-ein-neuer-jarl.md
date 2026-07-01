@@ -2,8 +2,8 @@
 layout: post
 title: 'Vers 21: Ein neuer Jarl'
 date: 2026-06-20 19:00:00 +0200
-thumbnail: '/assets/images/posts/vers-21/jemskip.webp'
-feature-img: '/assets/images/posts/vers-21/jemskip.webp'
+thumbnail: '/assets/images/posts/vers-21/hjemskip.webp'
+feature-img: '/assets/images/posts/vers-21/hjemskip.webp'
 feature-img-position-x: center
 feature-img-position-y: 15%
 draft: false
