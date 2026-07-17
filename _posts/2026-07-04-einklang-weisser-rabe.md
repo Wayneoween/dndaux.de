@@ -9,7 +9,7 @@ story: The White Raven (Guhnbarg, Appendix L)
 ---
 
 > Als Thonir sich in seiner Schlacht gegen Boða opferte, strömte Göttlichkeit
-> in all die verfluchten Vanir. Sie wurden zu Göttern; sie wurden zum Steinernen
+> in all die verfluchten Vanir. Sie wurden zu Göttern und auf Grimnir zum Steinernen
 > Hof. Doch Aldyhn allein riss, wie auch immer, mehr aus dieser Macht an sich.
 >
 > Man sagt, dass Raben sich auf ihren Schultern
