@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Vers 23: Eisenholz'
-date: 2026-07-04 19:00:00 +0200
+date: 2026-07-18 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-23/myling.webp'
 feature-img: '/assets/images/posts/vers-23/myling.webp'
 feature-img-position-x: center
