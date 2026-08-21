@@ -210,3 +210,14 @@ body.admin-page {
     font-size: calc(1.2rem * 1.02);
   }
 }
+
+/* Quote attribution: the trailing "- Name" line at the end of a blockquote */
+blockquote > ul:last-child {
+  list-style: none;
+  margin: 1.5em 0 0;
+  padding: 0;
+  text-align: right;
+  font-size: 1.1em;
+  font-style: italic;
+  opacity: 0.75;
+}
