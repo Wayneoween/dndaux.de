@@ -7,7 +7,7 @@ story: Decision Perilous - A Völv Story (Appendix L)
 ---
 
 > Man erzählt sich, dass die Völv ihren künftigen Seherinnen eine Geschichte
-> mitgeben, wenn sie sie ausbilden. Eine, die sie sich besser merken. Denn was
+> mitgeben, wenn sie sie ausbilden. Eine, die sie sich besser merken sollten. Denn was
 > die Zukunftsschauenden sehen, das ist nicht immer angenehm, ganz und gar
 > nicht.
 >
@@ -27,14 +27,14 @@ story: Decision Perilous - A Völv Story (Appendix L)
 > auf. Wohl weil sie noch nicht zu sehen gelernt hatte.
 >
 > Jedenfalls trifft sie Jahre später diesen Mann und findet ihn gut, die Sorte
-> Mann, der eine junge Völva vertrauen mag. Er wird ein Seerguard. Und, die
+> Mann, dem eine junge Völva vertrauen mag. Er wird ein Seherwächter. Und, die
 > Wahrheit gesagt, ich glaub nicht, dass sie ihn je als denselben aus ihrem
 > Traum erkannte.
 >
 > Und ... ich sag nicht, dass Meg sich in ihn verliebte, denn die Völv können
 > nicht lieben. Aber sie mochte ihn, gut genug. Und als sie zu träumen begann,
 > dass er sterben würde, ertrunken auf irgendeinem sinnlosen Raubzug, da sorgte
-> sie sich krank. Nun würden die meisten Völv bei so etwas viel beraten und
+> sie sich zu Tode. Nun würden die meisten Völv bei so etwas viel beraten und
 > abwägen und sichergehen, dass sie das Schicksal des Verdammten ganz verstehen.
 > Denn, und verzeiht, wenn ich die Geschichte ein wenig verderbe, was, wenn
 > dieser Mann sterben soll? Was, wenn es besser für uns alle ist?
@@ -58,9 +58,9 @@ story: Decision Perilous - A Völv Story (Appendix L)
 >
 > Hätte Meg ihr Herz nur ein wenig gehärtet und den Mann, der sterben musste,
 > sterben lassen, dann hätte diese Welt keinen einzigen Hexenkönig. Und darum,
-> sagt man, sorgen sich die Völv so sehr um das, was sie sehen, und zernagen
-> sich die Nägel darüber. Denn sie sind immer nur einen Fehler von einem Fehler
-> entfernt. Und manchmal lässt sie das zurück mit dem, was ich die »gefährliche
-> Entscheidung« nenne.
+> sagt man, sorgen sich die Völv so sehr um das, was sie sehen, und kauen sich
+> darüber die Nägel ab. Denn sie sind immer nur einen Fehler von einem Fehler
+> entfernt. Und manchmal lässt sie das zurück mit dem, was ich die „gefährliche
+> Entscheidung“ nenne.
 >
 > - erzählt von einem Krieger

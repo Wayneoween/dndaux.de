@@ -8,15 +8,15 @@ story: Custom - Eron
 
 
 > Es gibt eine Geschichte, die Skalden ungern erzählen. Nicht weil sie schlecht
-> wäre. Sondern weil sie nichts auflöst, und das sind selten gute Lieder. Also
+> wäre. Sondern weil sie nichts auflöst, und daraus werden selten gute Lieder. Also
 > flüstert man sie, oder sie wird gar nicht erzählt.
 >
 > Dieses Lied erzählt von Eron. Kein berühmter Mann. Kein Held der hundert
-> Raubzüge. Kein Jarl. Er war einfach. Aber er trug eine Frage in sich, eine
-> einzige, die er nicht los wurde. Die ihn nicht schlafen lies wenn er sich
-> hinlegte.
+> Raubzüge. Kein Jarl. Er war ein einfacher Mann. Aber er trug eine Frage in
+> sich, eine einzige, die er nicht los wurde. Die ihn nicht schlafen ließ, wenn
+> er sich hinlegte.
 >
-> Niemand wusste wie die Frage lautete. Eron sprach mit keinem darüber. Aber
+> Niemand wusste, wie die Frage lautete. Eron sprach mit keinem darüber. Aber
 > alle sahen, wie sie ihn langsam aushöhlte. Tag für Tag wurde er... weniger er
 > selbst.
 >
@@ -31,17 +31,17 @@ story: Custom - Eron
 > wurden. Nicht mit den Skalden, die kamen, um sein Lied zu sammeln. Er sprach
 > nie über die Frage, und nie über die Antwort.
 >
-> Aber jeder der ihn nach dem Brunnen sah, kannte, sagt dasselbe. Eron ging
+> Aber jeder, der ihn nach dem Brunnen kannte, sagt dasselbe. Eron ging
 > anders. Er trank anders. Er sah seine Frau und Freunde anders an. Manchmal
 > blieb er mitten auf einem Weg lange stehen, als würde er auf jemanden warten,
 > der nicht kam.
 >
 > Er lebte noch viele gute Jahre. Aber jeder, der ihm in dieser Zeit begegnete,
 > sagt eines: Eron hatte zwei Schatten. Den eigenen. Und einen, den nur er
-> sehen konnte. Der nie weg ging, egal wie hell die Sonne scheinte.
+> sehen konnte. Der nie wegging, gleich wie hell die Sonne schien.
 >
 > Wir flüstern die Geschichte, wenn überhaupt. Weil sie uns sagt, was über den
 > Brunnen nicht in den Liedern gesagt werden darf.
-> Dass wenn man hineinschaut, man nie wieder derselbe sein wird.
+> Dass man nie wieder derselbe ist, wenn man einmal hineingeschaut hat.
 >
 > - Skalde, der seinen Namen nicht nennen mochte

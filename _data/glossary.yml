@@ -104,6 +104,20 @@ glossary:
     image: '/assets/images/risa_shield.webp'
     image_alt: Wappen der Risa
     url: ''
+  - term: Tallfolk
+    definition: Hünenhaftes Volk, meist braunhäutig, wenige eisblau. Stellen den Klan der Risa.
+    more: Sie werden groß geboren und wissen selbst nicht recht, warum. Die meisten kommen bei Tallfolk-Eltern zur Welt, doch manche findet man als Säuglinge verwaist in den Wäldern und nimmt sie auf. In Farlanding erzählt man sich Geschichten über Riesen zwischen den Bäumen, meist im Scherz.
+    type: Volk
+    image: ''
+    image_alt: Tallfolk der Risa
+    url: ''
+  - term: Farlanding
+    definition: Abgelegener Handelsposten und Heimathafen der Risa an der Südküste des Turnfjall.
+    more: Zu erreichen über einen tiefen Fjord und dann flussaufwärts, keine leichte Fahrt für irgendeine Crew. Wer dort aufwächst, kennt den Wind aus den Bergen im Westen und die Geschichten über das, was darin steht.
+    type: Ort
+    image: ''
+    image_alt: Farlanding, Heimathafen der Risa
+    url: ''
   - term: Örn
     definition: Kunsthandwerker und Schiffsbauer. Hauptsiedlung Fallegur. Jarl Lahahel Korloke.
     more: Verehren Palter und sehen Schönheit in allem, besonders im Unvollkommenen. Gelten als talentierteste Schmiede und Handwerker, bauen die schönsten Schiffe, Waffen und Werkzeuge. Wenige verstreute Handelslager, da sie meist reisen.
@@ -313,6 +327,13 @@ glossary:
     type: Ort
     image: ''
     image_alt: Der mysteriöse Eisenwald mit seinen lebendigen Bäumen
+    url: ''
+  - term: Huldra
+    definition: Waldfrauen mit Katzenohren und Schweif. Älter als die Hexen, hüten die Eisenherz-Bäume.
+    more: Es heißt sie sollen aus Grimnir selbst hervorgegangen sein, als die Welt entstand, lange vor den Eisenwald-Hexen. Sie sprechen die Sprache der Krieger und überfallen Personen die alleine in Wäldern unterwegs sind.
+    type: Volk
+    image: '/assets/images/huldra.png'
+    image_alt: Huldra zwischen den Stämmen des Eisenwalds
     url: ''
   - term: Varang
     definition: Zersplitterte, kleinere Klans und Langschiff-Crews ohne Anführer. Leben außerhalb der großen Klan-Hierarchie.

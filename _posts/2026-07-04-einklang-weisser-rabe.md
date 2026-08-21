@@ -17,15 +17,15 @@ story: The White Raven (Guhnbarg, Appendix L)
 > einen Preis, und der Rabe selbst ist es, der ihn zahlt.
 >
 > Sein Gefieder wird weiß, seine Augen wechseln die Farbe. Er wird zu einem
-> Gefäß Aldyhns, einem Händler, dessen Währung Flüstern ist, und manche können ihr sogar
-> zeigen, was sie sehen. So flüstert die Göttin anderen Raben zu und schickt
+> Gefäß Aldyhns, einem Händler, dessen Währung das Flüstern ist. Manche können
+> ihr sogar zeigen, was sie sehen. So flüstert die Göttin anderen Raben zu und schickt
 > sie über die ganze Welt, zu tun, was getan werden muss. Es ist vielleicht
 > ein umständlicher Weg für eine Göttin, eine Welt zu beschützen. Aber es ist
 > ein Weg. Es ist Aldyhns Weg.
 >
 > Und wissen die Raben um diesen Preis, den sie zahlen müssen? Wir glauben, sie
-> wissen es. Und dass sie, so sehr wie die Vanir selbst, aus freien Stücken zu
-> Wächtern Grimnirs wurden. Darum begegnet man ihnen mit demselben Respekt, den
+> wissen es. Und wir glauben, dass sie, so sehr wie die Vanir selbst, aus freien
+> Stücken zu Wächtern Grimnirs wurden. Darum begegnet man ihnen mit demselben Respekt, den
 > wir dem Steinernen Hof erweisen.
 >
 > - Mutter Guhnbarg, Alljarlin, wie sie es am Schrein der Hallharn erzählt

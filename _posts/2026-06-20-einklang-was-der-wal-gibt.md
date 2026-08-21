@@ -13,7 +13,7 @@ story: Custom - Knattle-Lore (Vers 21)
 >
 > In unseren Landen wächst kein Wald, der ein Langschiff hergibt. Was bei uns
 > wächst, ist die See. Also gibt uns der Wal, was der Baum euch gibt, und mehr:
-> Seine Knochen werden Gestell, seine Haut, straff gespannt und
+> Seine Knochen werden zum Gestell, seine Haut, straff gespannt und
 > dreifach vernäht, wird Planke und Dach. Sein Tran brennt durch die längste
 > Nacht, sein Fleisch, geräuchert, trägt eine Familie durch den Winter. Ein
 > einziger Fang, und ein Dorf lebt.

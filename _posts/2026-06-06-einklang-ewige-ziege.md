@@ -16,10 +16,10 @@ story: The Everlasting Goat (Berghild, Appendix L)
 > Wie ihre Mutter steht diese Ziege, wird sie geschlachtet, an jedem Morgen aufs
 > Neue, heil und gesund und froh wieder auf. Zwar gibt die Ewige Ziege nicht den
 > Met, für den ihre Mutter berühmt ist, doch ihre Gabe, sich selbst zu erneuern,
-> ist es, weshalb ich sie suche. Stellt euch vor, in diesem Langen Winter, wie
-> viele mehr unseres Volkes überleben könnten von der Nahrung, die sie schenkt.
+> ist es, weshalb ich sie suche. Stellt euch vor, wie viele aus unserem Volk in
+> diesem Langen Winter überleben könnten von der Nahrung, die sie schenkt.
 >
-> Aber ja, ich grüble. Ist sie überhaupt wirklich, oder nur eine weitere
+> Aber ja, ich grüble. Gibt es sie überhaupt wirklich, oder ist sie nur eine weitere
 > Geschichte aus einer Welt, die niemals war?
 >
 > - Berghild die Tapfere, Jarlin der Tvar, zu ihren Töchtern

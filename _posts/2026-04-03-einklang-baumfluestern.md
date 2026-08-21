@@ -28,5 +28,5 @@ story: Custom - Zitate von Otis und König Cenric
 >
 > Ich weiß nicht, was sie ihm geantwortet haben. Aber ich habe lang genug gelebt,
 > um zu wissen: Was aus den Bäumen antwortet, verlangt immer einen Preis.
-
-- Otis der Historiker, als man ihn nach dem König im Norden fragte
+>
+> - Otis der Historiker, als man ihn nach dem König im Norden fragte

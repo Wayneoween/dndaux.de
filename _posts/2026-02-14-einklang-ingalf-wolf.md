@@ -8,7 +8,7 @@ story: Custom - Ingalf
 
 > Ingalf Runaloke war kein Krieger. Er war Holzschnitzer, und er war gut darin.
 > Sehr gut sogar. Aber er war ebenso gut darin, zuzuhören. Denn in Fallegur, wo
-> Schiffe aus allen Ecken Grimnirs anlegten, gab es stets etwas neues zu hören.
+> Schiffe aus allen Ecken Grimnirs anlegten, gab es stets etwas Neues zu hören.
 > Und er hörte zu, wie er es immer tat, die Hände ruhig am Schnitzmesser, die
 > Augen auf dem Holz.
 >
@@ -24,7 +24,8 @@ story: Custom - Ingalf
 > Von Bissspuren, die kein Tier hinterließ, das je ein Krieger gesehen hatte.
 >
 > Ingalf sagte nichts zu alledem, wie er es immer tat. Er hörte, und er
-> schnitzte. Aber eines Abends, als das Feuer niederbrannte, begann etwas Neues.
+> schnitzte. Aber eines Abends, als das Feuer niederbrannte, entstand etwas Neues
+> unter seinem Messer.
 > Vier Beine, ein offenes Maul. Reißende Zähne.
 >
 > Er schnitzte eine Gestalt, die er nur aus den Erzählungen der Händler kannte.

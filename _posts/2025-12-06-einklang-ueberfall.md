@@ -17,12 +17,12 @@ story: Custom - First Raid
 > Manche sagen, der erste Überfall macht einen zum Krieger. Andere sagen, er
 > nimmt einem etwas, das man nie zurückbekommt.
 >
-> Die Wahrheit? Beides ist wahr.
+> Die Wahrheit? Beides stimmt.
 >
 > Die Völv lesen die Zukunft in Runen und Knochen. Aber selbst sie können nicht
 > sagen, wer man sein wird, nachdem man zum ersten Mal getötet hat.
 >
-> Das muss jeder Krieger selbst herausfinden. In dieser klammernden Stille nach
+> Das muss jeder Krieger selbst herausfinden. In der beklemmenden Stille nach
 > dem Kampf, wenn die Toten brennen und der Rauch zum Himmel steigt.
 >
 > Heute Nacht werden einige von euch genau das herausfinden.

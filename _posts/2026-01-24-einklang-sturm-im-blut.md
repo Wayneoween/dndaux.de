@@ -15,12 +15,12 @@ story: Custom - Zelan
 > lang genug an ihrem Tresen sitzt, wird sie irgendwann über die Tuss reden
 > hören. Die Jötunnblütigen, die angeblich unter uns wandeln.
 >
-> „Ein lächerlicher Gedanke", pflegt sie zu sagen, und wischt dabei den Tresen
+> „Ein lächerlicher Gedanke“, pflegt sie zu sagen, und wischt dabei den Tresen
 > mit einer Sorgfalt, als könnte man damit auch Gerüchte fortwischen. „Denn so
-> lange, wie ich hier lebe, so viele Gesichter, wie ich gesehen habe... Ich
+> lange, wie ich hier lebe, und so viele Gesichter, wie ich gesehen habe... Ich
 > wüsste es, wenn solche Wesen unter uns wandelten. Es gibt sie nicht. Unsere
 > Ahnen haben all das hinter sich gelassen, als sie hierher kamen, nach Grimnir.
-> Da bin ich mir sicher."
+> Da bin ich mir sicher.“
 >
 > Und wer oft genug und genau hinhört, bemerkt eine Pause bei diesen letzten
 > Worten. Immer dieselbe. Und einen Blick. Immer denselben. Nur einen

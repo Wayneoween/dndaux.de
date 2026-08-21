@@ -14,9 +14,9 @@ story: Quote Otis about Fallegur
 >
 > Waren und Geschichten fließen durch Fallegur wie Wasser durch einen Bach. Von allen Klans kommen Schiffe, selbst Baendur handeln dort in Frieden. Die Festung auf dem Hügel wacht über alles, stolz und unbezwingbar.
 >
-> Unter den Örn fühlte ich mich heimisch, so heimisch, wie es meine rastlosen Füße je zulassen. Ich malte in ihren Hallen, tanzte zu ihren Liedern, und lernte die Kunst Palters kennen und lieben.
-> Auf jener glitzernden Insel, habe ich Frieden gefunden, den ich sonst nirgends kenne.
+> Unter den Örn fühlte ich mich heimisch, so heimisch, wie es meine rastlosen Füße überhaupt zulassen. Ich malte in ihren Hallen, tanzte zu ihren Liedern und lernte die Kunst Palters kennen und lieben.
+> Auf jener glitzernden Insel habe ich einen Frieden gefunden, den ich sonst nirgends kenne.
 >
 > Solltet ihr je die Schlangensee bereisen – besucht Fallegur. Seht die weißen Hänge, die im Morgenlicht glänzen. Hört die Hämmer in den Schmieden singen. Sprecht mit den Handwerksmeistern, die ihr Können von Palter selbst gelernt zu haben scheinen. Und wenn ihr Glück habt, begegnet ihr Finnan, dem weisesten Priester, den ich je kannte.
-
-**Otis der Historiker, letzter Zeuge des Exodus**
+>
+> - Otis der Historiker, letzter Zeuge des Exodus
