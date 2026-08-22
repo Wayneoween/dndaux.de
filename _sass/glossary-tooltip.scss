@@ -8,14 +8,14 @@
   text-decoration: none;
 }
 
-.glossary-term {
-  display: inline;
-}
-
-.jekyll-glossary .jekyll-glossary-tooltip {
+/* The tooltip is built from data attributes rather than markup, so the
+   definition text never lands in the document (and never in the RSS feed). */
+.jekyll-glossary::after {
+  content: attr(data-glossary-heading) '\a' attr(data-glossary-definition);
+  white-space: pre-line;
   visibility: hidden;
   opacity: 0;
-  min-width: 250px;
+  width: max-content;
   max-width: 350px;
   background-color: var(--text, #333);
   color: var(--background, #fff);
@@ -39,51 +39,31 @@
     visibility 0.3s ease-in-out;
 }
 
-/* Show the tooltip on hover - multiple selectors for better specificity */
-.jekyll-glossary:hover .jekyll-glossary-tooltip,
-.definition .jekyll-glossary:hover .jekyll-glossary-tooltip,
-.glossary-entry .jekyll-glossary:hover .jekyll-glossary-tooltip,
-.jekyll-glossary-tooltip.tooltip-visible {
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* Style for glossary type */
-.glossary-type {
-  color: var(--meta, #ccc);
-  font-size: 0.8em;
-  margin-left: 0.5em;
-}
-
-/* Style the source link */
-.jekyll-glossary-source-link::before {
-  content: '[→ Glossar]';
-  color: var(--meta, #ccc);
-  font-size: 0.8em;
-  margin-top: 0.5em;
-  display: inline-block;
-}
-
-.jekyll-glossary-source-link {
-  text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-.jekyll-glossary-source-link:hover {
-  opacity: 1;
-}
-
 /* Arrow pointing down from tooltip */
-.jekyll-glossary .jekyll-glossary-tooltip::after {
+.jekyll-glossary::before {
   content: '';
+  visibility: hidden;
+  opacity: 0;
   position: absolute;
-  top: 100%;
+  z-index: 1000;
+  bottom: calc(125% - 16px);
   left: 50%;
   margin-left: -8px;
   border-width: 8px;
   border-style: solid;
   border-color: var(--text, #333) transparent transparent transparent;
+  transition:
+    opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+/* Show the tooltip on hover or keyboard focus */
+.jekyll-glossary:hover::after,
+.jekyll-glossary:hover::before,
+.jekyll-glossary:focus::after,
+.jekyll-glossary:focus::before {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Style for terms not found in glossary */

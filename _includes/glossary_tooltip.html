@@ -1,6 +1,9 @@
 {% comment %}
   Usage: {% include glossary_tooltip.html term="Term Name" %}
   or: {% include glossary_tooltip.html term="Term Name" text="Custom Display Text" %}
+
+  The definition lives in data attributes, never as text in the document, so it
+  does not leak into the RSS feed where no stylesheet hides it.
 {% endcomment %}
 {%- assign term_to_find = include.term | downcase -%}
 {%- assign display_text = include.text | default: include.term -%}
@@ -13,15 +16,8 @@
   {%- endif -%}
 {%- endfor -%}
 {%- if found_entry -%}
-<span class="jekyll-glossary">
-  <span class="glossary-term">{{ display_text }}</span>
-  <span class="jekyll-glossary-tooltip">
-    <strong>{{ found_entry.term }}</strong>
-    {%- if found_entry.type %} <em class="glossary-type">({{ found_entry.type }})</em>{% endif -%}
-    <br>{{ found_entry.definition }}<br>
-    <a class="jekyll-glossary-source-link" href="{{ site.baseurl }}/glossary/?search={{ found_entry.term | url_encode }}" target="_blank"></a>
-  </span>
-</span>
+{%- capture heading -%}{{ found_entry.term }}{% if found_entry.type %} ({{ found_entry.type }}){% endif %}{%- endcapture -%}
+<a class="jekyll-glossary" href="{{ '/glossary/' | absolute_url }}?search={{ found_entry.term | url_encode }}" target="_blank" data-glossary-heading="{{ heading | escape }}" data-glossary-definition="{{ found_entry.definition | escape }}">{{ display_text }}</a>
 {%- else -%}
 <span class="glossary-term-not-found" title="Term '{{ include.term }}' not found in glossary">{{ display_text }}</span>
 {%- endif -%}
