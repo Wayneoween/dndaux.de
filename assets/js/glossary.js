@@ -130,6 +130,11 @@ document.addEventListener('DOMContentLoaded', function () {
       const target = document.getElementById(targetId);
 
       if (target) {
+        // A hidden entry cannot scroll into view. Clear the filter first.
+        if (target.classList.contains('hidden')) {
+          clearButton.click();
+        }
+
         const targetRect = target.getBoundingClientRect();
         const currentScrollY = window.pageYOffset;
 
