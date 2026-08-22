@@ -101,9 +101,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     searchInput.addEventListener('input', toggleClearButton);
 
-    clearButton.addEventListener('click', function () {
+    clearButton.addEventListener('click', function (e) {
       searchInput.value = '';
-      searchInput.focus();
+
+      // Focus only after a real tap. A script click must not open the mobile keyboard.
+      if (e.isTrusted) {
+        searchInput.focus();
+      }
+
       toggleClearButton();
 
       // Drop the filter from the URL so a reload does not restore it
