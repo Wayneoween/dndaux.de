@@ -106,6 +106,9 @@ document.addEventListener('DOMContentLoaded', function () {
       searchInput.focus();
       toggleClearButton();
 
+      // Drop the filter from the URL so a reload does not restore it
+      history.replaceState(null, '', window.location.pathname);
+
       // Remove all hidden classes
       document.querySelectorAll('.hidden').forEach(el => {
         el.classList.remove('hidden');
