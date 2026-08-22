@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Vers 24'
+title: 'Vers 24: Turm der Eisenwaldhexen'
 date: 2026-08-15 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-24/turm.png'
 feature-img: '/assets/images/posts/vers-24/turm.png'
 feature-img-position-x: center
-feature-img-position-y: 35%
+feature-img-position-y: 80%
 draft: false
 session: 24
 categories: [verse]
@@ -29,7 +29,7 @@ Ein blutiger und gewaltsamer Kampf entbrannte. Die Hexe erhielt Unterstützung v
 
 Nachdem die schlimmsten Wunden versorgt und insbesondere von Hrolf alles Wertvolle im Raum in diversen Taschen verstaut wurde, war es an der Zeit, das obere Stockwerk zu erforschen.
 
-Im Raum mit den Masken wurden mehrere Fallen ausgelöst. Die Holzmasken, Gesichter und Fratzen von Menschen und Tieren, allesamt mit hungrigem Gesichtsausdruck, fühlten sich in der Hand beinahe lebendig an und hingen ohne jede erkennbare Halterung an den Wänden. Wie schon damals im Traum verseckte sich unter einer der Masken ein Hebel, der den Weg in einen geheimen Gang freigab, der scheinbar aus dem eigentlichen Turm hinausführte.
+Im Raum mit den Masken wurden mehrere Fallen ausgelöst. Die Holzmasken, Gesichter und Fratzen von Menschen und Tieren, allesamt mit hungrigem Gesichtsausdruck, fühlten sich in der Hand beinahe lebendig an und hingen ohne jede erkennbare Halterung an den Wänden. Wie schon damals im Traum versteckte sich unter einer der Masken ein Hebel, der den Weg in einen geheimen Gang freigab, der scheinbar aus dem eigentlichen Turm hinausführte.
 
 Am Ende des Ganges lag eine Schatzkammer, offenbar im Inneren eines ausgehöhlten, gewaltigen Eisenholzbaumes. Ein großer Haufen aus Gold und Silber füllte den Raum, und dort stand auch der hölzerne Rahmen mit jenem merkwürdigen Ring, der Rekja bereits im Traum fasziniert hatte.
 

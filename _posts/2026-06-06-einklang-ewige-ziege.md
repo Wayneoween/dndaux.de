@@ -10,7 +10,7 @@ story: The Everlasting Goat (Berghild, Appendix L)
 > mit dem Versprechen ewigen Lebens tröstet. Auf seinen Feldern und in seinen
 > Wäldern leben zauberhafte Abbilder mancher Tiere, auf die wir Krieger uns Tag
 > für Tag verlassen. Jedes ist auf seine Weise besonders: der Eber, der die
-> Hallen der Erschlagenen speist, der ewige Elch, und das uns Teuerste, das Kind
+> goldenen Hallen speist, der ewige Elch, und das uns Teuerste, das Kind
 > der Met-Macherin, die Ewige Ziege.
 >
 > Wie ihre Mutter steht diese Ziege, wird sie geschlachtet, an jedem Morgen aufs

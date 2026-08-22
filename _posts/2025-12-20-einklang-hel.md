@@ -6,7 +6,7 @@ categories: [stories]
 story: Custom - Hel
 ---
 
-> Die Tapferen sterben im Kampf und reisen zu den Hallen der Erschlagenen. So lehren
+> Die Tapferen sterben im Kampf und reisen zu den goldenen Hallen. So lehren
 > es die Priester, so glauben es die Krieger.
 >
 > Doch was ist mit jenen, die nicht im Kampf fallen?

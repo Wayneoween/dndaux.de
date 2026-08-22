@@ -24,4 +24,4 @@ story: Vani Wrestles the Dragon
 >
 > „Ich bat dich freundlich zu gehen“, rief Vani kopfschüttelnd hinterher, während er die Flammen löschte. „Hättest du mein Angebot nur genau so freundlich angenommen.“
 >
-> Danach, so sagt man heute, flohen alle Drachen aus Grimnir und folgten dem geworfenen Wyrm zum Mond von Valhöll.
+> Danach, so sagt man heute, flohen alle Drachen aus Grimnir und folgten dem geworfenen Wyrm zum Mond von Valholl.
