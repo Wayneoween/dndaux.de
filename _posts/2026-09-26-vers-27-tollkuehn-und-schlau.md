@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Vers 27: Tollkühn <em>und</em> schlau'
-date: 2026-09-19 19:00:00 +0200
+date: 2026-09-26 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-27/tollkuehn.webp'
 feature-img: '/assets/images/posts/vers-27/tollkuehn.webp'
 feature-img-position-x: center
