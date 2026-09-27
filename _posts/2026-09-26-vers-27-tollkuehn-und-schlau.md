@@ -7,7 +7,7 @@ feature-img: '/assets/images/posts/vers-27/tollkuehn.webp'
 feature-img-position-x: center
 feature-img-position-y: 20%
 draft: false
-session: 26
+session: 27
 categories: [verse]
 ---
 
