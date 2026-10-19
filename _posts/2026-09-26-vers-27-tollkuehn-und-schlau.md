@@ -43,7 +43,7 @@ Der Wyrm erspähte ihn, und sein eiskalter Atem fegte Ove beinahe von den Füße
 
 Die Rückfahrt nach Drifthall verlief, bis auf eine Vision eines belagerten Hafens und Festung von Rekja in einer Nacht, ereignislos. Auf Drifthall wurden die Schicksalsträger von den Klans euphorisch empfangen, hatten sie die Bedrohung durch die Hexen, wenn nicht beseitigt, doch mindestens stark reduziert. Die Völv riefen die Helden in ihr Hjemskip, die weiteren Pläne zu besprechen.
 
-Fyrkat, Leibwache der Völv, erinnerte sich an Korrespondenz aus Skeio, dem Ort den die zerknüllte Karte abbildete. Sie holte eine Reihe von Briefen, scheinbar belanglos, die sich aber teilweise fast bis aufs Wort identisch wiederholten. Niemand verstand, was es mit ihnen auf sich hatte.
+Fyrkat, Leibwache der Völv, erinnerte sich an Korrespondenz aus Skeio, dem Ort den die zerknüllte Karte abbildete. Sie holte eine Reihe von Briefen von einer bekannten, Ranveik, scheinbar belanglos, die sich aber teilweise fast bis aufs Wort identisch wiederholten. Niemand verstand, was es mit ihnen auf sich hatte.
 
 Außer Ove.
 
