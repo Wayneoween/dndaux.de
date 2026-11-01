@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einklang: Wer hier begraben liegt"
-date: 2026-10-10 14:00:00 +0200
+date: 2026-10-31 14:00:00 +0100
 draft: false
 categories: [stories]
 story: Otis über die Death Cairns (Appendix E, ausgebaut)
@@ -18,11 +18,9 @@ story: Otis über die Death Cairns (Appendix E, ausgebaut)
 >
 > Behaltet das, es ist der ganze Trick.
 >
-> Denn fast alles, was Jötunn-Blut in sich trägt, wird zu Stein, wenn es stirbt.
-> Nicht zu Staub, nicht zu Aas. Zu
-> Stein. Was eben noch auf euch zukam, fällt in sich zusammen, und liegen
-> bleibt ein Haufen grauer Brocken, so unschuldig wie jedes Grab am
-> Wegrand.
+> Denn fast alles, was Jötunn-Blut in sich trägt, wird zu Stein, wenn es
+> stirbt. Was eben noch auf euch zukam, fällt in sich zusammen, und liegen
+> bleibt ein Haufen grauer Brocken, so unschuldig wie jedes Grab am Wegrand.
 >
 > In den Verlorenen Landen lagen sie überall. Ich bin an Feldern vorbeigekommen,
 > auf denen man nicht geradeaus gehen konnte, so dicht lagen sie. Am Tor, ganz
