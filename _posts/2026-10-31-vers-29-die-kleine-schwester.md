@@ -5,7 +5,7 @@ date: 2026-10-31 19:00:00 +0200
 thumbnail: '/assets/images/posts/vers-29/vesla.webp'
 feature-img: '/assets/images/posts/vers-29/vesla.webp'
 feature-img-position-x: center
-feature-img-position-y: 20%
+feature-img-position-y: 30%
 draft: false
 session: 29
 categories: [verse]
