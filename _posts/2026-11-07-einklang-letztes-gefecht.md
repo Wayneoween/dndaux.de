@@ -13,13 +13,13 @@ story: Legends of the Lost Lands (Otis, Appendix L)
 > Die Welt steht in Flammen, doch die Vanir stehen fest vor der Stadt der
 > Seen. Die Jötunn fallen, ihr Ansturm zerbricht am ewig treuen Khalid
 > Muharib. Doch als er einen schlangengleichen Schattenpriester niederstreckt,
-> erbebt die Welt. Der Wolf spaltet den Granit und steigt empor, das Maul
+> erbebt die Welt. Ein gigantisches Biest spaltet Granit und steigt empor, das Maul
 > voller Schwerter. Ein einziges knurrendes Zuschnappen, und der todgeweihte
 > Kriegerpriester ist verschlungen ...
 >
 > Ein Racheschrei erhebt sich. Gunyarik der Halbling stürmt vor, in den Händen
-> ein gewaltiges Tor aus Balken, dunkel vom Blut erschlagener Feinde. Er
-> schlägt zu, wieder und wieder, bis ihm das Wolfsblut über die Knie steigt.
+> ein gewaltiges Tor, dunkel vom Blut erschlagener Feinde. Er
+> schlägt zu, wieder und wieder, bis ihm des Biestes' Blut die Knie übersteigt.
 > Doch den Schwefelriesen, der sich hinter ihm erhebt, sieht er nicht ...
 >
 > Dann fällt der Riese, Knie, Bein und Schädel gespalten von der Axt des
@@ -31,7 +31,7 @@ story: Legends of the Lost Lands (Otis, Appendix L)
 > Ein Vanir steht da, den Rücken zum Regenbogenportal, durch das wir nun
 > treten. Der seltsame Mann, Reynauld, ist auf eben diesem Schlachtfeld schon
 > zweimal gestorben. Es kümmert ihn nicht. Er hält stand, als grimmzähnige
-> Belagerungsfresser aus der Erde brechen. Ein letzter Blick, als sie sich auf
+> Belagerer aus der Erde brechen. Ein letzter Blick, als sie sich auf
 > ihn stürzen ...
 >
 > Dann schweigen die Trommeln. Weiter reicht das Lied nicht, denn niemand, der
@@ -40,4 +40,4 @@ story: Legends of the Lost Lands (Otis, Appendix L)
 > Vergesst ihre Namen nicht. Es gibt sonst niemanden mehr, der sie kennt.
 >
 > - Otis der Historiker, ein Lied für Handtrommeln, niedergeschrieben auf dem
->   Rand der großen Karte von Grimnir
+>   Rand der großen Karte von Grimnir in Drifthall
